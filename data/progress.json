@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T09:46:02.493Z",
+ "generatedAt": "2026-10-15T10:06:51.062Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 17,
-  "total": 31,
-  "progress": 0.6188826854149434
+  "total": 32,
+  "progress": 0.6495498858780109
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -219,14 +219,14 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.41595441595441596,
+    "progress": 0.5074786324786325,
     "items": [
      {
       "id": "lots-v4",
       "title": "Each city's own architecture (New York, London, Baku, Tokyo, Emerald Coast, Ironforge)",
       "state": "in-progress",
-      "progress": 0.24786324786324787,
-      "count": "29/117",
+      "progress": 0.5299145299145299,
+      "count": "62/117",
       "date": "",
       "detail": ""
      },
@@ -247,6 +247,15 @@
       "count": "",
       "date": "2026-10-14",
       "detail": ""
+     },
+     {
+      "id": "roads-era",
+      "title": "Roads of their time: setts in towns, gravel country roads, tarmac in the 1920s, asphalt in the 1930s; farm tracks stay dirt",
+      "state": "in-progress",
+      "progress": 0.5,
+      "count": "",
+      "date": "",
+      "detail": ""
      }
     ]
    },
@@ -254,14 +263,14 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.05,
+    "progress": 0.13181818181818183,
     "items": [
      {
       "id": "rear-views",
-      "title": "Rear-view paintings for back-row lots (about 195 per world face away from the viewer)",
-      "state": "todo",
-      "progress": 0,
-      "count": "",
+      "title": "Rear views for big stores and banks built on a back site, so the entrance faces its street",
+      "state": "in-progress",
+      "progress": 0.8181818181818182,
+      "count": "9/11",
       "date": "",
       "detail": ""
      },
@@ -351,25 +360,25 @@
   ]
  },
  "activity": {
-  "running": true,
-  "current": "Lots-v4",
-  "section": "lots-v4",
+  "running": false,
+  "current": "Finished",
+  "section": "finished",
   "recent": [
-   "tilted if-iron-arcade (attempt 3)",
-   "done if-iron-arcade",
-   "done if-iron-tenement",
-   "tilted if-terrace-row (attempt 2)",
-   "done if-terrace-row",
-   "tilted if-iron-arcade (attempt 2)",
-   "done if-iron-arcade",
-   "done if-cooperative",
-   "done if-ironmonger",
-   "done if-miners-pub",
-   "done if-lodging-house",
-   "done if-ironmaster-villa"
+   "IMAGE LIMIT REACHED тАФ stopped with 50 job(s) not attempted",
+   "done em-seaside-cafe",
+   "done em-streamline-villa",
+   "FAILED em-fishmonger 28s",
+   "done em-moorish-villa",
+   "done if-daylight-factory",
+   "done em-fisherman-cottage",
+   "done em-copper-turret-villa",
+   "done em-pastel-townhouse",
+   "tilted if-daylight-factory (attempt 3)",
+   "done if-daylight-factory",
+   "done em-green-tile-villa"
   ],
-  "paintedToday": 49,
-  "quotaReached": false,
+  "paintedToday": 73,
+  "quotaReached": true,
   "log": "queue-2026-10-15-1255.log"
  },
  "gallery": {
@@ -1858,6 +1867,369 @@
     "lot": "2×2 lot",
     "thumb": "img/buildings/ldn-mansion-flats.webp",
     "full": "img/buildings/ldn-mansion-flats-large.webp"
+   },
+   {
+    "id": "ldn-square-corner",
+    "title": "Square Corner",
+    "role": "Apartments",
+    "city": "Sterling Harbour (London)",
+    "era": "1760–1840",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-square-corner.webp",
+    "full": "img/buildings/ldn-square-corner-large.webp"
+   },
+   {
+    "id": "ldn-city-bank",
+    "title": "City Bank",
+    "role": "Bank & offices",
+    "city": "Sterling Harbour (London)",
+    "era": "1840–1925",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-city-bank.webp",
+    "full": "img/buildings/ldn-city-bank-large.webp"
+   },
+   {
+    "id": "ldn-portland-office",
+    "title": "Portland Office",
+    "role": "Bank & offices",
+    "city": "Sterling Harbour (London)",
+    "era": "1928–1950",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-portland-office.webp",
+    "full": "img/buildings/ldn-portland-office-large.webp"
+   },
+   {
+    "id": "ldn-gothic-hotel",
+    "title": "Gothic Hotel",
+    "role": "Public building",
+    "city": "Sterling Harbour (London)",
+    "era": "1860–1890",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-gothic-hotel.webp",
+    "full": "img/buildings/ldn-gothic-hotel-large.webp"
+   },
+   {
+    "id": "ldn-pumping-station",
+    "title": "Pumping Station",
+    "role": "Factory",
+    "city": "Sterling Harbour (London)",
+    "era": "1860–1900",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-pumping-station.webp",
+    "full": "img/buildings/ldn-pumping-station-large.webp"
+   },
+   {
+    "id": "ldn-dock-warehouse",
+    "title": "Dock Warehouse",
+    "role": "Warehouse",
+    "city": "Sterling Harbour (London)",
+    "era": "1800–1925",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-dock-warehouse.webp",
+    "full": "img/buildings/ldn-dock-warehouse-large.webp"
+   },
+   {
+    "id": "if-worker-cottage",
+    "title": "Worker Cottage",
+    "role": "House",
+    "city": "Ironforge Basin",
+    "era": "1850–1925",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-worker-cottage.webp",
+    "full": "img/buildings/if-worker-cottage-large.webp"
+   },
+   {
+    "id": "if-foreman-house",
+    "title": "Foreman House",
+    "role": "House",
+    "city": "Ironforge Basin",
+    "era": "1870–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-foreman-house.webp",
+    "full": "img/buildings/if-foreman-house-large.webp"
+   },
+   {
+    "id": "if-ironmaster-villa",
+    "title": "Ironmaster Villa",
+    "role": "House",
+    "city": "Ironforge Basin",
+    "era": "1860–1914",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-ironmaster-villa.webp",
+    "full": "img/buildings/if-ironmaster-villa-large.webp"
+   },
+   {
+    "id": "if-company-house",
+    "title": "Company House",
+    "role": "House",
+    "city": "Ironforge Basin",
+    "era": "1890–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-company-house.webp",
+    "full": "img/buildings/if-company-house-large.webp"
+   },
+   {
+    "id": "if-lodging-house",
+    "title": "Lodging House",
+    "role": "House",
+    "city": "Ironforge Basin",
+    "era": "1880–1925",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-lodging-house.webp",
+    "full": "img/buildings/if-lodging-house-large.webp"
+   },
+   {
+    "id": "if-ironmonger",
+    "title": "Ironmonger",
+    "role": "Shop",
+    "city": "Ironforge Basin",
+    "era": "1860–1930",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-ironmonger.webp",
+    "full": "img/buildings/if-ironmonger-large.webp"
+   },
+   {
+    "id": "if-miners-pub",
+    "title": "Miners Pub",
+    "role": "Shop",
+    "city": "Ironforge Basin",
+    "era": "1850–1935",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-miners-pub.webp",
+    "full": "img/buildings/if-miners-pub-large.webp"
+   },
+   {
+    "id": "if-cooperative",
+    "title": "Cooperative",
+    "role": "Shop",
+    "city": "Ironforge Basin",
+    "era": "1870–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-cooperative.webp",
+    "full": "img/buildings/if-cooperative-large.webp"
+   },
+   {
+    "id": "if-terrace-row",
+    "title": "Row",
+    "role": "Terrace",
+    "city": "Ironforge Basin",
+    "era": "1850–1930",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/if-terrace-row.webp",
+    "full": "img/buildings/if-terrace-row-large.webp"
+   },
+   {
+    "id": "if-iron-arcade",
+    "title": "Iron Arcade",
+    "role": "Shopping parade",
+    "city": "Ironforge Basin",
+    "era": "1870–1914",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/if-iron-arcade.webp",
+    "full": "img/buildings/if-iron-arcade-large.webp"
+   },
+   {
+    "id": "if-iron-tenement",
+    "title": "Iron Tenement",
+    "role": "Apartments",
+    "city": "Ironforge Basin",
+    "era": "1880–1925",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-iron-tenement.webp",
+    "full": "img/buildings/if-iron-tenement-large.webp"
+   },
+   {
+    "id": "if-steel-flats",
+    "title": "Steel Flats",
+    "role": "Apartments",
+    "city": "Ironforge Basin",
+    "era": "1928–1950",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-steel-flats.webp",
+    "full": "img/buildings/if-steel-flats-large.webp"
+   },
+   {
+    "id": "if-iron-emporium",
+    "title": "Iron Emporium",
+    "role": "Department store",
+    "city": "Ironforge Basin",
+    "era": "1870–1920",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-iron-emporium.webp",
+    "full": "img/buildings/if-iron-emporium-large.webp"
+   },
+   {
+    "id": "if-steel-company",
+    "title": "Steel Company",
+    "role": "Bank & offices",
+    "city": "Ironforge Basin",
+    "era": "1880–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-steel-company.webp",
+    "full": "img/buildings/if-steel-company-large.webp"
+   },
+   {
+    "id": "if-mechanics-institute",
+    "title": "Mechanics Institute",
+    "role": "Public building",
+    "city": "Ironforge Basin",
+    "era": "1860–1914",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-mechanics-institute.webp",
+    "full": "img/buildings/if-mechanics-institute-large.webp"
+   },
+   {
+    "id": "if-foundry",
+    "title": "Foundry",
+    "role": "Factory",
+    "city": "Ironforge Basin",
+    "era": "1850–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-foundry.webp",
+    "full": "img/buildings/if-foundry-large.webp"
+   },
+   {
+    "id": "if-locomotive-works",
+    "title": "Locomotive Works",
+    "role": "Factory",
+    "city": "Ironforge Basin",
+    "era": "1860–1940",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-locomotive-works.webp",
+    "full": "img/buildings/if-locomotive-works-large.webp"
+   },
+   {
+    "id": "if-iron-warehouse",
+    "title": "Iron Warehouse",
+    "role": "Warehouse",
+    "city": "Ironforge Basin",
+    "era": "1870–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-iron-warehouse.webp",
+    "full": "img/buildings/if-iron-warehouse-large.webp"
+   },
+   {
+    "id": "if-smithy",
+    "title": "Smithy",
+    "role": "Workshop",
+    "city": "Ironforge Basin",
+    "era": "1800–1930",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/if-smithy.webp",
+    "full": "img/buildings/if-smithy-large.webp"
+   },
+   {
+    "id": "if-daylight-factory",
+    "title": "Daylight Factory",
+    "role": "Factory",
+    "city": "Ironforge Basin",
+    "era": "1910–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/if-daylight-factory.webp",
+    "full": "img/buildings/if-daylight-factory-large.webp"
+   },
+   {
+    "id": "em-green-tile-villa",
+    "title": "Green Tile Villa",
+    "role": "House",
+    "city": "Emerald Coast",
+    "era": "1880–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-green-tile-villa.webp",
+    "full": "img/buildings/em-green-tile-villa-large.webp"
+   },
+   {
+    "id": "em-pastel-townhouse",
+    "title": "Pastel Townhouse",
+    "role": "House",
+    "city": "Emerald Coast",
+    "era": "1860–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-pastel-townhouse.webp",
+    "full": "img/buildings/em-pastel-townhouse-large.webp"
+   },
+   {
+    "id": "em-copper-turret-villa",
+    "title": "Copper Turret Villa",
+    "role": "House",
+    "city": "Emerald Coast",
+    "era": "1890–1914",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-copper-turret-villa.webp",
+    "full": "img/buildings/em-copper-turret-villa-large.webp"
+   },
+   {
+    "id": "em-fisherman-cottage",
+    "title": "Fisherman Cottage",
+    "role": "House",
+    "city": "Emerald Coast",
+    "era": "1850–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-fisherman-cottage.webp",
+    "full": "img/buildings/em-fisherman-cottage-large.webp"
+   },
+   {
+    "id": "em-moorish-villa",
+    "title": "Moorish Villa",
+    "role": "House",
+    "city": "Emerald Coast",
+    "era": "1880–1930",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-moorish-villa.webp",
+    "full": "img/buildings/em-moorish-villa-large.webp"
+   },
+   {
+    "id": "em-streamline-villa",
+    "title": "Streamline Villa",
+    "role": "House",
+    "city": "Emerald Coast",
+    "era": "1929–1950",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-streamline-villa.webp",
+    "full": "img/buildings/em-streamline-villa-large.webp"
+   },
+   {
+    "id": "em-seaside-cafe",
+    "title": "Seaside Cafe",
+    "role": "Shop",
+    "city": "Emerald Coast",
+    "era": "1880–1935",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-seaside-cafe.webp",
+    "full": "img/buildings/em-seaside-cafe-large.webp"
    }
   ],
   "deposits": [
@@ -2961,7 +3333,7 @@
   ]
  },
  "counts": {
-  "buildings": 135,
+  "buildings": 168,
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
