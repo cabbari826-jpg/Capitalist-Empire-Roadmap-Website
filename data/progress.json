@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T18:21:36.467Z",
+ "generatedAt": "2026-10-15T18:35:48.451Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -487,23 +487,23 @@
  },
  "activity": {
   "running": true,
-  "current": "Glass-box repaints",
-  "section": "glass-box repaints",
+  "current": "Lots-v4",
+  "section": "lots-v4",
   "recent": [
-   "done bank-rear",
-   "done department-store-rear",
-   "done ny-ladies-mile-store-rear",
-   "tilted department-store-rear (attempt 3)",
-   "done department-store-rear",
-   "tilted bank-rear (attempt 3)",
-   "done bank-rear",
-   "done store-emporium-brick-rear",
-   "done bank-rear",
-   "done department-store-rear",
-   "done ldn-baroque-store",
-   "done ny-ladies-mile-store"
+   "done bk-oil-baron-villa",
+   "done bk-oil-worker-house",
+   "done bk-courtyard-house",
+   "done bk-merchant-house",
+   "done bk-old-city-house",
+   "done em-harbour-warehouse",
+   "done em-sardine-cannery",
+   "tilted em-arcade-terrace (gave up)",
+   "done em-arcade-terrace",
+   "done em-casino",
+   "done em-copper-dome-bank",
+   "done em-grand-hotel"
   ],
-  "paintedToday": 24,
+  "paintedToday": 43,
   "quotaReached": false,
   "log": "queue-2026-10-15-2150.log"
  },
