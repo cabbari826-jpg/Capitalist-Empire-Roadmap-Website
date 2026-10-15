@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T14:01:17.679Z",
+ "generatedAt": "2026-10-15T14:03:27.840Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 19,
+  "done": 20,
   "total": 38,
-  "progress": 0.6127788512656934
+  "progress": 0.6390946407393776
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -352,7 +352,7 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.18181818181818182,
+    "progress": 0.28181818181818186,
     "items": [
      {
       "id": "rear-views",
@@ -429,10 +429,10 @@
      {
       "id": "city-plan-test",
       "title": "Fix the long-failing city-plan regression check",
-      "state": "todo",
-      "progress": 0,
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
+      "date": "2026-10-15",
       "detail": ""
      },
      {
