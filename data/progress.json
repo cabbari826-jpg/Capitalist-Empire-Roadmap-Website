@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T10:06:51.062Z",
+ "generatedAt": "2026-10-15T10:12:53.939Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 17,
@@ -3268,67 +3268,88 @@
   ],
   "screenshots": [
    {
+    "title": "Country road, 1910",
+    "caption": "Gravel country road with earth verges; farm track of trodden earth; no markings yet.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/0-edge-1910.webp",
+    "full": "img/screens/0-edge-1910-large.webp"
+   },
+   {
+    "title": "Emerald Coast, 1945",
+    "caption": "The same era system later: asphalt coast road with centre lines, asphalt town streets with zebra crossings.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/1-edge-1945.webp",
+    "full": "img/screens/1-edge-1945-large.webp"
+   },
+   {
+    "title": "Rear view on a back site",
+    "caption": "A hotel built on a back site shows its rear (fire escape, service yard); the entrance faces its street.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/2-hotel-back-site.webp",
+    "full": "img/screens/2-hotel-back-site-large.webp"
+   },
+   {
     "title": "Emerald Coast centre",
     "caption": "Buildings now face their street; Art Nouveau store, hotel, city hall with its fountain square.",
     "date": "2026-10-15",
-    "thumb": "img/screens/0-facing-check.webp",
-    "full": "img/screens/0-facing-check-large.webp"
+    "thumb": "img/screens/3-facing-check.webp",
+    "full": "img/screens/3-facing-check-large.webp"
    },
    {
     "title": "Park lake",
     "caption": "Painted lake with animated ripples and sun glints.",
     "date": "2026-10-15",
-    "thumb": "img/screens/1-lake2.webp",
-    "full": "img/screens/1-lake2-large.webp"
+    "thumb": "img/screens/4-lake2.webp",
+    "full": "img/screens/4-lake2-large.webp"
    },
    {
     "title": "Lake close-up",
     "caption": "Glints twinkle across the water; swans and rowing boats are part of the painting.",
     "date": "2026-10-15",
-    "thumb": "img/screens/2-lake2-crop.webp",
-    "full": "img/screens/2-lake2-crop-large.webp"
+    "thumb": "img/screens/5-lake2-crop.webp",
+    "full": "img/screens/5-lake2-crop-large.webp"
    },
    {
     "title": "Ironforge industry",
     "caption": "Smoke now leaves the painted chimney tops of the power station and brickworks.",
     "date": "2026-10-15",
-    "thumb": "img/screens/3-power-fixed2.webp",
-    "full": "img/screens/3-power-fixed2-large.webp"
+    "thumb": "img/screens/6-power-fixed2.webp",
+    "full": "img/screens/6-power-fixed2-large.webp"
    },
    {
     "title": "New York industrial block",
     "caption": "Loft factory with water tower, workshops and brownstones; no design repeats inside a block.",
     "date": "2026-10-15",
-    "thumb": "img/screens/4-ny-workshops.webp",
-    "full": "img/screens/4-ny-workshops-large.webp"
+    "thumb": "img/screens/7-ny-workshops.webp",
+    "full": "img/screens/7-ny-workshops-large.webp"
    },
    {
     "title": "Baku centre",
     "caption": "Company shops drawn with fitting shop designs instead of identical domed department stores.",
     "date": "2026-10-15",
-    "thumb": "img/screens/5-retail-bread-fixed.webp",
-    "full": "img/screens/5-retail-bread-fixed-large.webp"
+    "thumb": "img/screens/8-retail-bread-fixed.webp",
+    "full": "img/screens/8-retail-bread-fixed-large.webp"
    },
    {
     "title": "Metropolis Prime",
     "caption": "First New York architecture: brownstones and tenements with fire escapes and water towers.",
     "date": "2026-10-14",
-    "thumb": "img/screens/6-t0.webp",
-    "full": "img/screens/6-t0-large.webp"
+    "thumb": "img/screens/9-t0.webp",
+    "full": "img/screens/9-t0-large.webp"
    },
    {
     "title": "1910 traffic",
     "caption": "Horse cabs, carts and an early motor car on the carriageway.",
     "date": "2026-10-14",
-    "thumb": "img/screens/7-t1.webp",
-    "full": "img/screens/7-t1-large.webp"
+    "thumb": "img/screens/10-t1.webp",
+    "full": "img/screens/10-t1-large.webp"
    },
    {
     "title": "Iron ore deposit",
     "caption": "Painted resource deposit that fades into the countryside; click anywhere on it.",
     "date": "2026-10-14",
-    "thumb": "img/screens/8-deposit-click.webp",
-    "full": "img/screens/8-deposit-click-large.webp"
+    "thumb": "img/screens/11-deposit-click.webp",
+    "full": "img/screens/11-deposit-click-large.webp"
    }
   ]
  },
@@ -3338,6 +3359,6 @@
   "vehicles": 20,
   "products": 135,
   "repaints": 23,
-  "screenshots": 9
+  "screenshots": 12
  }
 }
