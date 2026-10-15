@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T15:48:08.243Z",
+ "generatedAt": "2026-10-15T16:00:54.992Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 20,
-  "total": 39,
-  "progress": 0.6227075986691372
+  "done": 21,
+  "total": 41,
+  "progress": 0.6167218621486914
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -281,7 +281,7 @@
     "id": "wonders",
     "label": "Landmarks & Wonders",
     "state": "in-progress",
-    "progress": 0.25,
+    "progress": 0.2,
     "items": [
      {
       "id": "landmark-pipeline",
@@ -298,6 +298,15 @@
       "state": "todo",
       "progress": 0,
       "count": "0/1",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "landmark-eras",
+      "title": "Landmarks that change with the years: Baku's site shows the 1908 Hajinski house early on and the twin-domed building later (one extra painting, from the owner's photos)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
       "date": "",
       "detail": ""
      },
@@ -352,7 +361,7 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.25619834710743805,
+    "progress": 0.3181818181818182,
     "items": [
      {
       "id": "rear-views",
@@ -451,6 +460,15 @@
       "progress": 0,
       "count": "",
       "date": "",
+      "detail": ""
+     },
+     {
+      "id": "baku-oil-edge",
+      "title": "Baku's oil fields sit at the edge of town, as the real Bibi-Heybat and Balakhany fields did",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
       "detail": ""
      }
     ]
