@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T18:35:48.451Z",
+ "generatedAt": "2026-10-15T18:54:45.855Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
   "total": 41,
-  "progress": 0.6672352038205697
+  "progress": 0.6734891125135027
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -247,14 +247,14 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.5096153846153846,
+    "progress": 0.5737179487179487,
     "items": [
      {
       "id": "lots-v4",
       "title": "Each city's own architecture (New York, London, Baku, Tokyo, Emerald Coast, Ironforge)",
       "state": "in-progress",
-      "progress": 0.5384615384615384,
-      "count": "63/117",
+      "progress": 0.7948717948717948,
+      "count": "93/117",
       "date": "",
       "detail": ""
      },
@@ -487,24 +487,24 @@
  },
  "activity": {
   "running": true,
-  "current": "Lots-v4",
-  "section": "lots-v4",
+  "current": "Image quota reached",
+  "section": "image quota reached",
   "recent": [
-   "done bk-oil-baron-villa",
-   "done bk-oil-worker-house",
-   "done bk-courtyard-house",
-   "done bk-merchant-house",
-   "done bk-old-city-house",
-   "done em-harbour-warehouse",
-   "done em-sardine-cannery",
-   "tilted em-arcade-terrace (gave up)",
-   "done em-arcade-terrace",
-   "done em-casino",
-   "done em-copper-dome-bank",
-   "done em-grand-hotel"
+   "IMAGE LIMIT REACHED тАФ stopped with 17 job(s) not attempted",
+   "FAILED tk-kura-house 85s",
+   "FAILED tk-taisho-house 82s",
+   "done tk-samurai-house",
+   "done bk-oil-derricks",
+   "done tk-machiya",
+   "done bk-kerosene-depot",
+   "done bk-gothic-palace",
+   "tilted bk-oil-derricks (attempt 2)",
+   "done bk-oil-derricks",
+   "done bk-refinery",
+   "done bk-passage"
   ],
-  "paintedToday": 43,
-  "quotaReached": false,
+  "paintedToday": 69,
+  "quotaReached": true,
   "log": "queue-2026-10-15-2150.log"
  },
  "gallery": {
@@ -2367,6 +2367,336 @@
     "lot": "1×1 lot",
     "thumb": "img/buildings/em-seaside-cafe.webp",
     "full": "img/buildings/em-seaside-cafe-large.webp"
+   },
+   {
+    "id": "em-fishmonger",
+    "title": "Fishmonger",
+    "role": "Shop",
+    "city": "Emerald Coast",
+    "era": "1860–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-fishmonger.webp",
+    "full": "img/buildings/em-fishmonger-large.webp"
+   },
+   {
+    "id": "em-ice-cream-parlour",
+    "title": "Ice Cream Parlour",
+    "role": "Shop",
+    "city": "Emerald Coast",
+    "era": "1900–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/em-ice-cream-parlour.webp",
+    "full": "img/buildings/em-ice-cream-parlour-large.webp"
+   },
+   {
+    "id": "em-promenade-shops",
+    "title": "Promenade Shops",
+    "role": "Shopping parade",
+    "city": "Emerald Coast",
+    "era": "1880–1930",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/em-promenade-shops.webp",
+    "full": "img/buildings/em-promenade-shops-large.webp"
+   },
+   {
+    "id": "em-belle-epoque-apartments",
+    "title": "Belle Epoque Apartments",
+    "role": "Apartments",
+    "city": "Emerald Coast",
+    "era": "1885–1925",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/em-belle-epoque-apartments.webp",
+    "full": "img/buildings/em-belle-epoque-apartments-large.webp"
+   },
+   {
+    "id": "em-streamline-apartments",
+    "title": "Streamline Apartments",
+    "role": "Apartments",
+    "city": "Emerald Coast",
+    "era": "1930–1950",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/em-streamline-apartments.webp",
+    "full": "img/buildings/em-streamline-apartments-large.webp"
+   },
+   {
+    "id": "em-grand-hotel",
+    "title": "Grand Hotel",
+    "role": "Department store",
+    "city": "Emerald Coast",
+    "era": "1880–1925",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/em-grand-hotel.webp",
+    "full": "img/buildings/em-grand-hotel-large.webp"
+   },
+   {
+    "id": "em-copper-dome-bank",
+    "title": "Copper Dome Bank",
+    "role": "Bank & offices",
+    "city": "Emerald Coast",
+    "era": "1880–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/em-copper-dome-bank.webp",
+    "full": "img/buildings/em-copper-dome-bank-large.webp"
+   },
+   {
+    "id": "em-casino",
+    "title": "Casino",
+    "role": "Public building",
+    "city": "Emerald Coast",
+    "era": "1880–1925",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/em-casino.webp",
+    "full": "img/buildings/em-casino-large.webp"
+   },
+   {
+    "id": "em-sardine-cannery",
+    "title": "Sardine Cannery",
+    "role": "Factory",
+    "city": "Emerald Coast",
+    "era": "1880–1940",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/em-sardine-cannery.webp",
+    "full": "img/buildings/em-sardine-cannery-large.webp"
+   },
+   {
+    "id": "em-harbour-warehouse",
+    "title": "Harbour Warehouse",
+    "role": "Warehouse",
+    "city": "Emerald Coast",
+    "era": "1860–1935",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/em-harbour-warehouse.webp",
+    "full": "img/buildings/em-harbour-warehouse-large.webp"
+   },
+   {
+    "id": "bk-old-city-house",
+    "title": "Old City House",
+    "role": "House",
+    "city": "Baku Petroleum Hub",
+    "era": "1700–1900",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-old-city-house.webp",
+    "full": "img/buildings/bk-old-city-house-large.webp"
+   },
+   {
+    "id": "bk-merchant-house",
+    "title": "Merchant House",
+    "role": "House",
+    "city": "Baku Petroleum Hub",
+    "era": "1860–1925",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-merchant-house.webp",
+    "full": "img/buildings/bk-merchant-house-large.webp"
+   },
+   {
+    "id": "bk-oil-baron-villa",
+    "title": "Oil Baron Villa",
+    "role": "House",
+    "city": "Baku Petroleum Hub",
+    "era": "1890–1914",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-oil-baron-villa.webp",
+    "full": "img/buildings/bk-oil-baron-villa-large.webp"
+   },
+   {
+    "id": "bk-courtyard-house",
+    "title": "Courtyard House",
+    "role": "House",
+    "city": "Baku Petroleum Hub",
+    "era": "1850–1935",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-courtyard-house.webp",
+    "full": "img/buildings/bk-courtyard-house-large.webp"
+   },
+   {
+    "id": "bk-oil-worker-house",
+    "title": "Oil Worker House",
+    "role": "House",
+    "city": "Baku Petroleum Hub",
+    "era": "1880–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-oil-worker-house.webp",
+    "full": "img/buildings/bk-oil-worker-house-large.webp"
+   },
+   {
+    "id": "bk-constructivist-house",
+    "title": "Constructivist House",
+    "role": "House",
+    "city": "Baku Petroleum Hub",
+    "era": "1927–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-constructivist-house.webp",
+    "full": "img/buildings/bk-constructivist-house-large.webp"
+   },
+   {
+    "id": "bk-carpet-shop",
+    "title": "Carpet Shop",
+    "role": "Shop",
+    "city": "Baku Petroleum Hub",
+    "era": "1800–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-carpet-shop.webp",
+    "full": "img/buildings/bk-carpet-shop-large.webp"
+   },
+   {
+    "id": "bk-chaykhana",
+    "title": "Chaykhana",
+    "role": "Shop",
+    "city": "Baku Petroleum Hub",
+    "era": "1850–1950",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-chaykhana.webp",
+    "full": "img/buildings/bk-chaykhana-large.webp"
+   },
+   {
+    "id": "bk-bazaar-shops",
+    "title": "Bazaar Shops",
+    "role": "Shop",
+    "city": "Baku Petroleum Hub",
+    "era": "1700–1925",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/bk-bazaar-shops.webp",
+    "full": "img/buildings/bk-bazaar-shops-large.webp"
+   },
+   {
+    "id": "bk-torgovaya-row",
+    "title": "Torgovaya Row",
+    "role": "Shopping parade",
+    "city": "Baku Petroleum Hub",
+    "era": "1890–1914",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/bk-torgovaya-row.webp",
+    "full": "img/buildings/bk-torgovaya-row-large.webp"
+   },
+   {
+    "id": "bk-oil-boom-apartments",
+    "title": "Oil Boom Apartments",
+    "role": "Apartments",
+    "city": "Baku Petroleum Hub",
+    "era": "1895–1920",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-oil-boom-apartments.webp",
+    "full": "img/buildings/bk-oil-boom-apartments-large.webp"
+   },
+   {
+    "id": "bk-stalinist-apartments",
+    "title": "Stalinist Apartments",
+    "role": "Apartments",
+    "city": "Baku Petroleum Hub",
+    "era": "1946–1960",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-stalinist-apartments.webp",
+    "full": "img/buildings/bk-stalinist-apartments-large.webp"
+   },
+   {
+    "id": "bk-passage",
+    "title": "Passage",
+    "role": "Department store",
+    "city": "Baku Petroleum Hub",
+    "era": "1895–1914",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-passage.webp",
+    "full": "img/buildings/bk-passage-large.webp"
+   },
+   {
+    "id": "bk-oil-company-office",
+    "title": "Oil Company Office",
+    "role": "Bank & offices",
+    "city": "Baku Petroleum Hub",
+    "era": "1880–1914",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-oil-company-office.webp",
+    "full": "img/buildings/bk-oil-company-office-large.webp"
+   },
+   {
+    "id": "bk-gothic-palace",
+    "title": "Gothic Palace",
+    "role": "Public building",
+    "city": "Baku Petroleum Hub",
+    "era": "1900–1914",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-gothic-palace.webp",
+    "full": "img/buildings/bk-gothic-palace-large.webp"
+   },
+   {
+    "id": "bk-refinery",
+    "title": "Refinery",
+    "role": "Factory",
+    "city": "Baku Petroleum Hub",
+    "era": "1870–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-refinery.webp",
+    "full": "img/buildings/bk-refinery-large.webp"
+   },
+   {
+    "id": "bk-oil-derricks",
+    "title": "Oil Derricks",
+    "role": "Mine",
+    "city": "Baku Petroleum Hub",
+    "era": "1870–1940",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-oil-derricks.webp",
+    "full": "img/buildings/bk-oil-derricks-large.webp"
+   },
+   {
+    "id": "bk-kerosene-depot",
+    "title": "Kerosene Depot",
+    "role": "Warehouse",
+    "city": "Baku Petroleum Hub",
+    "era": "1880–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-kerosene-depot.webp",
+    "full": "img/buildings/bk-kerosene-depot-large.webp"
+   },
+   {
+    "id": "tk-machiya",
+    "title": "Machiya",
+    "role": "House",
+    "city": "Tokyo Neo Tech",
+    "era": "1700–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-machiya.webp",
+    "full": "img/buildings/tk-machiya-large.webp"
+   },
+   {
+    "id": "tk-samurai-house",
+    "title": "Samurai House",
+    "role": "House",
+    "city": "Tokyo Neo Tech",
+    "era": "1700–1890",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-samurai-house.webp",
+    "full": "img/buildings/tk-samurai-house-large.webp"
    }
   ],
   "deposits": [
@@ -3561,7 +3891,7 @@
   ]
  },
  "counts": {
-  "buildings": 169,
+  "buildings": 199,
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
