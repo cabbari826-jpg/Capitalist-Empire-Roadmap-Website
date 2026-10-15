@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T09:25:25.643Z",
+ "generatedAt": "2026-10-15T09:46:02.493Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 17,
   "total": 31,
-  "progress": 0.5946891370278466
+  "progress": 0.6188826854149434
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -176,7 +176,7 @@
       "progress": 0.5,
       "count": "",
       "date": "",
-      "detail": "Clock faces found automatically on 4 designs; hands not drawn yet."
+      "detail": "Moving hands on 4 clock faces (two city halls, belfry, Victorian town hall); re-detect after the roof repaints are packed, and teach the detector the smaller shop and post-office clocks."
      }
     ]
    },
@@ -184,7 +184,7 @@
     "id": "roofs",
     "label": "Readable Roofs",
     "state": "in-progress",
-    "progress": 0.7291666666666666,
+    "progress": 0.9791666666666666,
     "items": [
      {
       "id": "roof-guides",
@@ -208,8 +208,8 @@
       "id": "roof-houses",
       "title": "Repaint 16 houses and shops whose low roofs look folded backwards",
       "state": "in-progress",
-      "progress": 0.1875,
-      "count": "3/16",
+      "progress": 0.9375,
+      "count": "15/16",
       "date": "",
       "detail": ""
      }
@@ -352,23 +352,23 @@
  },
  "activity": {
   "running": true,
-  "current": "Low-roof repaints",
-  "section": "low-roof repaints",
+  "current": "Lots-v4",
+  "section": "lots-v4",
   "recent": [
-   "done inst-hospital",
-   "tilted inst-hospital (attempt 2)",
-   "done inst-hospital",
-   "done apartments-model",
-   "done inst-library",
-   "done shop-pharmacy",
-   "done shop-cafe",
-   "done house-georgian",
-   "done house-turret",
-   "tilted house-turret (attempt 2)",
-   "done house-turret",
-   "done house-mediterranean"
+   "tilted if-iron-arcade (attempt 3)",
+   "done if-iron-arcade",
+   "done if-iron-tenement",
+   "tilted if-terrace-row (attempt 2)",
+   "done if-terrace-row",
+   "tilted if-iron-arcade (attempt 2)",
+   "done if-iron-arcade",
+   "done if-cooperative",
+   "done if-ironmonger",
+   "done if-miners-pub",
+   "done if-lodging-house",
+   "done if-ironmaster-villa"
   ],
-  "paintedToday": 21,
+  "paintedToday": 49,
   "quotaReached": false,
   "log": "queue-2026-10-15-1255.log"
  },
@@ -2808,6 +2808,90 @@
     "date": "2026-10-15",
     "before": "img/repaints/res-villa-before.webp",
     "after": "img/repaints/res-villa-after.webp"
+   },
+   {
+    "id": "house-mediterranean",
+    "title": "House Mediterranean",
+    "date": "2026-10-15",
+    "before": "img/repaints/house-mediterranean-before.webp",
+    "after": "img/repaints/house-mediterranean-after.webp"
+   },
+   {
+    "id": "house-turret",
+    "title": "House Turret",
+    "date": "2026-10-15",
+    "before": "img/repaints/house-turret-before.webp",
+    "after": "img/repaints/house-turret-after.webp"
+   },
+   {
+    "id": "house-georgian",
+    "title": "House Georgian",
+    "date": "2026-10-15",
+    "before": "img/repaints/house-georgian-before.webp",
+    "after": "img/repaints/house-georgian-after.webp"
+   },
+   {
+    "id": "shop-pharmacy",
+    "title": "Shop Pharmacy",
+    "date": "2026-10-15",
+    "before": "img/repaints/shop-pharmacy-before.webp",
+    "after": "img/repaints/shop-pharmacy-after.webp"
+   },
+   {
+    "id": "shop-cafe",
+    "title": "Shop Cafe",
+    "date": "2026-10-15",
+    "before": "img/repaints/shop-cafe-before.webp",
+    "after": "img/repaints/shop-cafe-after.webp"
+   },
+   {
+    "id": "apartments-model",
+    "title": "Apartments Model",
+    "date": "2026-10-15",
+    "before": "img/repaints/apartments-model-before.webp",
+    "after": "img/repaints/apartments-model-after.webp"
+   },
+   {
+    "id": "inst-library",
+    "title": "Inst Library",
+    "date": "2026-10-15",
+    "before": "img/repaints/inst-library-before.webp",
+    "after": "img/repaints/inst-library-after.webp"
+   },
+   {
+    "id": "inst-hospital",
+    "title": "Inst Hospital",
+    "date": "2026-10-15",
+    "before": "img/repaints/inst-hospital-before.webp",
+    "after": "img/repaints/inst-hospital-after.webp"
+   },
+   {
+    "id": "ny-queen-anne",
+    "title": "Queen Anne",
+    "date": "2026-10-15",
+    "before": "img/repaints/ny-queen-anne-before.webp",
+    "after": "img/repaints/ny-queen-anne-after.webp"
+   },
+   {
+    "id": "ldn-regency-villa",
+    "title": "Regency Villa",
+    "date": "2026-10-15",
+    "before": "img/repaints/ldn-regency-villa-before.webp",
+    "after": "img/repaints/ldn-regency-villa-after.webp"
+   },
+   {
+    "id": "ldn-edwardian-semi",
+    "title": "Edwardian Semi",
+    "date": "2026-10-15",
+    "before": "img/repaints/ldn-edwardian-semi-before.webp",
+    "after": "img/repaints/ldn-edwardian-semi-after.webp"
+   },
+   {
+    "id": "ldn-corner-pub",
+    "title": "Corner Pub",
+    "date": "2026-10-15",
+    "before": "img/repaints/ldn-corner-pub-before.webp",
+    "after": "img/repaints/ldn-corner-pub-after.webp"
    }
   ],
   "screenshots": [
@@ -2881,7 +2965,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 11,
+  "repaints": 23,
   "screenshots": 9
  }
 }
