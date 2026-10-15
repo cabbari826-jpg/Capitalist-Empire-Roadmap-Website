@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T17:57:00.026Z",
+ "generatedAt": "2026-10-15T18:14:56.243Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 23,
   "total": 41,
-  "progress": 0.6426364962950328
+  "progress": 0.6572706426364964
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -189,7 +189,7 @@
     "id": "roofs",
     "label": "Readable Roofs & Shapes",
     "state": "in-progress",
-    "progress": 0.8,
+    "progress": 0.9199999999999999,
     "items": [
      {
       "id": "roof-guides",
@@ -230,9 +230,9 @@
      {
       "id": "fit-repaints",
       "title": "Repaint the buildings that ignored their box (department store, New York and London shops and houses, their rear views)",
-      "state": "todo",
-      "progress": 0,
-      "count": "0/10",
+      "state": "in-progress",
+      "progress": 0.6,
+      "count": "6/10",
       "date": "",
       "detail": ""
      }
@@ -482,15 +482,23 @@
  },
  "activity": {
   "running": true,
-  "current": "Low-roof repaints",
-  "section": "low-roof repaints",
+  "current": "Glass-box repaints",
+  "section": "glass-box repaints",
   "recent": [
-   "done house-semi",
-   "done bk-grand-clock-palace",
-   "tilted bk-grand-clock-palace (attempt 2)",
-   "done bk-grand-clock-palace"
+   "done department-store-rear",
+   "done ny-ladies-mile-store-rear",
+   "tilted department-store-rear (attempt 3)",
+   "done department-store-rear",
+   "tilted bank-rear (attempt 3)",
+   "done bank-rear",
+   "done store-emporium-brick-rear",
+   "done bank-rear",
+   "done department-store-rear",
+   "done ldn-baroque-store",
+   "done ny-ladies-mile-store",
+   "done ldn-mews-house"
   ],
-  "paintedToday": 3,
+  "paintedToday": 23,
   "quotaReached": false,
   "log": "queue-2026-10-15-2150.log"
  },
@@ -3384,6 +3392,41 @@
     "date": "2026-10-15",
     "before": "img/repaints/house-semi-before.webp",
     "after": "img/repaints/house-semi-after.webp"
+   },
+   {
+    "id": "department-store",
+    "title": "Department Store",
+    "date": "2026-10-15",
+    "before": "img/repaints/department-store-before.webp",
+    "after": "img/repaints/department-store-after.webp"
+   },
+   {
+    "id": "ny-ladies-mile-store",
+    "title": "Ladies Mile Store",
+    "date": "2026-10-15",
+    "before": "img/repaints/ny-ladies-mile-store-before.webp",
+    "after": "img/repaints/ny-ladies-mile-store-after.webp"
+   },
+   {
+    "id": "ny-walkup",
+    "title": "Walkup",
+    "date": "2026-10-15",
+    "before": "img/repaints/ny-walkup-before.webp",
+    "after": "img/repaints/ny-walkup-after.webp"
+   },
+   {
+    "id": "ldn-baroque-store",
+    "title": "Baroque Store",
+    "date": "2026-10-15",
+    "before": "img/repaints/ldn-baroque-store-before.webp",
+    "after": "img/repaints/ldn-baroque-store-after.webp"
+   },
+   {
+    "id": "ldn-mews-house",
+    "title": "Mews House",
+    "date": "2026-10-15",
+    "before": "img/repaints/ldn-mews-house-before.webp",
+    "after": "img/repaints/ldn-mews-house-after.webp"
    }
   ],
   "screenshots": [
@@ -3478,7 +3521,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 24,
+  "repaints": 29,
   "screenshots": 12
  }
 }
