@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T18:56:45.872Z",
+ "generatedAt": "2026-10-15T18:57:06.867Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 23,
   "total": 41,
-  "progress": 0.6490988686110637
+  "progress": 0.6413383364602877
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -371,14 +371,14 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.3181818181818182,
+    "progress": 0.2916666666666667,
     "items": [
      {
       "id": "rear-views",
       "title": "Rear views for big stores and banks built on a back site, so the entrance faces its street",
       "state": "in-progress",
-      "progress": 0.8181818181818182,
-      "count": "9/11",
+      "progress": 0.5,
+      "count": "9/18",
       "date": "",
       "detail": ""
      },
