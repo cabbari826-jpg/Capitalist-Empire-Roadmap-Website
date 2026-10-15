@@ -1,0 +1,2887 @@
+{
+ "generatedAt": "2026-10-15T09:25:25.643Z",
+ "title": "Capitalist Empire — Map & Graphics Progress",
+ "summary": {
+  "done": 17,
+  "total": 31,
+  "progress": 0.5946891370278466
+ },
+ "roadmap": {
+  "picture": "img/roadmap/current.webp",
+  "pictures": [
+   {
+    "at": "2026-10-15 08:59 UTC",
+    "thumb": "img/roadmap/roadmap-2026-10-15-08-59.webp",
+    "full": "img/roadmap/roadmap-2026-10-15-08-59-large.webp"
+   },
+   {
+    "at": "2026-10-15 09:24 UTC",
+    "thumb": "img/roadmap/roadmap-2026-10-15-09-24.webp",
+    "full": "img/roadmap/roadmap-2026-10-15-09-24-large.webp"
+   }
+  ],
+  "phases": [
+   {
+    "id": "foundations",
+    "label": "Foundations",
+    "state": "done",
+    "progress": 1,
+    "items": [
+     {
+      "id": "gpu-renderer",
+      "title": "GPU map renderer: smooth pan and zoom, no visible redraws",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-13",
+      "detail": ""
+     },
+     {
+      "id": "city-plan",
+      "title": "Lot-based towns: streets, sidewalks, invisible slot grid; towns start small and grow",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-13",
+      "detail": ""
+     },
+     {
+      "id": "art-pipeline",
+      "title": "Painting pipeline: engine guides → ChatGPT → 30° tilt check → atlas packing",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-13",
+      "detail": ""
+     },
+     {
+      "id": "build-flow",
+      "title": "Build flow: pick a look, choose a highlighted site, construction rises over the build time",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-13",
+      "detail": ""
+     }
+    ]
+   },
+   {
+    "id": "buildings",
+    "label": "Buildings & Goods",
+    "state": "done",
+    "progress": 1,
+    "items": [
+     {
+      "id": "lots-core",
+      "title": "Core building set: houses, shops, civic, industry, parks (lots v1–v3)",
+      "state": "done",
+      "progress": 1,
+      "count": "106/106",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "deposits",
+      "title": "10 painted resource deposits, clickable across their ground",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-14",
+      "detail": ""
+     },
+     {
+      "id": "products",
+      "title": "135 product pictures in the facility panels",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-14",
+      "detail": ""
+     },
+     {
+      "id": "no-repeats",
+      "title": "No repeated design within a block; every lot gets art that fits it",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "facing",
+      "title": "Front-row buildings face their street",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
+     }
+    ]
+   },
+   {
+    "id": "street-life",
+    "label": "Street Life",
+    "state": "in-progress",
+    "progress": 0.9166666666666666,
+    "items": [
+     {
+      "id": "traffic",
+      "title": "Lane-true traffic with period vehicles that change with the years",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-13",
+      "detail": ""
+     },
+     {
+      "id": "vehicle-frames",
+      "title": "13 new animated vehicle sheets; frames aligned so bodies never hop",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-14",
+      "detail": ""
+     },
+     {
+      "id": "steady-cars",
+      "title": "Motor vehicles drive steadily (no shimmer); horse carts walk",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "smoke",
+      "title": "Factory smoke leaves the painted chimney tops",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "water",
+      "title": "Animated water: fountains, lake and pond ripples and glints",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "clocks",
+      "title": "Animated clock hands on clock towers",
+      "state": "in-progress",
+      "progress": 0.5,
+      "count": "",
+      "date": "",
+      "detail": "Clock faces found automatically on 4 designs; hands not drawn yet."
+     }
+    ]
+   },
+   {
+    "id": "roofs",
+    "label": "Readable Roofs",
+    "state": "in-progress",
+    "progress": 0.7291666666666666,
+    "items": [
+     {
+      "id": "roof-guides",
+      "title": "All new paintings get roofs that read correctly from the map camera",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "roof-review",
+      "title": "Repaint 8 flagged buildings (courthouse, post office, bank, police, Art Nouveau store, hotel, apartment block, Deco civic centre without French flags)",
+      "state": "done",
+      "progress": 1,
+      "count": "8/8",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "roof-houses",
+      "title": "Repaint 16 houses and shops whose low roofs look folded backwards",
+      "state": "in-progress",
+      "progress": 0.1875,
+      "count": "3/16",
+      "date": "",
+      "detail": ""
+     }
+    ]
+   },
+   {
+    "id": "identity",
+    "label": "City Identity",
+    "state": "in-progress",
+    "progress": 0.41595441595441596,
+    "items": [
+     {
+      "id": "lots-v4",
+      "title": "Each city's own architecture (New York, London, Baku, Tokyo, Emerald Coast, Ironforge)",
+      "state": "in-progress",
+      "progress": 0.24786324786324787,
+      "count": "29/117",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "lots-v5",
+      "title": "Later eras: 1920s Deco to 1950s towers",
+      "state": "todo",
+      "progress": 0,
+      "count": "0/41",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "redevelop",
+      "title": "Towns redevelop lot by lot over the decades",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-14",
+      "detail": ""
+     }
+    ]
+   },
+   {
+    "id": "next",
+    "label": "Next Up",
+    "state": "in-progress",
+    "progress": 0.05,
+    "items": [
+     {
+      "id": "rear-views",
+      "title": "Rear-view paintings for back-row lots (about 195 per world face away from the viewer)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "construction-paint",
+      "title": "Construction-site paintings (groundworks and scaffolded frame per lot size)",
+      "state": "in-progress",
+      "progress": 0.5,
+      "count": "6/12",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "construction-wire",
+      "title": "Show the construction-site paintings while buildings go up",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "greenery",
+      "title": "Leafier towns: trees in yards and between buildings",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "dense-core",
+      "title": "Denser, taller city cores",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "factory-match",
+      "title": "Factory art matches the product made",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "vacant-lots",
+      "title": "Vacant lots look intentional, not bare lawn squares",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "loading-bays",
+      "title": "Parked lorries at factory loading bays",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "city-plan-test",
+      "title": "Fix the long-failing city-plan regression check",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "ship",
+      "title": "Bring the new map into the main game (owner sign-off)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     }
+    ]
+   }
+  ]
+ },
+ "activity": {
+  "running": true,
+  "current": "Low-roof repaints",
+  "section": "low-roof repaints",
+  "recent": [
+   "done inst-hospital",
+   "tilted inst-hospital (attempt 2)",
+   "done inst-hospital",
+   "done apartments-model",
+   "done inst-library",
+   "done shop-pharmacy",
+   "done shop-cafe",
+   "done house-georgian",
+   "done house-turret",
+   "tilted house-turret (attempt 2)",
+   "done house-turret",
+   "done house-mediterranean"
+  ],
+  "paintedToday": 21,
+  "quotaReached": false,
+  "log": "queue-2026-10-15-1255.log"
+ },
+ "gallery": {
+  "buildings": [
+   {
+    "id": "res-townhouse",
+    "title": "Townhouse",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1850–1930",
+    "wave": "lots-v1",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/res-townhouse.webp",
+    "full": "img/buildings/res-townhouse-large.webp"
+   },
+   {
+    "id": "res-cottage",
+    "title": "Cottage",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1850–1930",
+    "wave": "lots-v1",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/res-cottage.webp",
+    "full": "img/buildings/res-cottage-large.webp"
+   },
+   {
+    "id": "res-brick-terrace",
+    "title": "Brick Terrace",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1860–1925",
+    "wave": "lots-v1",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/res-brick-terrace.webp",
+    "full": "img/buildings/res-brick-terrace-large.webp"
+   },
+   {
+    "id": "shop-corner",
+    "title": "Corner",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1850–1935",
+    "wave": "lots-v1",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-corner.webp",
+    "full": "img/buildings/shop-corner-large.webp"
+   },
+   {
+    "id": "terrace-row",
+    "title": "Row",
+    "role": "Terrace",
+    "city": "Shared European stock",
+    "era": "1850–1930",
+    "wave": "lots-v1",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/terrace-row.webp",
+    "full": "img/buildings/terrace-row-large.webp"
+   },
+   {
+    "id": "department-store",
+    "title": "Department Store",
+    "role": "Department store",
+    "city": "Shared European stock",
+    "era": "1890–1925",
+    "wave": "lots-v1",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/department-store.webp",
+    "full": "img/buildings/department-store-large.webp"
+   },
+   {
+    "id": "factory",
+    "title": "Factory",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1860–1935",
+    "wave": "lots-v1",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory.webp",
+    "full": "img/buildings/factory-large.webp"
+   },
+   {
+    "id": "apartment-block",
+    "title": "Apartment Block",
+    "role": "Apartments",
+    "city": "Shared European stock",
+    "era": "1880–1930",
+    "wave": "lots-v1",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/apartment-block.webp",
+    "full": "img/buildings/apartment-block-large.webp"
+   },
+   {
+    "id": "garden-backyard",
+    "title": "Backyard",
+    "role": "Garden",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v2",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/garden-backyard.webp",
+    "full": "img/buildings/garden-backyard-large.webp"
+   },
+   {
+    "id": "park-garden",
+    "title": "Garden",
+    "role": "Garden",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v2",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/park-garden.webp",
+    "full": "img/buildings/park-garden-large.webp"
+   },
+   {
+    "id": "park-gazebo",
+    "title": "Gazebo",
+    "role": "Park",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v2",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/park-gazebo.webp",
+    "full": "img/buildings/park-gazebo-large.webp"
+   },
+   {
+    "id": "plaza-fountain",
+    "title": "Fountain",
+    "role": "Square",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v2",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/plaza-fountain.webp",
+    "full": "img/buildings/plaza-fountain-large.webp"
+   },
+   {
+    "id": "civic-hall",
+    "title": "Hall",
+    "role": "City hall",
+    "city": "Shared European stock",
+    "era": "1870–1925",
+    "wave": "lots-v2",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/civic-hall.webp",
+    "full": "img/buildings/civic-hall-large.webp"
+   },
+   {
+    "id": "bank",
+    "title": "Bank",
+    "role": "Bank & offices",
+    "city": "Shared European stock",
+    "era": "1880–1930",
+    "wave": "lots-v2",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bank.webp",
+    "full": "img/buildings/bank-large.webp"
+   },
+   {
+    "id": "warehouse",
+    "title": "Warehouse",
+    "role": "Warehouse",
+    "city": "Shared European stock",
+    "era": "1860–1940",
+    "wave": "lots-v2",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/warehouse.webp",
+    "full": "img/buildings/warehouse-large.webp"
+   },
+   {
+    "id": "workshop",
+    "title": "Workshop",
+    "role": "Workshop",
+    "city": "Shared European stock",
+    "era": "1850–1940",
+    "wave": "lots-v2",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/workshop.webp",
+    "full": "img/buildings/workshop-large.webp"
+   },
+   {
+    "id": "shoprow",
+    "title": "Shoprow",
+    "role": "Shopping parade",
+    "city": "Shared European stock",
+    "era": "1890–1935",
+    "wave": "lots-v2",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/shoprow.webp",
+    "full": "img/buildings/shoprow-large.webp"
+   },
+   {
+    "id": "res-villa",
+    "title": "Villa",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1860–1925",
+    "wave": "lots-v2",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/res-villa.webp",
+    "full": "img/buildings/res-villa-large.webp"
+   },
+   {
+    "id": "res-apartment-small",
+    "title": "Apartment Small",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1860–1930",
+    "wave": "lots-v2",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/res-apartment-small.webp",
+    "full": "img/buildings/res-apartment-small-large.webp"
+   },
+   {
+    "id": "shop-bakery",
+    "title": "Bakery",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1850–1935",
+    "wave": "lots-v2",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-bakery.webp",
+    "full": "img/buildings/shop-bakery-large.webp"
+   },
+   {
+    "id": "farmstead",
+    "title": "Farmstead",
+    "role": "Farm",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v2",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/farmstead.webp",
+    "full": "img/buildings/farmstead-large.webp"
+   },
+   {
+    "id": "mine-head",
+    "title": "Head",
+    "role": "Mine",
+    "city": "Shared European stock",
+    "era": "1870–1950",
+    "wave": "lots-v2",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/mine-head.webp",
+    "full": "img/buildings/mine-head-large.webp"
+   },
+   {
+    "id": "house-tudor",
+    "title": "Tudor",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1890–1945",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-tudor.webp",
+    "full": "img/buildings/house-tudor-large.webp"
+   },
+   {
+    "id": "house-canal",
+    "title": "Canal",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1700–1925",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-canal.webp",
+    "full": "img/buildings/house-canal-large.webp"
+   },
+   {
+    "id": "house-deco",
+    "title": "Deco",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1928–1955",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-deco.webp",
+    "full": "img/buildings/house-deco-large.webp"
+   },
+   {
+    "id": "house-mediterranean",
+    "title": "Mediterranean",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1850–1940",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-mediterranean.webp",
+    "full": "img/buildings/house-mediterranean-large.webp"
+   },
+   {
+    "id": "house-semi",
+    "title": "Semi",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1895–1945",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-semi.webp",
+    "full": "img/buildings/house-semi-large.webp"
+   },
+   {
+    "id": "house-scandi",
+    "title": "Scandi",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1850–1935",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-scandi.webp",
+    "full": "img/buildings/house-scandi-large.webp"
+   },
+   {
+    "id": "house-turret",
+    "title": "Turret",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1870–1915",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-turret.webp",
+    "full": "img/buildings/house-turret-large.webp"
+   },
+   {
+    "id": "house-georgian",
+    "title": "Georgian",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1720–1945",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-georgian.webp",
+    "full": "img/buildings/house-georgian-large.webp"
+   },
+   {
+    "id": "house-chalet",
+    "title": "Chalet",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1850–1935",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-chalet.webp",
+    "full": "img/buildings/house-chalet-large.webp"
+   },
+   {
+    "id": "house-bungalow",
+    "title": "Bungalow",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1905–1935",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-bungalow.webp",
+    "full": "img/buildings/house-bungalow-large.webp"
+   },
+   {
+    "id": "house-worker",
+    "title": "Worker",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1850–1925",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-worker.webp",
+    "full": "img/buildings/house-worker-large.webp"
+   },
+   {
+    "id": "house-manor",
+    "title": "Manor",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1800–1930",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/house-manor.webp",
+    "full": "img/buildings/house-manor-large.webp"
+   },
+   {
+    "id": "shop-pharmacy",
+    "title": "Pharmacy",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1870–1935",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-pharmacy.webp",
+    "full": "img/buildings/shop-pharmacy-large.webp"
+   },
+   {
+    "id": "shop-tailor",
+    "title": "Tailor",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1870–1930",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-tailor.webp",
+    "full": "img/buildings/shop-tailor-large.webp"
+   },
+   {
+    "id": "shop-cafe",
+    "title": "Cafe",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1870–1935",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-cafe.webp",
+    "full": "img/buildings/shop-cafe-large.webp"
+   },
+   {
+    "id": "shop-butcher",
+    "title": "Butcher",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1870–1930",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-butcher.webp",
+    "full": "img/buildings/shop-butcher-large.webp"
+   },
+   {
+    "id": "shop-books",
+    "title": "Books",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1850–1930",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-books.webp",
+    "full": "img/buildings/shop-books-large.webp"
+   },
+   {
+    "id": "shop-hardware",
+    "title": "Hardware",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1880–1935",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/shop-hardware.webp",
+    "full": "img/buildings/shop-hardware-large.webp"
+   },
+   {
+    "id": "terrace-bay",
+    "title": "Bay",
+    "role": "Terrace",
+    "city": "Shared European stock",
+    "era": "1870–1914",
+    "wave": "lots-v3",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/terrace-bay.webp",
+    "full": "img/buildings/terrace-bay-large.webp"
+   },
+   {
+    "id": "terrace-georgian",
+    "title": "Georgian",
+    "role": "Terrace",
+    "city": "Shared European stock",
+    "era": "1750–1930",
+    "wave": "lots-v3",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/terrace-georgian.webp",
+    "full": "img/buildings/terrace-georgian-large.webp"
+   },
+   {
+    "id": "terrace-cottages",
+    "title": "Cottages",
+    "role": "Terrace",
+    "city": "Shared European stock",
+    "era": "1800–1925",
+    "wave": "lots-v3",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/terrace-cottages.webp",
+    "full": "img/buildings/terrace-cottages-large.webp"
+   },
+   {
+    "id": "terrace-mansard",
+    "title": "Mansard",
+    "role": "Terrace",
+    "city": "Shared European stock",
+    "era": "1860–1925",
+    "wave": "lots-v3",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/terrace-mansard.webp",
+    "full": "img/buildings/terrace-mansard-large.webp"
+   },
+   {
+    "id": "shoprow-arcade",
+    "title": "Arcade",
+    "role": "Shopping parade",
+    "city": "Shared European stock",
+    "era": "1880–1935",
+    "wave": "lots-v3",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/shoprow-arcade.webp",
+    "full": "img/buildings/shoprow-arcade-large.webp"
+   },
+   {
+    "id": "shoprow-deco",
+    "title": "Deco",
+    "role": "Shopping parade",
+    "city": "Shared European stock",
+    "era": "1928–1955",
+    "wave": "lots-v3",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/shoprow-deco.webp",
+    "full": "img/buildings/shoprow-deco-large.webp"
+   },
+   {
+    "id": "shoprow-market",
+    "title": "Market",
+    "role": "Shopping parade",
+    "city": "Shared European stock",
+    "era": "1850–1930",
+    "wave": "lots-v3",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/shoprow-market.webp",
+    "full": "img/buildings/shoprow-market-large.webp"
+   },
+   {
+    "id": "apartments-tenement",
+    "title": "Tenement",
+    "role": "Apartments",
+    "city": "Shared European stock",
+    "era": "1870–1920",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/apartments-tenement.webp",
+    "full": "img/buildings/apartments-tenement-large.webp"
+   },
+   {
+    "id": "apartments-deco",
+    "title": "Deco",
+    "role": "Apartments",
+    "city": "Shared European stock",
+    "era": "1926–1950",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/apartments-deco.webp",
+    "full": "img/buildings/apartments-deco-large.webp"
+   },
+   {
+    "id": "apartments-mansion",
+    "title": "Mansion",
+    "role": "Apartments",
+    "city": "Shared European stock",
+    "era": "1880–1914",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/apartments-mansion.webp",
+    "full": "img/buildings/apartments-mansion-large.webp"
+   },
+   {
+    "id": "apartments-model",
+    "title": "Model",
+    "role": "Apartments",
+    "city": "Shared European stock",
+    "era": "1860–1914",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/apartments-model.webp",
+    "full": "img/buildings/apartments-model-large.webp"
+   },
+   {
+    "id": "apartments-court",
+    "title": "Court",
+    "role": "Apartments",
+    "city": "Shared European stock",
+    "era": "1890–1925",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/apartments-court.webp",
+    "full": "img/buildings/apartments-court-large.webp"
+   },
+   {
+    "id": "store-market-hall",
+    "title": "Market Hall",
+    "role": "Department store",
+    "city": "Shared European stock",
+    "era": "1860–1925",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/store-market-hall.webp",
+    "full": "img/buildings/store-market-hall-large.webp"
+   },
+   {
+    "id": "store-hotel",
+    "title": "Hotel",
+    "role": "Department store",
+    "city": "Shared European stock",
+    "era": "1890–1930",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/store-hotel.webp",
+    "full": "img/buildings/store-hotel-large.webp"
+   },
+   {
+    "id": "store-nouveau",
+    "title": "Nouveau",
+    "role": "Department store",
+    "city": "Shared European stock",
+    "era": "1895–1914",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/store-nouveau.webp",
+    "full": "img/buildings/store-nouveau-large.webp"
+   },
+   {
+    "id": "store-emporium-brick",
+    "title": "Emporium Brick",
+    "role": "Department store",
+    "city": "Shared European stock",
+    "era": "1870–1920",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/store-emporium-brick.webp",
+    "full": "img/buildings/store-emporium-brick-large.webp"
+   },
+   {
+    "id": "bank-insurance",
+    "title": "Insurance",
+    "role": "Bank & offices",
+    "city": "Shared European stock",
+    "era": "1905–1935",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bank-insurance.webp",
+    "full": "img/buildings/bank-insurance-large.webp"
+   },
+   {
+    "id": "bank-exchange",
+    "title": "Exchange",
+    "role": "Bank & offices",
+    "city": "Shared European stock",
+    "era": "1860–1930",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bank-exchange.webp",
+    "full": "img/buildings/bank-exchange-large.webp"
+   },
+   {
+    "id": "civic-belfry",
+    "title": "Belfry",
+    "role": "City hall",
+    "city": "Shared European stock",
+    "era": "1850–1915",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/civic-belfry.webp",
+    "full": "img/buildings/civic-belfry-large.webp"
+   },
+   {
+    "id": "civic-victorian",
+    "title": "Victorian",
+    "role": "City hall",
+    "city": "Shared European stock",
+    "era": "1860–1915",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/civic-victorian.webp",
+    "full": "img/buildings/civic-victorian-large.webp"
+   },
+   {
+    "id": "civic-deco",
+    "title": "Deco",
+    "role": "City hall",
+    "city": "Shared European stock",
+    "era": "1928–1955",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/civic-deco.webp",
+    "full": "img/buildings/civic-deco-large.webp"
+   },
+   {
+    "id": "inst-school",
+    "title": "School",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1870–1925",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-school.webp",
+    "full": "img/buildings/inst-school-large.webp"
+   },
+   {
+    "id": "inst-church",
+    "title": "Church",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1840–1930",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-church.webp",
+    "full": "img/buildings/inst-church-large.webp"
+   },
+   {
+    "id": "inst-post",
+    "title": "Post",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1880–1935",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-post.webp",
+    "full": "img/buildings/inst-post-large.webp"
+   },
+   {
+    "id": "inst-library",
+    "title": "Library",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1880–1935",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-library.webp",
+    "full": "img/buildings/inst-library-large.webp"
+   },
+   {
+    "id": "inst-fire",
+    "title": "Fire",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1880–1930",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-fire.webp",
+    "full": "img/buildings/inst-fire-large.webp"
+   },
+   {
+    "id": "inst-police",
+    "title": "Police",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1870–1930",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-police.webp",
+    "full": "img/buildings/inst-police-large.webp"
+   },
+   {
+    "id": "inst-hospital",
+    "title": "Hospital",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1880–1935",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-hospital.webp",
+    "full": "img/buildings/inst-hospital-large.webp"
+   },
+   {
+    "id": "inst-theatre",
+    "title": "Theatre",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1870–1925",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-theatre.webp",
+    "full": "img/buildings/inst-theatre-large.webp"
+   },
+   {
+    "id": "inst-museum",
+    "title": "Museum",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1870–1915",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-museum.webp",
+    "full": "img/buildings/inst-museum-large.webp"
+   },
+   {
+    "id": "inst-court",
+    "title": "Court",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1850–1935",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-court.webp",
+    "full": "img/buildings/inst-court-large.webp"
+   },
+   {
+    "id": "inst-baths",
+    "title": "Baths",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1870–1925",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-baths.webp",
+    "full": "img/buildings/inst-baths-large.webp"
+   },
+   {
+    "id": "factory-textile",
+    "title": "Textile",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1850–1930",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-textile.webp",
+    "full": "img/buildings/factory-textile-large.webp"
+   },
+   {
+    "id": "factory-brewery",
+    "title": "Brewery",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1850–1930",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-brewery.webp",
+    "full": "img/buildings/factory-brewery-large.webp"
+   },
+   {
+    "id": "factory-steel",
+    "title": "Steel",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1870–1950",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-steel.webp",
+    "full": "img/buildings/factory-steel-large.webp"
+   },
+   {
+    "id": "factory-brick",
+    "title": "Brick",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1860–1940",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-brick.webp",
+    "full": "img/buildings/factory-brick-large.webp"
+   },
+   {
+    "id": "factory-cannery",
+    "title": "Cannery",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1880–1940",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-cannery.webp",
+    "full": "img/buildings/factory-cannery-large.webp"
+   },
+   {
+    "id": "factory-chemical",
+    "title": "Chemical",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1890–1950",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-chemical.webp",
+    "full": "img/buildings/factory-chemical-large.webp"
+   },
+   {
+    "id": "factory-sawmill",
+    "title": "Sawmill",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1850–1940",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-sawmill.webp",
+    "full": "img/buildings/factory-sawmill-large.webp"
+   },
+   {
+    "id": "factory-power",
+    "title": "Power",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1895–1945",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-power.webp",
+    "full": "img/buildings/factory-power-large.webp"
+   },
+   {
+    "id": "factory-gas",
+    "title": "Gas",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1850–1935",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-gas.webp",
+    "full": "img/buildings/factory-gas-large.webp"
+   },
+   {
+    "id": "factory-printing",
+    "title": "Printing",
+    "role": "Factory",
+    "city": "Shared European stock",
+    "era": "1880–1940",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/factory-printing.webp",
+    "full": "img/buildings/factory-printing-large.webp"
+   },
+   {
+    "id": "warehouse-bonded",
+    "title": "Bonded",
+    "role": "Warehouse",
+    "city": "Shared European stock",
+    "era": "1830–1925",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/warehouse-bonded.webp",
+    "full": "img/buildings/warehouse-bonded-large.webp"
+   },
+   {
+    "id": "warehouse-shed",
+    "title": "Shed",
+    "role": "Warehouse",
+    "city": "Shared European stock",
+    "era": "1860–1945",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/warehouse-shed.webp",
+    "full": "img/buildings/warehouse-shed-large.webp"
+   },
+   {
+    "id": "warehouse-cold",
+    "title": "Cold",
+    "role": "Warehouse",
+    "city": "Shared European stock",
+    "era": "1925–1960",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/warehouse-cold.webp",
+    "full": "img/buildings/warehouse-cold-large.webp"
+   },
+   {
+    "id": "warehouse-grain",
+    "title": "Grain",
+    "role": "Warehouse",
+    "city": "Shared European stock",
+    "era": "1870–1945",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/warehouse-grain.webp",
+    "full": "img/buildings/warehouse-grain-large.webp"
+   },
+   {
+    "id": "workshop-garage",
+    "title": "Garage",
+    "role": "Workshop",
+    "city": "Shared European stock",
+    "era": "1920–1960",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/workshop-garage.webp",
+    "full": "img/buildings/workshop-garage-large.webp"
+   },
+   {
+    "id": "workshop-cooper",
+    "title": "Cooper",
+    "role": "Workshop",
+    "city": "Shared European stock",
+    "era": "1800–1930",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/workshop-cooper.webp",
+    "full": "img/buildings/workshop-cooper-large.webp"
+   },
+   {
+    "id": "workshop-stable",
+    "title": "Stable",
+    "role": "Workshop",
+    "city": "Shared European stock",
+    "era": "1800–1925",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/workshop-stable.webp",
+    "full": "img/buildings/workshop-stable-large.webp"
+   },
+   {
+    "id": "workshop-print",
+    "title": "Print",
+    "role": "Workshop",
+    "city": "Shared European stock",
+    "era": "1850–1940",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/workshop-print.webp",
+    "full": "img/buildings/workshop-print-large.webp"
+   },
+   {
+    "id": "farm-dairy",
+    "title": "Dairy",
+    "role": "Farm",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/farm-dairy.webp",
+    "full": "img/buildings/farm-dairy-large.webp"
+   },
+   {
+    "id": "farm-orchard",
+    "title": "Orchard",
+    "role": "Farm",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/farm-orchard.webp",
+    "full": "img/buildings/farm-orchard-large.webp"
+   },
+   {
+    "id": "farm-windmill",
+    "title": "Windmill",
+    "role": "Farm",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/farm-windmill.webp",
+    "full": "img/buildings/farm-windmill-large.webp"
+   },
+   {
+    "id": "mine-quarry",
+    "title": "Quarry",
+    "role": "Mine",
+    "city": "Shared European stock",
+    "era": "0+",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/mine-quarry.webp",
+    "full": "img/buildings/mine-quarry-large.webp"
+   },
+   {
+    "id": "mine-oil",
+    "title": "Oil",
+    "role": "Mine",
+    "city": "Shared European stock",
+    "era": "1870+",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/mine-oil.webp",
+    "full": "img/buildings/mine-oil-large.webp"
+   },
+   {
+    "id": "park-formal",
+    "title": "Formal",
+    "role": "Park",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/park-formal.webp",
+    "full": "img/buildings/park-formal-large.webp"
+   },
+   {
+    "id": "park-lake",
+    "title": "Lake",
+    "role": "Park",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/park-lake.webp",
+    "full": "img/buildings/park-lake-large.webp"
+   },
+   {
+    "id": "park-sports",
+    "title": "Sports",
+    "role": "Park",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/park-sports.webp",
+    "full": "img/buildings/park-sports-large.webp"
+   },
+   {
+    "id": "garden-allotment",
+    "title": "Allotment",
+    "role": "Garden",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/garden-allotment.webp",
+    "full": "img/buildings/garden-allotment-large.webp"
+   },
+   {
+    "id": "garden-courtyard",
+    "title": "Courtyard",
+    "role": "Garden",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/garden-courtyard.webp",
+    "full": "img/buildings/garden-courtyard-large.webp"
+   },
+   {
+    "id": "garden-orchard",
+    "title": "Orchard",
+    "role": "Garden",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/garden-orchard.webp",
+    "full": "img/buildings/garden-orchard-large.webp"
+   },
+   {
+    "id": "park-rose",
+    "title": "Rose",
+    "role": "Garden",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/park-rose.webp",
+    "full": "img/buildings/park-rose-large.webp"
+   },
+   {
+    "id": "park-play",
+    "title": "Play",
+    "role": "Garden",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/park-play.webp",
+    "full": "img/buildings/park-play-large.webp"
+   },
+   {
+    "id": "plaza-statue",
+    "title": "Statue",
+    "role": "Square",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/plaza-statue.webp",
+    "full": "img/buildings/plaza-statue-large.webp"
+   },
+   {
+    "id": "plaza-market",
+    "title": "Market",
+    "role": "Square",
+    "city": "Shared European stock",
+    "era": "",
+    "wave": "lots-v3",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/plaza-market.webp",
+    "full": "img/buildings/plaza-market-large.webp"
+   },
+   {
+    "id": "inst-exchange",
+    "title": "Exchange",
+    "role": "Public building",
+    "city": "Shared European stock",
+    "era": "1900–1935",
+    "wave": "lots-v3",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/inst-exchange.webp",
+    "full": "img/buildings/inst-exchange-large.webp"
+   },
+   {
+    "id": "ny-brownstone",
+    "title": "Brownstone",
+    "role": "House",
+    "city": "Metropolis Prime (New York)",
+    "era": "1850–1915",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-brownstone.webp",
+    "full": "img/buildings/ny-brownstone-large.webp"
+   },
+   {
+    "id": "ny-walkup",
+    "title": "Walkup",
+    "role": "House",
+    "city": "Metropolis Prime (New York)",
+    "era": "1880–1932",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-walkup.webp",
+    "full": "img/buildings/ny-walkup-large.webp"
+   },
+   {
+    "id": "ny-queen-anne",
+    "title": "Queen Anne",
+    "role": "House",
+    "city": "Metropolis Prime (New York)",
+    "era": "1880–1910",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-queen-anne.webp",
+    "full": "img/buildings/ny-queen-anne-large.webp"
+   },
+   {
+    "id": "ny-federal",
+    "title": "Federal",
+    "role": "House",
+    "city": "Metropolis Prime (New York)",
+    "era": "1790–1850",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-federal.webp",
+    "full": "img/buildings/ny-federal-large.webp"
+   },
+   {
+    "id": "ny-frame-house",
+    "title": "Frame House",
+    "role": "House",
+    "city": "Metropolis Prime (New York)",
+    "era": "1870–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-frame-house.webp",
+    "full": "img/buildings/ny-frame-house-large.webp"
+   },
+   {
+    "id": "ny-limestone",
+    "title": "Limestone",
+    "role": "House",
+    "city": "Metropolis Prime (New York)",
+    "era": "1890–1930",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-limestone.webp",
+    "full": "img/buildings/ny-limestone-large.webp"
+   },
+   {
+    "id": "ny-cast-iron-store",
+    "title": "Cast Iron Store",
+    "role": "Shop",
+    "city": "Metropolis Prime (New York)",
+    "era": "1855–1900",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-cast-iron-store.webp",
+    "full": "img/buildings/ny-cast-iron-store-large.webp"
+   },
+   {
+    "id": "ny-corner-saloon",
+    "title": "Corner Saloon",
+    "role": "Shop",
+    "city": "Metropolis Prime (New York)",
+    "era": "1880–1930",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-corner-saloon.webp",
+    "full": "img/buildings/ny-corner-saloon-large.webp"
+   },
+   {
+    "id": "ny-diner",
+    "title": "Diner",
+    "role": "Shop",
+    "city": "Metropolis Prime (New York)",
+    "era": "1926–1955",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ny-diner.webp",
+    "full": "img/buildings/ny-diner-large.webp"
+   },
+   {
+    "id": "ny-brownstone-row",
+    "title": "Brownstone Row",
+    "role": "Terrace",
+    "city": "Metropolis Prime (New York)",
+    "era": "1850–1915",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/ny-brownstone-row.webp",
+    "full": "img/buildings/ny-brownstone-row-large.webp"
+   },
+   {
+    "id": "ny-tenement-block",
+    "title": "Tenement Block",
+    "role": "Apartments",
+    "city": "Metropolis Prime (New York)",
+    "era": "1880–1929",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ny-tenement-block.webp",
+    "full": "img/buildings/ny-tenement-block-large.webp"
+   },
+   {
+    "id": "ny-apartment-hotel",
+    "title": "Apartment Hotel",
+    "role": "Apartments",
+    "city": "Metropolis Prime (New York)",
+    "era": "1885–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ny-apartment-hotel.webp",
+    "full": "img/buildings/ny-apartment-hotel-large.webp"
+   },
+   {
+    "id": "ny-ladies-mile-store",
+    "title": "Ladies Mile Store",
+    "role": "Department store",
+    "city": "Metropolis Prime (New York)",
+    "era": "1860–1910",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ny-ladies-mile-store.webp",
+    "full": "img/buildings/ny-ladies-mile-store-large.webp"
+   },
+   {
+    "id": "ny-early-skyscraper",
+    "title": "Early Skyscraper",
+    "role": "Bank & offices",
+    "city": "Metropolis Prime (New York)",
+    "era": "1898–1920",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ny-early-skyscraper.webp",
+    "full": "img/buildings/ny-early-skyscraper-large.webp"
+   },
+   {
+    "id": "ny-public-school",
+    "title": "Public School",
+    "role": "Public building",
+    "city": "Metropolis Prime (New York)",
+    "era": "1895–1935",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ny-public-school.webp",
+    "full": "img/buildings/ny-public-school-large.webp"
+   },
+   {
+    "id": "ny-loft-factory",
+    "title": "Loft Factory",
+    "role": "Factory",
+    "city": "Metropolis Prime (New York)",
+    "era": "1880–1925",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ny-loft-factory.webp",
+    "full": "img/buildings/ny-loft-factory-large.webp"
+   },
+   {
+    "id": "ny-terminal-warehouse",
+    "title": "Terminal Warehouse",
+    "role": "Warehouse",
+    "city": "Metropolis Prime (New York)",
+    "era": "1880–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ny-terminal-warehouse.webp",
+    "full": "img/buildings/ny-terminal-warehouse-large.webp"
+   },
+   {
+    "id": "ldn-stock-brick-house",
+    "title": "Stock Brick House",
+    "role": "House",
+    "city": "Sterling Harbour (London)",
+    "era": "1850–1910",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-stock-brick-house.webp",
+    "full": "img/buildings/ldn-stock-brick-house-large.webp"
+   },
+   {
+    "id": "ldn-regency-villa",
+    "title": "Regency Villa",
+    "role": "House",
+    "city": "Sterling Harbour (London)",
+    "era": "1810–1850",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-regency-villa.webp",
+    "full": "img/buildings/ldn-regency-villa-large.webp"
+   },
+   {
+    "id": "ldn-arts-crafts",
+    "title": "Arts Crafts",
+    "role": "House",
+    "city": "Sterling Harbour (London)",
+    "era": "1890–1935",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-arts-crafts.webp",
+    "full": "img/buildings/ldn-arts-crafts-large.webp"
+   },
+   {
+    "id": "ldn-gothic-villa",
+    "title": "Gothic Villa",
+    "role": "House",
+    "city": "Sterling Harbour (London)",
+    "era": "1850–1890",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-gothic-villa.webp",
+    "full": "img/buildings/ldn-gothic-villa-large.webp"
+   },
+   {
+    "id": "ldn-mews-house",
+    "title": "Mews House",
+    "role": "House",
+    "city": "Sterling Harbour (London)",
+    "era": "1820–1900",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-mews-house.webp",
+    "full": "img/buildings/ldn-mews-house-large.webp"
+   },
+   {
+    "id": "ldn-edwardian-semi",
+    "title": "Edwardian Semi",
+    "role": "House",
+    "city": "Sterling Harbour (London)",
+    "era": "1900–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-edwardian-semi.webp",
+    "full": "img/buildings/ldn-edwardian-semi-large.webp"
+   },
+   {
+    "id": "ldn-corner-pub",
+    "title": "Corner Pub",
+    "role": "Shop",
+    "city": "Sterling Harbour (London)",
+    "era": "1840–1939",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-corner-pub.webp",
+    "full": "img/buildings/ldn-corner-pub-large.webp"
+   },
+   {
+    "id": "ldn-bow-shop",
+    "title": "Bow Shop",
+    "role": "Shop",
+    "city": "Sterling Harbour (London)",
+    "era": "1780–1850",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-bow-shop.webp",
+    "full": "img/buildings/ldn-bow-shop-large.webp"
+   },
+   {
+    "id": "ldn-tube-station",
+    "title": "Tube Station",
+    "role": "Shop",
+    "city": "Sterling Harbour (London)",
+    "era": "1903–1912",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/ldn-tube-station.webp",
+    "full": "img/buildings/ldn-tube-station-large.webp"
+   },
+   {
+    "id": "ldn-stucco-terrace",
+    "title": "Stucco Terrace",
+    "role": "Terrace",
+    "city": "Sterling Harbour (London)",
+    "era": "1820–1860",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/ldn-stucco-terrace.webp",
+    "full": "img/buildings/ldn-stucco-terrace-large.webp"
+   },
+   {
+    "id": "ldn-victorian-terrace",
+    "title": "Victorian Terrace",
+    "role": "Terrace",
+    "city": "Sterling Harbour (London)",
+    "era": "1860–1905",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/ldn-victorian-terrace.webp",
+    "full": "img/buildings/ldn-victorian-terrace-large.webp"
+   },
+   {
+    "id": "ldn-mansion-flats",
+    "title": "Mansion Flats",
+    "role": "Apartments",
+    "city": "Sterling Harbour (London)",
+    "era": "1880–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-mansion-flats.webp",
+    "full": "img/buildings/ldn-mansion-flats-large.webp"
+   }
+  ],
+  "deposits": [
+   {
+    "id": "deposit-iron_ore",
+    "title": "Iron Ore",
+    "thumb": "img/deposits/deposit-iron_ore.webp"
+   },
+   {
+    "id": "deposit-bauxite",
+    "title": "Bauxite",
+    "thumb": "img/deposits/deposit-bauxite.webp"
+   },
+   {
+    "id": "deposit-coal",
+    "title": "Coal",
+    "thumb": "img/deposits/deposit-coal.webp"
+   },
+   {
+    "id": "deposit-crude_oil",
+    "title": "Crude Oil",
+    "thumb": "img/deposits/deposit-crude_oil.webp"
+   },
+   {
+    "id": "deposit-copper",
+    "title": "Copper",
+    "thumb": "img/deposits/deposit-copper.webp"
+   },
+   {
+    "id": "deposit-gold",
+    "title": "Gold",
+    "thumb": "img/deposits/deposit-gold.webp"
+   },
+   {
+    "id": "deposit-silver",
+    "title": "Silver",
+    "thumb": "img/deposits/deposit-silver.webp"
+   },
+   {
+    "id": "deposit-silica",
+    "title": "Silica",
+    "thumb": "img/deposits/deposit-silica.webp"
+   },
+   {
+    "id": "deposit-industrial_minerals",
+    "title": "Industrial Minerals",
+    "thumb": "img/deposits/deposit-industrial_minerals.webp"
+   },
+   {
+    "id": "deposit-timber",
+    "title": "Timber",
+    "thumb": "img/deposits/deposit-timber.webp"
+   }
+  ],
+  "vehicles": [
+   {
+    "id": "car",
+    "title": "Car",
+    "kind": "car",
+    "era": "",
+    "thumb": "img/vehicles/vehicles-v1-car.webp"
+   },
+   {
+    "id": "lorry",
+    "title": "Lorry",
+    "kind": "lorry",
+    "era": "",
+    "thumb": "img/vehicles/vehicles-v1-lorry.webp"
+   },
+   {
+    "id": "bus",
+    "title": "Bus",
+    "kind": "bus",
+    "era": "",
+    "thumb": "img/vehicles/vehicles-v1-bus.webp"
+   },
+   {
+    "id": "cart",
+    "title": "Cart",
+    "kind": "cart",
+    "era": "",
+    "thumb": "img/vehicles/vehicles-v1-cart.webp"
+   },
+   {
+    "id": "cart-baker",
+    "title": "Cart Baker",
+    "kind": "cart",
+    "era": "1900–1936",
+    "thumb": "img/vehicles/vehicles-v2-cart-baker.webp"
+   },
+   {
+    "id": "cart-cab",
+    "title": "Cart Cab",
+    "kind": "cart",
+    "era": "1900–1932",
+    "thumb": "img/vehicles/vehicles-v2-cart-cab.webp"
+   },
+   {
+    "id": "cart-coal",
+    "title": "Cart Coal",
+    "kind": "cart",
+    "era": "1900–1936",
+    "thumb": "img/vehicles/vehicles-v2-cart-coal.webp"
+   },
+   {
+    "id": "cart-farm",
+    "title": "Cart Farm",
+    "kind": "cart",
+    "era": "1900–1936",
+    "thumb": "img/vehicles/vehicles-v2-cart-farm.webp"
+   },
+   {
+    "id": "car-taxi",
+    "title": "Car Taxi",
+    "kind": "car",
+    "era": "1908–1935",
+    "thumb": "img/vehicles/vehicles-v2-car-taxi.webp"
+   },
+   {
+    "id": "car-tourer",
+    "title": "Car Tourer",
+    "kind": "car",
+    "era": "1900–1928",
+    "thumb": "img/vehicles/vehicles-v2-car-tourer.webp"
+   },
+   {
+    "id": "car-van",
+    "title": "Car Van",
+    "kind": "car",
+    "era": "1928+",
+    "thumb": "img/vehicles/vehicles-v2-car-van.webp"
+   },
+   {
+    "id": "car-coupe",
+    "title": "Car Coupe",
+    "kind": "car",
+    "era": "1930+",
+    "thumb": "img/vehicles/vehicles-v2-car-coupe.webp"
+   },
+   {
+    "id": "bus-omnibus",
+    "title": "Bus Omnibus",
+    "kind": "bus",
+    "era": "1900–1930",
+    "thumb": "img/vehicles/vehicles-v3-bus-omnibus.webp"
+   },
+   {
+    "id": "lorry-chain",
+    "title": "Lorry Chain",
+    "kind": "lorry",
+    "era": "1900–1931",
+    "thumb": "img/vehicles/vehicles-v3-lorry-chain.webp"
+   },
+   {
+    "id": "lorry-steam",
+    "title": "Lorry Steam",
+    "kind": "lorry",
+    "era": "1900–1932",
+    "thumb": "img/vehicles/vehicles-v3-lorry-steam.webp"
+   },
+   {
+    "id": "car-runabout",
+    "title": "Car Runabout",
+    "kind": "car",
+    "era": "1900–1928",
+    "thumb": "img/vehicles/vehicles-v3-car-runabout.webp"
+   },
+   {
+    "id": "bus-double",
+    "title": "Bus Double",
+    "kind": "bus",
+    "era": "1934+",
+    "thumb": "img/vehicles/vehicles-v3-bus-double.webp"
+   },
+   {
+    "id": "car-streamline",
+    "title": "Car Streamline",
+    "kind": "car",
+    "era": "1936+",
+    "thumb": "img/vehicles/vehicles-v3-car-streamline.webp"
+   },
+   {
+    "id": "lorry-box",
+    "title": "Lorry Box",
+    "kind": "lorry",
+    "era": "1936+",
+    "thumb": "img/vehicles/vehicles-v3-lorry-box.webp"
+   },
+   {
+    "id": "lorry-tanker",
+    "title": "Lorry Tanker",
+    "kind": "lorry",
+    "era": "1934+",
+    "thumb": "img/vehicles/vehicles-v3-lorry-tanker.webp"
+   }
+  ],
+  "products": [
+   {
+    "id": "iron_ore",
+    "title": "Iron Ore",
+    "thumb": "img/products/iron_ore.webp"
+   },
+   {
+    "id": "bauxite",
+    "title": "Bauxite",
+    "thumb": "img/products/bauxite.webp"
+   },
+   {
+    "id": "coal",
+    "title": "Coal",
+    "thumb": "img/products/coal.webp"
+   },
+   {
+    "id": "crude_oil",
+    "title": "Crude Oil",
+    "thumb": "img/products/crude_oil.webp"
+   },
+   {
+    "id": "copper",
+    "title": "Copper",
+    "thumb": "img/products/copper.webp"
+   },
+   {
+    "id": "gold",
+    "title": "Gold",
+    "thumb": "img/products/gold.webp"
+   },
+   {
+    "id": "silver",
+    "title": "Silver",
+    "thumb": "img/products/silver.webp"
+   },
+   {
+    "id": "silica",
+    "title": "Silica",
+    "thumb": "img/products/silica.webp"
+   },
+   {
+    "id": "industrial_minerals",
+    "title": "Industrial Minerals",
+    "thumb": "img/products/industrial_minerals.webp"
+   },
+   {
+    "id": "timber",
+    "title": "Timber",
+    "thumb": "img/products/timber.webp"
+   },
+   {
+    "id": "wheat",
+    "title": "Wheat",
+    "thumb": "img/products/wheat.webp"
+   },
+   {
+    "id": "barley",
+    "title": "Barley",
+    "thumb": "img/products/barley.webp"
+   },
+   {
+    "id": "corn",
+    "title": "Corn",
+    "thumb": "img/products/corn.webp"
+   },
+   {
+    "id": "sugar_cane",
+    "title": "Sugar Cane",
+    "thumb": "img/products/sugar_cane.webp"
+   },
+   {
+    "id": "cocoa",
+    "title": "Cocoa",
+    "thumb": "img/products/cocoa.webp"
+   },
+   {
+    "id": "cotton",
+    "title": "Cotton",
+    "thumb": "img/products/cotton.webp"
+   },
+   {
+    "id": "grapes",
+    "title": "Grapes",
+    "thumb": "img/products/grapes.webp"
+   },
+   {
+    "id": "tobacco",
+    "title": "Tobacco",
+    "thumb": "img/products/tobacco.webp"
+   },
+   {
+    "id": "natural_rubber",
+    "title": "Natural Rubber",
+    "thumb": "img/products/natural_rubber.webp"
+   },
+   {
+    "id": "coffee",
+    "title": "Coffee",
+    "thumb": "img/products/coffee.webp"
+   },
+   {
+    "id": "tea",
+    "title": "Tea",
+    "thumb": "img/products/tea.webp"
+   },
+   {
+    "id": "potatoes",
+    "title": "Potatoes",
+    "thumb": "img/products/potatoes.webp"
+   },
+   {
+    "id": "tomatoes",
+    "title": "Tomatoes",
+    "thumb": "img/products/tomatoes.webp"
+   },
+   {
+    "id": "peanuts",
+    "title": "Peanuts",
+    "thumb": "img/products/peanuts.webp"
+   },
+   {
+    "id": "flax",
+    "title": "Flax",
+    "thumb": "img/products/flax.webp"
+   },
+   {
+    "id": "oranges",
+    "title": "Oranges",
+    "thumb": "img/products/oranges.webp"
+   },
+   {
+    "id": "lemons",
+    "title": "Lemons",
+    "thumb": "img/products/lemons.webp"
+   },
+   {
+    "id": "apples",
+    "title": "Apples",
+    "thumb": "img/products/apples.webp"
+   },
+   {
+    "id": "beef",
+    "title": "Beef",
+    "thumb": "img/products/beef.webp"
+   },
+   {
+    "id": "milk",
+    "title": "Milk",
+    "thumb": "img/products/milk.webp"
+   },
+   {
+    "id": "hide",
+    "title": "Hide",
+    "thumb": "img/products/hide.webp"
+   },
+   {
+    "id": "tallow",
+    "title": "Tallow",
+    "thumb": "img/products/tallow.webp"
+   },
+   {
+    "id": "chicken",
+    "title": "Chicken",
+    "thumb": "img/products/chicken.webp"
+   },
+   {
+    "id": "eggs",
+    "title": "Eggs",
+    "thumb": "img/products/eggs.webp"
+   },
+   {
+    "id": "pork",
+    "title": "Pork",
+    "thumb": "img/products/pork.webp"
+   },
+   {
+    "id": "mutton",
+    "title": "Mutton",
+    "thumb": "img/products/mutton.webp"
+   },
+   {
+    "id": "wool",
+    "title": "Wool",
+    "thumb": "img/products/wool.webp"
+   },
+   {
+    "id": "steel",
+    "title": "Steel",
+    "thumb": "img/products/steel.webp"
+   },
+   {
+    "id": "aluminum",
+    "title": "Aluminum",
+    "thumb": "img/products/aluminum.webp"
+   },
+   {
+    "id": "glass",
+    "title": "Glass",
+    "thumb": "img/products/glass.webp"
+   },
+   {
+    "id": "industrial_chemicals",
+    "title": "Industrial Chemicals",
+    "thumb": "img/products/industrial_chemicals.webp"
+   },
+   {
+    "id": "plastic",
+    "title": "Plastic",
+    "thumb": "img/products/plastic.webp"
+   },
+   {
+    "id": "rubber_compound",
+    "title": "Rubber Compound",
+    "thumb": "img/products/rubber_compound.webp"
+   },
+   {
+    "id": "lumber",
+    "title": "Lumber",
+    "thumb": "img/products/lumber.webp"
+   },
+   {
+    "id": "wood_pulp",
+    "title": "Wood Pulp",
+    "thumb": "img/products/wood_pulp.webp"
+   },
+   {
+    "id": "paper",
+    "title": "Paper",
+    "thumb": "img/products/paper.webp"
+   },
+   {
+    "id": "copper_wire",
+    "title": "Copper Wire",
+    "thumb": "img/products/copper_wire.webp"
+   },
+   {
+    "id": "silicon",
+    "title": "Silicon",
+    "thumb": "img/products/silicon.webp"
+   },
+   {
+    "id": "microchips",
+    "title": "Microchips",
+    "thumb": "img/products/microchips.webp"
+   },
+   {
+    "id": "electrical_components",
+    "title": "Electrical Components",
+    "thumb": "img/products/electrical_components.webp"
+   },
+   {
+    "id": "electronics",
+    "title": "Electronics",
+    "thumb": "img/products/electronics.webp"
+   },
+   {
+    "id": "processor",
+    "title": "Processor",
+    "thumb": "img/products/processor.webp"
+   },
+   {
+    "id": "machine_parts",
+    "title": "Machine Parts",
+    "thumb": "img/products/machine_parts.webp"
+   },
+   {
+    "id": "engine",
+    "title": "Engine",
+    "thumb": "img/products/engine.webp"
+   },
+   {
+    "id": "car_body",
+    "title": "Car Body",
+    "thumb": "img/products/car_body.webp"
+   },
+   {
+    "id": "tire",
+    "title": "Tire",
+    "thumb": "img/products/tire.webp"
+   },
+   {
+    "id": "fabric",
+    "title": "Fabric",
+    "thumb": "img/products/fabric.webp"
+   },
+   {
+    "id": "wool_fabric",
+    "title": "Wool Fabric",
+    "thumb": "img/products/wool_fabric.webp"
+   },
+   {
+    "id": "linen",
+    "title": "Linen",
+    "thumb": "img/products/linen.webp"
+   },
+   {
+    "id": "leather",
+    "title": "Leather",
+    "thumb": "img/products/leather.webp"
+   },
+   {
+    "id": "flour",
+    "title": "Flour",
+    "thumb": "img/products/flour.webp"
+   },
+   {
+    "id": "sugar",
+    "title": "Sugar",
+    "thumb": "img/products/sugar.webp"
+   },
+   {
+    "id": "cooking_oil",
+    "title": "Cooking Oil",
+    "thumb": "img/products/cooking_oil.webp"
+   },
+   {
+    "id": "fragrance_concentrate",
+    "title": "Fragrance Concentrate",
+    "thumb": "img/products/fragrance_concentrate.webp"
+   },
+   {
+    "id": "bread",
+    "title": "Bread",
+    "thumb": "img/products/bread.webp"
+   },
+   {
+    "id": "pasta",
+    "title": "Pasta",
+    "thumb": "img/products/pasta.webp"
+   },
+   {
+    "id": "biscuits",
+    "title": "Biscuits",
+    "thumb": "img/products/biscuits.webp"
+   },
+   {
+    "id": "breakfast_cereal",
+    "title": "Breakfast Cereal",
+    "thumb": "img/products/breakfast_cereal.webp"
+   },
+   {
+    "id": "chocolate",
+    "title": "Chocolate",
+    "thumb": "img/products/chocolate.webp"
+   },
+   {
+    "id": "cheese",
+    "title": "Cheese",
+    "thumb": "img/products/cheese.webp"
+   },
+   {
+    "id": "ice_cream",
+    "title": "Ice Cream",
+    "thumb": "img/products/ice_cream.webp"
+   },
+   {
+    "id": "peanut_butter",
+    "title": "Peanut Butter",
+    "thumb": "img/products/peanut_butter.webp"
+   },
+   {
+    "id": "tomato_sauce",
+    "title": "Tomato Sauce",
+    "thumb": "img/products/tomato_sauce.webp"
+   },
+   {
+    "id": "potato_chips",
+    "title": "Potato Chips",
+    "thumb": "img/products/potato_chips.webp"
+   },
+   {
+    "id": "orange_juice",
+    "title": "Orange Juice",
+    "thumb": "img/products/orange_juice.webp"
+   },
+   {
+    "id": "lemonade",
+    "title": "Lemonade",
+    "thumb": "img/products/lemonade.webp"
+   },
+   {
+    "id": "soft_drink",
+    "title": "Soft Drink",
+    "thumb": "img/products/soft_drink.webp"
+   },
+   {
+    "id": "beer",
+    "title": "Beer",
+    "thumb": "img/products/beer.webp"
+   },
+   {
+    "id": "wine",
+    "title": "Wine",
+    "thumb": "img/products/wine.webp"
+   },
+   {
+    "id": "whiskey",
+    "title": "Whiskey",
+    "thumb": "img/products/whiskey.webp"
+   },
+   {
+    "id": "roasted_coffee",
+    "title": "Roasted Coffee",
+    "thumb": "img/products/roasted_coffee.webp"
+   },
+   {
+    "id": "packaged_tea",
+    "title": "Packaged Tea",
+    "thumb": "img/products/packaged_tea.webp"
+   },
+   {
+    "id": "cigarettes",
+    "title": "Cigarettes",
+    "thumb": "img/products/cigarettes.webp"
+   },
+   {
+    "id": "soap",
+    "title": "Soap",
+    "thumb": "img/products/soap.webp"
+   },
+   {
+    "id": "laundry_detergent",
+    "title": "Laundry Detergent",
+    "thumb": "img/products/laundry_detergent.webp"
+   },
+   {
+    "id": "shampoo",
+    "title": "Shampoo",
+    "thumb": "img/products/shampoo.webp"
+   },
+   {
+    "id": "toothpaste",
+    "title": "Toothpaste",
+    "thumb": "img/products/toothpaste.webp"
+   },
+   {
+    "id": "diapers",
+    "title": "Diapers",
+    "thumb": "img/products/diapers.webp"
+   },
+   {
+    "id": "perfume",
+    "title": "Perfume",
+    "thumb": "img/products/perfume.webp"
+   },
+   {
+    "id": "skin_cream",
+    "title": "Skin Cream",
+    "thumb": "img/products/skin_cream.webp"
+   },
+   {
+    "id": "makeup",
+    "title": "Makeup",
+    "thumb": "img/products/makeup.webp"
+   },
+   {
+    "id": "workwear",
+    "title": "Workwear",
+    "thumb": "img/products/workwear.webp"
+   },
+   {
+    "id": "casual_clothing",
+    "title": "Casual Clothing",
+    "thumb": "img/products/casual_clothing.webp"
+   },
+   {
+    "id": "wool_sweater",
+    "title": "Wool Sweater",
+    "thumb": "img/products/wool_sweater.webp"
+   },
+   {
+    "id": "linen_shirt",
+    "title": "Linen Shirt",
+    "thumb": "img/products/linen_shirt.webp"
+   },
+   {
+    "id": "leather_jacket",
+    "title": "Leather Jacket",
+    "thumb": "img/products/leather_jacket.webp"
+   },
+   {
+    "id": "leather_shoes",
+    "title": "Leather Shoes",
+    "thumb": "img/products/leather_shoes.webp"
+   },
+   {
+    "id": "sneakers",
+    "title": "Sneakers",
+    "thumb": "img/products/sneakers.webp"
+   },
+   {
+    "id": "handbag",
+    "title": "Handbag",
+    "thumb": "img/products/handbag.webp"
+   },
+   {
+    "id": "socks",
+    "title": "Socks",
+    "thumb": "img/products/socks.webp"
+   },
+   {
+    "id": "bed",
+    "title": "Bed",
+    "thumb": "img/products/bed.webp"
+   },
+   {
+    "id": "sofa",
+    "title": "Sofa",
+    "thumb": "img/products/sofa.webp"
+   },
+   {
+    "id": "table",
+    "title": "Table",
+    "thumb": "img/products/table.webp"
+   },
+   {
+    "id": "chair",
+    "title": "Chair",
+    "thumb": "img/products/chair.webp"
+   },
+   {
+    "id": "cabinet",
+    "title": "Cabinet",
+    "thumb": "img/products/cabinet.webp"
+   },
+   {
+    "id": "mattress",
+    "title": "Mattress",
+    "thumb": "img/products/mattress.webp"
+   },
+   {
+    "id": "cookware",
+    "title": "Cookware",
+    "thumb": "img/products/cookware.webp"
+   },
+   {
+    "id": "glassware",
+    "title": "Glassware",
+    "thumb": "img/products/glassware.webp"
+   },
+   {
+    "id": "furniture_set",
+    "title": "Furniture Set",
+    "thumb": "img/products/furniture_set.webp"
+   },
+   {
+    "id": "car",
+    "title": "Car",
+    "thumb": "img/products/car.webp"
+   },
+   {
+    "id": "motorbike",
+    "title": "Motorbike",
+    "thumb": "img/products/motorbike.webp"
+   },
+   {
+    "id": "bicycle",
+    "title": "Bicycle",
+    "thumb": "img/products/bicycle.webp"
+   },
+   {
+    "id": "radio",
+    "title": "Radio",
+    "thumb": "img/products/radio.webp"
+   },
+   {
+    "id": "record_player",
+    "title": "Record Player",
+    "thumb": "img/products/record_player.webp"
+   },
+   {
+    "id": "telephone",
+    "title": "Telephone",
+    "thumb": "img/products/telephone.webp"
+   },
+   {
+    "id": "camera",
+    "title": "Camera",
+    "thumb": "img/products/camera.webp"
+   },
+   {
+    "id": "television",
+    "title": "Television",
+    "thumb": "img/products/television.webp"
+   },
+   {
+    "id": "audio_system",
+    "title": "Audio System",
+    "thumb": "img/products/audio_system.webp"
+   },
+   {
+    "id": "media_player",
+    "title": "Media Player",
+    "thumb": "img/products/media_player.webp"
+   },
+   {
+    "id": "video_camera",
+    "title": "Video Camera",
+    "thumb": "img/products/video_camera.webp"
+   },
+   {
+    "id": "refrigerator",
+    "title": "Refrigerator",
+    "thumb": "img/products/refrigerator.webp"
+   },
+   {
+    "id": "washing_machine",
+    "title": "Washing Machine",
+    "thumb": "img/products/washing_machine.webp"
+   },
+   {
+    "id": "air_conditioner",
+    "title": "Air Conditioner",
+    "thumb": "img/products/air_conditioner.webp"
+   },
+   {
+    "id": "computer",
+    "title": "Computer",
+    "thumb": "img/products/computer.webp"
+   },
+   {
+    "id": "smartphone",
+    "title": "Smartphone",
+    "thumb": "img/products/smartphone.webp"
+   },
+   {
+    "id": "smartwatch",
+    "title": "Smartwatch",
+    "thumb": "img/products/smartwatch.webp"
+   },
+   {
+    "id": "vr_headset",
+    "title": "Vr Headset",
+    "thumb": "img/products/vr_headset.webp"
+   },
+   {
+    "id": "gold_jewelry",
+    "title": "Gold Jewelry",
+    "thumb": "img/products/gold_jewelry.webp"
+   },
+   {
+    "id": "silver_jewelry",
+    "title": "Silver Jewelry",
+    "thumb": "img/products/silver_jewelry.webp"
+   },
+   {
+    "id": "watch",
+    "title": "Watch",
+    "thumb": "img/products/watch.webp"
+   },
+   {
+    "id": "toy_car",
+    "title": "Toy Car",
+    "thumb": "img/products/toy_car.webp"
+   },
+   {
+    "id": "stuffed_toy",
+    "title": "Stuffed Toy",
+    "thumb": "img/products/stuffed_toy.webp"
+   },
+   {
+    "id": "board_game",
+    "title": "Board Game",
+    "thumb": "img/products/board_game.webp"
+   },
+   {
+    "id": "banking_service",
+    "title": "Banking Service",
+    "thumb": "img/products/banking_service.webp"
+   },
+   {
+    "id": "software",
+    "title": "Software",
+    "thumb": "img/products/software.webp"
+   }
+  ],
+  "repaints": [
+   {
+    "id": "inst-court",
+    "title": "Inst Court",
+    "date": "2026-10-15",
+    "before": "img/repaints/inst-court-before.webp",
+    "after": "img/repaints/inst-court-after.webp"
+   },
+   {
+    "id": "inst-post",
+    "title": "Inst Post",
+    "date": "2026-10-15",
+    "before": "img/repaints/inst-post-before.webp",
+    "after": "img/repaints/inst-post-after.webp"
+   },
+   {
+    "id": "inst-police",
+    "title": "Inst Police",
+    "date": "2026-10-15",
+    "before": "img/repaints/inst-police-before.webp",
+    "after": "img/repaints/inst-police-after.webp"
+   },
+   {
+    "id": "store-nouveau",
+    "title": "Store Nouveau",
+    "date": "2026-10-15",
+    "before": "img/repaints/store-nouveau-before.webp",
+    "after": "img/repaints/store-nouveau-after.webp"
+   },
+   {
+    "id": "store-hotel",
+    "title": "Store Hotel",
+    "date": "2026-10-15",
+    "before": "img/repaints/store-hotel-before.webp",
+    "after": "img/repaints/store-hotel-after.webp"
+   },
+   {
+    "id": "civic-deco",
+    "title": "Civic Deco",
+    "date": "2026-10-15",
+    "before": "img/repaints/civic-deco-before.webp",
+    "after": "img/repaints/civic-deco-after.webp"
+   },
+   {
+    "id": "bank",
+    "title": "Bank",
+    "date": "2026-10-15",
+    "before": "img/repaints/bank-before.webp",
+    "after": "img/repaints/bank-after.webp"
+   },
+   {
+    "id": "apartment-block",
+    "title": "Apartment Block",
+    "date": "2026-10-15",
+    "before": "img/repaints/apartment-block-before.webp",
+    "after": "img/repaints/apartment-block-after.webp"
+   },
+   {
+    "id": "res-townhouse",
+    "title": "Res Townhouse",
+    "date": "2026-10-15",
+    "before": "img/repaints/res-townhouse-before.webp",
+    "after": "img/repaints/res-townhouse-after.webp"
+   },
+   {
+    "id": "shop-corner",
+    "title": "Shop Corner",
+    "date": "2026-10-15",
+    "before": "img/repaints/shop-corner-before.webp",
+    "after": "img/repaints/shop-corner-after.webp"
+   },
+   {
+    "id": "res-villa",
+    "title": "Res Villa",
+    "date": "2026-10-15",
+    "before": "img/repaints/res-villa-before.webp",
+    "after": "img/repaints/res-villa-after.webp"
+   }
+  ],
+  "screenshots": [
+   {
+    "title": "Emerald Coast centre",
+    "caption": "Buildings now face their street; Art Nouveau store, hotel, city hall with its fountain square.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/0-facing-check.webp",
+    "full": "img/screens/0-facing-check-large.webp"
+   },
+   {
+    "title": "Park lake",
+    "caption": "Painted lake with animated ripples and sun glints.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/1-lake2.webp",
+    "full": "img/screens/1-lake2-large.webp"
+   },
+   {
+    "title": "Lake close-up",
+    "caption": "Glints twinkle across the water; swans and rowing boats are part of the painting.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/2-lake2-crop.webp",
+    "full": "img/screens/2-lake2-crop-large.webp"
+   },
+   {
+    "title": "Ironforge industry",
+    "caption": "Smoke now leaves the painted chimney tops of the power station and brickworks.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/3-power-fixed2.webp",
+    "full": "img/screens/3-power-fixed2-large.webp"
+   },
+   {
+    "title": "New York industrial block",
+    "caption": "Loft factory with water tower, workshops and brownstones; no design repeats inside a block.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/4-ny-workshops.webp",
+    "full": "img/screens/4-ny-workshops-large.webp"
+   },
+   {
+    "title": "Baku centre",
+    "caption": "Company shops drawn with fitting shop designs instead of identical domed department stores.",
+    "date": "2026-10-15",
+    "thumb": "img/screens/5-retail-bread-fixed.webp",
+    "full": "img/screens/5-retail-bread-fixed-large.webp"
+   },
+   {
+    "title": "Metropolis Prime",
+    "caption": "First New York architecture: brownstones and tenements with fire escapes and water towers.",
+    "date": "2026-10-14",
+    "thumb": "img/screens/6-t0.webp",
+    "full": "img/screens/6-t0-large.webp"
+   },
+   {
+    "title": "1910 traffic",
+    "caption": "Horse cabs, carts and an early motor car on the carriageway.",
+    "date": "2026-10-14",
+    "thumb": "img/screens/7-t1.webp",
+    "full": "img/screens/7-t1-large.webp"
+   },
+   {
+    "title": "Iron ore deposit",
+    "caption": "Painted resource deposit that fades into the countryside; click anywhere on it.",
+    "date": "2026-10-14",
+    "thumb": "img/screens/8-deposit-click.webp",
+    "full": "img/screens/8-deposit-click-large.webp"
+   }
+  ]
+ },
+ "counts": {
+  "buildings": 135,
+  "deposits": 10,
+  "vehicles": 20,
+  "products": 135,
+  "repaints": 11,
+  "screenshots": 9
+ }
+}
