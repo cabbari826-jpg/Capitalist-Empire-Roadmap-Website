@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10191f">
+  <meta name="description" content="Follow the map and graphics overhaul of Capitalist Empire.">
+  <title>Capitalist Empire — Map &amp; Graphics Progress</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="site.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to progress</a>
+  <header class="masthead">
+    <div class="masthead-inner"><a class="wordmark" href="index.html" aria-label="Capitalist Empire home"><span class="crest" aria-hidden="true">CE</span><span>CAPITALIST EMPIRE<small>THE ART OF BUILDING AN EMPIRE</small></span></a><span class="edition">MAP &amp; GRAPHICS JOURNAL</span></div>
+  <nav class="site-nav" aria-label="Main navigation"><a href="index.html" data-page="home">Home</a><a href="roadmap.html" data-page="roadmap">Roadmap</a><a href="whats-new.html" data-page="news">What's new</a><a href="map-graphics.html" data-page="map" aria-current="page">Map &amp; Graphics</a></nav></header>
+  <main id="main" class="shell">
+    <section class="overview" aria-labelledby="page-title">
+      <div class="eyebrow"><span></span> A WORLD TAKING SHAPE</div>
+      <div class="title-row"><h1 id="page-title">Map &amp; Graphics <em>Progress</em></h1><a class="text-link" href="#gallery">Explore the artwork <span aria-hidden="true">↗</span></a></div>
+      <div class="summary-line"><p id="summary-text">Loading progress…</p><p id="updated" class="muted">Connecting to the art pipeline</p></div>
+      <div id="overall-progress" class="progress overall" role="progressbar" aria-label="Overall progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"><span></span></div>
+      <p id="load-status" role="status" hidden></p>
+    </section>
+    <section id="activity" class="activity panel" aria-label="Now painting"></section>
+    <section class="poster-section" aria-labelledby="poster-heading"><div class="section-heading"><h2 id="poster-heading">The big picture</h2><span class="section-note">THE ROAD AHEAD, ILLUSTRATED</span></div><div id="poster"></div><div id="poster-history" class="poster-history" aria-label="Earlier roadmap posters"></div></section>
+    <section class="roadmap-section" aria-labelledby="roadmap-heading"><div class="section-heading"><h2 id="roadmap-heading">Building the world</h2><span class="section-note">THE ROADMAP</span></div><div id="phases" class="phases"></div></section>
+    <section class="recent-section" aria-labelledby="recent-heading"><div class="section-heading"><h2 id="recent-heading">Recently completed</h2><span class="section-note">FRESH FROM THE WORKSHOP</span></div><div id="completed" class="completed panel"></div></section>
+    <section id="gallery" class="gallery-section" aria-labelledby="gallery-heading"><div class="section-heading"><h2 id="gallery-heading">The art collection</h2><span class="section-note">EVERY DETAIL BUILDS THE WORLD</span></div><div id="gallery-tabs" class="tabs" role="tablist" aria-label="Artwork categories"></div><div id="gallery-panel" role="tabpanel" tabindex="0"><div id="filters" class="filters" hidden><label class="search-label"><span aria-hidden="true">⌕</span><input id="search" type="search" placeholder="Search buildings…" aria-label="Search buildings"></label><div class="filter-row"><span class="filter-label">CITY</span><div id="city-filters" class="chips" aria-label="Filter by city"></div></div><div class="filter-row"><span class="filter-label">ROLE</span><div id="role-filters" class="chips" aria-label="Filter by role"></div></div></div><p id="gallery-result" class="result-count" role="status"></p><div id="gallery-grid" class="gallery-grid"></div></div></section>
+  </main>
+  <footer class="shell footer"><span class="footer-mark">CE</span><p>Updated automatically by the art pipeline — art painted by ChatGPT, wired into the game by Claude.</p><a href="#main">Back to top ↑</a></footer>
+  <dialog id="lightbox" aria-labelledby="lightbox-title"><div class="lightbox-top"><h2 id="lightbox-title"></h2><button id="close-lightbox" class="close-button" aria-label="Close image">×</button></div><div class="lightbox-image"><img id="lightbox-img" loading="lazy" alt=""></div><p id="lightbox-details"></p></dialog>
+</body>
+</html>

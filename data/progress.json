@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T18:57:06.867Z",
+ "generatedAt": "2026-10-15T19:13:31.476Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 23,
@@ -486,9 +486,9 @@
   ]
  },
  "activity": {
-  "running": true,
-  "current": "Lots-v5",
-  "section": "lots-v5",
+  "running": false,
+  "current": "Finished",
+  "section": "finished",
   "recent": [
    "IMAGE LIMIT REACHED тАФ stopped with 17 job(s) not attempted",
    "FAILED tk-kura-house 85s",
