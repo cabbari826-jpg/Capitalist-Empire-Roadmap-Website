@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T10:47:32.911Z",
+ "generatedAt": "2026-10-15T11:30:34.723Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 18,
-  "total": 35,
-  "progress": 0.6224456099456099
+  "done": 19,
+  "total": 38,
+  "progress": 0.5996209565288513
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -237,7 +237,7 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.405982905982906,
+    "progress": 0.5074786324786325,
     "items": [
      {
       "id": "lots-v4",
@@ -274,6 +274,23 @@
       "count": "",
       "date": "",
       "detail": ""
+     }
+    ]
+   },
+   {
+    "id": "wonders",
+    "label": "Landmarks & Wonders",
+    "state": "in-progress",
+    "progress": 0.25,
+    "items": [
+     {
+      "id": "landmark-pipeline",
+      "title": "Real-building pipeline: owner photos → glass-box layout → ChatGPT painting in the game style",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
      },
      {
       "id": "baku-landmark",
@@ -281,6 +298,51 @@
       "state": "todo",
       "progress": 0,
       "count": "0/1",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "landmarks-per-city",
+      "title": "Real landmarks for every city, from the owner's photos (Baku first, then the other five)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "landmarks-centre",
+      "title": "Every new map places each city's landmarks around its centre",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "wonders-build",
+      "title": "Players can build landmarks as wonders: very expensive (proposal ~$100M), unlocked at ~$100–150M yearly capitalisation with the cash, or funded over time from the budget",
+      "state": "idea",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "wonders-ai",
+      "title": "AI rivals start rich, so they cannot rush wonders: same unlock rules, no wonders at game start",
+      "state": "idea",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "wonders-visitors",
+      "title": "Wonders draw visitors: more street life and traffic, and more customers for nearby shops (effect sizes as a proposal for sign-off)",
+      "state": "idea",
+      "progress": 0,
+      "count": "",
       "date": "",
       "detail": ""
      }
