@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T11:30:34.723Z",
+ "generatedAt": "2026-10-15T14:01:17.679Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 19,
   "total": 38,
-  "progress": 0.5996209565288513
+  "progress": 0.6127788512656934
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -352,7 +352,7 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.13181818181818183,
+    "progress": 0.18181818181818182,
     "items": [
      {
       "id": "rear-views",
@@ -438,11 +438,11 @@
      {
       "id": "ship",
       "title": "Bring the new map into the main game (owner sign-off)",
-      "state": "todo",
-      "progress": 0,
+      "state": "in-progress",
+      "progress": 0.5,
       "count": "",
       "date": "",
-      "detail": ""
+      "detail": "Merge plan (docs/MERGE_PLAN.md) and first-hour plan (docs/FIRST_HOUR_PLAN.md) written 2026-10-15; waiting for the owner to approve them before anything in the main game changes."
      }
     ]
    }
