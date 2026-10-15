@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T14:03:27.840Z",
+ "generatedAt": "2026-10-15T14:41:49.622Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 20,
-  "total": 38,
-  "progress": 0.6390946407393776
+  "total": 39,
+  "progress": 0.6227075986691372
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -352,7 +352,7 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.28181818181818186,
+    "progress": 0.25619834710743805,
     "items": [
      {
       "id": "rear-views",
@@ -443,6 +443,15 @@
       "count": "",
       "date": "",
       "detail": "Merge plan (docs/MERGE_PLAN.md) and first-hour plan (docs/FIRST_HOUR_PLAN.md) written 2026-10-15; waiting for the owner to approve them before anything in the main game changes."
+     },
+     {
+      "id": "location-economy",
+      "title": "Location matters: where a building stands changes its freight, land price and walk-in customers (rivals follow the same rules)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
      }
     ]
    }
