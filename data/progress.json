@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T17:54:20.435Z",
+ "generatedAt": "2026-10-15T17:57:00.026Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 22,
+  "done": 23,
   "total": 41,
-  "progress": 0.6411121060511304
+  "progress": 0.6426364962950328
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -189,7 +189,7 @@
     "id": "roofs",
     "label": "Readable Roofs & Shapes",
     "state": "in-progress",
-    "progress": 0.7875,
+    "progress": 0.8,
     "items": [
      {
       "id": "roof-guides",
@@ -212,10 +212,10 @@
      {
       "id": "roof-houses",
       "title": "Repaint 16 houses and shops whose low roofs look folded backwards",
-      "state": "in-progress",
-      "progress": 0.9375,
-      "count": "15/16",
-      "date": "",
+      "state": "done",
+      "progress": 1,
+      "count": "16/16",
+      "date": "2026-10-15",
       "detail": ""
      },
      {
@@ -482,14 +482,15 @@
  },
  "activity": {
   "running": true,
-  "current": "Baku landmark",
-  "section": "Baku landmark",
+  "current": "Low-roof repaints",
+  "section": "low-roof repaints",
   "recent": [
+   "done house-semi",
    "done bk-grand-clock-palace",
    "tilted bk-grand-clock-palace (attempt 2)",
    "done bk-grand-clock-palace"
   ],
-  "paintedToday": 2,
+  "paintedToday": 3,
   "quotaReached": false,
   "log": "queue-2026-10-15-2150.log"
  },
@@ -3376,6 +3377,13 @@
     "date": "2026-10-15",
     "before": "img/repaints/ldn-corner-pub-before.webp",
     "after": "img/repaints/ldn-corner-pub-after.webp"
+   },
+   {
+    "id": "house-semi",
+    "title": "House Semi",
+    "date": "2026-10-15",
+    "before": "img/repaints/house-semi-before.webp",
+    "after": "img/repaints/house-semi-after.webp"
    }
   ],
   "screenshots": [
@@ -3470,7 +3478,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 23,
+  "repaints": 24,
   "screenshots": 12
  }
 }
