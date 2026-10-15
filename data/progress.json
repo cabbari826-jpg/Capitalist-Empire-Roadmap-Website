@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T18:55:41.705Z",
+ "generatedAt": "2026-10-15T18:56:45.872Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 24,
+  "done": 23,
   "total": 41,
-  "progress": 0.6734891125135027
+  "progress": 0.6490988686110637
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -291,7 +291,7 @@
     "id": "wonders",
     "label": "Landmarks & Wonders",
     "state": "in-progress",
-    "progress": 0.4,
+    "progress": 0.2,
     "items": [
      {
       "id": "landmark-pipeline",
@@ -305,10 +305,10 @@
      {
       "id": "baku-landmark",
       "title": "Baku landmark: the twin-domed clock building beside Winter Park, from the owner's photos, as Baku's city hall",
-      "state": "done",
-      "progress": 1,
-      "count": "1/1",
-      "date": "2026-10-15",
+      "state": "todo",
+      "progress": 0,
+      "count": "0/1",
+      "date": "",
       "detail": ""
      },
      {
