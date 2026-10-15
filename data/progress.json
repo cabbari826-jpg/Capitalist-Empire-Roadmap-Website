@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-15T14:41:49.622Z",
+ "generatedAt": "2026-10-15T15:29:07.970Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 20,
@@ -442,7 +442,7 @@
       "progress": 0.5,
       "count": "",
       "date": "",
-      "detail": "Merge plan (docs/MERGE_PLAN.md) and first-hour plan (docs/FIRST_HOUR_PLAN.md) written 2026-10-15; waiting for the owner to approve them before anything in the main game changes."
+      "detail": "Owner approved the merge plan (docs/MERGE_PLAN.md) on 2026-10-15. Lab prep done: art as WebP (123 MB to 27 MB), light detail for phones (16 MB download, about 110 MB of graphics memory), tour fixed for the new screen, each facility's site saved for v0.30 location economics, and all 18 map tests pass. Next: review tonight's art run, then copy into the main game step by step."
      },
      {
       "id": "location-economy",
