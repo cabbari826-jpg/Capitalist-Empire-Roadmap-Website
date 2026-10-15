@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T18:14:56.243Z",
+ "generatedAt": "2026-10-15T18:21:36.467Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 23,
+  "done": 24,
   "total": 41,
-  "progress": 0.6572706426364964
+  "progress": 0.6672352038205697
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -23,6 +23,11 @@
     "at": "2026-10-15 17:53 UTC",
     "thumb": "img/roadmap/roadmap-2026-10-15-17-53.webp",
     "full": "img/roadmap/roadmap-2026-10-15-17-53-large.webp"
+   },
+   {
+    "at": "2026-10-15 18:20 UTC",
+    "thumb": "img/roadmap/roadmap-2026-10-15-18-20.webp",
+    "full": "img/roadmap/roadmap-2026-10-15-18-20-large.webp"
    }
   ],
   "phases": [
@@ -188,8 +193,8 @@
    {
     "id": "roofs",
     "label": "Readable Roofs & Shapes",
-    "state": "in-progress",
-    "progress": 0.9199999999999999,
+    "state": "done",
+    "progress": 1,
     "items": [
      {
       "id": "roof-guides",
@@ -230,10 +235,10 @@
      {
       "id": "fit-repaints",
       "title": "Repaint the buildings that ignored their box (department store, New York and London shops and houses, their rear views)",
-      "state": "in-progress",
-      "progress": 0.6,
-      "count": "6/10",
-      "date": "",
+      "state": "done",
+      "progress": 1,
+      "count": "10/10",
+      "date": "2026-10-15",
       "detail": ""
      }
     ]
@@ -242,14 +247,14 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.5074786324786325,
+    "progress": 0.5096153846153846,
     "items": [
      {
       "id": "lots-v4",
       "title": "Each city's own architecture (New York, London, Baku, Tokyo, Emerald Coast, Ironforge)",
       "state": "in-progress",
-      "progress": 0.5299145299145299,
-      "count": "62/117",
+      "progress": 0.5384615384615384,
+      "count": "63/117",
       "date": "",
       "detail": ""
      },
@@ -485,6 +490,7 @@
   "current": "Glass-box repaints",
   "section": "glass-box repaints",
   "recent": [
+   "done bank-rear",
    "done department-store-rear",
    "done ny-ladies-mile-store-rear",
    "tilted department-store-rear (attempt 3)",
@@ -495,10 +501,9 @@
    "done bank-rear",
    "done department-store-rear",
    "done ldn-baroque-store",
-   "done ny-ladies-mile-store",
-   "done ldn-mews-house"
+   "done ny-ladies-mile-store"
   ],
-  "paintedToday": 23,
+  "paintedToday": 24,
   "quotaReached": false,
   "log": "queue-2026-10-15-2150.log"
  },
@@ -2001,6 +2006,17 @@
     "full": "img/buildings/ldn-square-corner-large.webp"
    },
    {
+    "id": "ldn-baroque-store",
+    "title": "Baroque Store",
+    "role": "Department store",
+    "city": "Sterling Harbour (London)",
+    "era": "1905–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/ldn-baroque-store.webp",
+    "full": "img/buildings/ldn-baroque-store-large.webp"
+   },
+   {
     "id": "ldn-city-bank",
     "title": "City Bank",
     "role": "Bank & offices",
@@ -3427,6 +3443,34 @@
     "date": "2026-10-15",
     "before": "img/repaints/ldn-mews-house-before.webp",
     "after": "img/repaints/ldn-mews-house-after.webp"
+   },
+   {
+    "id": "ny-ladies-mile-store-rear",
+    "title": "Ladies Mile Store Rear",
+    "date": "2026-10-15",
+    "before": "img/repaints/ny-ladies-mile-store-rear-before.webp",
+    "after": "img/repaints/ny-ladies-mile-store-rear-after.webp"
+   },
+   {
+    "id": "department-store-rear",
+    "title": "Department Store Rear",
+    "date": "2026-10-15",
+    "before": "img/repaints/department-store-rear-before.webp",
+    "after": "img/repaints/department-store-rear-after.webp"
+   },
+   {
+    "id": "bank-rear",
+    "title": "Bank Rear",
+    "date": "2026-10-15",
+    "before": "img/repaints/bank-rear-before.webp",
+    "after": "img/repaints/bank-rear-after.webp"
+   },
+   {
+    "id": "store-emporium-brick-rear",
+    "title": "Store Emporium Brick Rear",
+    "date": "2026-10-15",
+    "before": "img/repaints/store-emporium-brick-rear-before.webp",
+    "after": "img/repaints/store-emporium-brick-rear-after.webp"
    }
   ],
   "screenshots": [
@@ -3517,11 +3561,11 @@
   ]
  },
  "counts": {
-  "buildings": 168,
+  "buildings": 169,
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 29,
+  "repaints": 33,
   "screenshots": 12
  }
 }
