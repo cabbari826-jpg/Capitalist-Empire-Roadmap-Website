@@ -11,7 +11,9 @@
   const stateLabel = value => ({done:'Done','in-progress':'In progress',todo:'To do'})[state(value)];
   const icon = value => ({done:'✓','in-progress':'◐',todo:'○'})[state(value)];
   const empty = text => `<p class="empty">${escape(text)}</p>`;
-  const image = (src, title, className = '') => `<img src="${escape(path(src))}" alt="${escape(title)}" loading="lazy"${className ? ` class="${className}"` : ''}>`;
+  // Exported screenshot names can be reused. Both sizes share a data revision.
+  const assetURL = src => {const clean = path(src);return clean ? `${clean}?v=${encodeURIComponent(data?.generatedAt || '')}` : '';};
+  const image = (src, title, className = '') => `<img src="${escape(assetURL(src))}" alt="${escape(title)}" loading="lazy"${className ? ` class="${className}"` : ''}>`;
   const dateLabel = value => {
     const date = new Date(value);
     return Number.isNaN(date.getTime()) ? String(value || '') : date.toLocaleDateString('en-GB', {day:'numeric',month:'short',year:'numeric',timeZone:'UTC'});
@@ -39,8 +41,8 @@
 
   function registerAsset(src, title, details) {
     // Stable keys keep unchanged galleries mounted during background refreshes.
-    const key = JSON.stringify([path(src),title,details]);
-    if (!assets.has(key)) assets.set(key, {src:path(src), title, details, id:++assetSequence});
+    const key = JSON.stringify([assetURL(src),title,details]);
+    if (!assets.has(key)) assets.set(key, {src:assetURL(src), title, details, id:++assetSequence});
     return `data-image="${escape(key)}"`;
   }
 
@@ -165,8 +167,12 @@
       const asset = assets.get(assetButton.dataset.image);
       if (asset?.src) {
         $('lightbox-title').textContent = asset.title;
-        $('lightbox-img').src = asset.src;
-        $('lightbox-img').alt = asset.title;
+        // A fresh element cannot display the previous selection during loading.
+        const preview = document.createElement('img');
+        preview.id = 'lightbox-img';
+        preview.alt = asset.title;
+        preview.src = asset.src;
+        $('lightbox-img').replaceWith(preview);
         $('lightbox-details').textContent = asset.details;
         lightbox.showModal();
       }

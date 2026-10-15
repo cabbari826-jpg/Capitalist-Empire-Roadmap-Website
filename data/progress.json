@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T10:12:53.939Z",
+ "generatedAt": "2026-10-15T10:47:32.911Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 17,
-  "total": 32,
-  "progress": 0.6495498858780109
+  "done": 18,
+  "total": 35,
+  "progress": 0.6224456099456099
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -182,9 +182,9 @@
    },
    {
     "id": "roofs",
-    "label": "Readable Roofs",
+    "label": "Readable Roofs & Shapes",
     "state": "in-progress",
-    "progress": 0.9791666666666666,
+    "progress": 0.7875,
     "items": [
      {
       "id": "roof-guides",
@@ -212,6 +212,24 @@
       "count": "15/16",
       "date": "",
       "detail": ""
+     },
+     {
+      "id": "glass-box",
+      "title": "Glass-box check: every painting must fill its own layout box (footprint, walls and height)",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-15",
+      "detail": ""
+     },
+     {
+      "id": "fit-repaints",
+      "title": "Repaint the buildings that ignored their box (department store, New York and London shops and houses, their rear views)",
+      "state": "todo",
+      "progress": 0,
+      "count": "0/10",
+      "date": "",
+      "detail": ""
      }
     ]
    },
@@ -219,7 +237,7 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.5074786324786325,
+    "progress": 0.405982905982906,
     "items": [
      {
       "id": "lots-v4",
@@ -254,6 +272,15 @@
       "state": "in-progress",
       "progress": 0.5,
       "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "baku-landmark",
+      "title": "Baku landmark: the twin-domed clock palace from the owner's photos, as Baku's city hall",
+      "state": "todo",
+      "progress": 0,
+      "count": "0/1",
       "date": "",
       "detail": ""
      }
