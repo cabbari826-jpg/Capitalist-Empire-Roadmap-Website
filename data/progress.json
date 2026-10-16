@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T18:12:06.798Z",
+ "generatedAt": "2026-10-16T18:17:06.150Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -504,26 +504,23 @@
   ]
  },
  "activity": {
-  "running": false,
-  "current": "Taper repaints, worst first",
-  "section": "taper repaints, worst first",
+  "running": true,
+  "current": "Taper repaints, the rest",
+  "section": "taper repaints, the rest",
   "recent": [
-   "if-cooperative repaint tilted; restoring the previous painting",
-   "done em-streamline-villa",
-   "done em-green-tile-villa",
-   "done if-locomotive-works",
-   "done ny-brownstone-row",
-   "tilted if-cooperative (gave up)",
-   "done if-cooperative",
-   "tilted ny-brownstone-row (attempt 3)",
-   "done ny-brownstone-row",
-   "done ny-apartment-hotel",
-   "done if-cooperative",
-   "done if-cooperative"
+   "IMAGE LIMIT REACHED тАФ stopped with 16 job(s) not attempted",
+   "tilted bk-old-city-wall-bastions (gave up)",
+   "done bk-old-city-wall-bastions",
+   "tilted bk-old-city-wall-bastions (attempt 3)",
+   "done bk-old-city-wall-bastions",
+   "done bk-ismailiyya",
+   "done bk-maiden-tower",
+   "tilted bk-old-city-wall-bastions (attempt 2)",
+   "done bk-old-city-wall-bastions"
   ],
-  "paintedToday": 97,
-  "quotaReached": false,
-  "log": "queue-2026-10-16-2046.log"
+  "paintedToday": 5,
+  "quotaReached": true,
+  "log": "queue-2026-10-16-2215.log"
  },
  "gallery": {
   "buildings": [
