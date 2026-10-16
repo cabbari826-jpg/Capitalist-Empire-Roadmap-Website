@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T23:31:18.500Z",
+ "generatedAt": "2026-10-16T23:52:19.646Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -505,10 +505,23 @@
  },
  "activity": {
   "running": true,
-  "current": "Baku landmark repaints from the owner's review",
-  "section": "Baku landmark repaints from the owner's review",
-  "recent": [],
-  "paintedToday": 0,
+  "current": "Taper repaints, worst first",
+  "section": "taper repaints, worst first",
+  "recent": [
+   "done apartments-court",
+   "tilted bank-insurance (attempt 2)",
+   "done bank-insurance",
+   "tilted shop-hardware (attempt 2)",
+   "done shop-hardware",
+   "done em-moorish-villa",
+   "bk-governors-garden-fountain repaint tilted; restoring the previous painting",
+   "bk-nizami-oriel-block repaint tilted; restoring the previous painting",
+   "bk-old-city-courtyard-houses repaint tilted; restoring the previous painting",
+   "bk-old-city-wall-bastions repaint tilted; restoring the previous painting",
+   "bk-ateshgah repaint tilted; restoring the previous painting",
+   "bk-crescent-hotel repaint tilted; restoring the previous painting"
+  ],
+  "paintedToday": 41,
   "quotaReached": false,
   "log": "queue-2026-10-17-0330.log"
  },
@@ -3862,6 +3875,62 @@
     "date": "2026-10-16",
     "before": "img/repaints/ny-apartment-hotel-before.webp",
     "after": "img/repaints/ny-apartment-hotel-after.webp"
+   },
+   {
+    "id": "bk-maiden-tower",
+    "title": "Maiden Tower",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-maiden-tower-before.webp",
+    "after": "img/repaints/bk-maiden-tower-after.webp"
+   },
+   {
+    "id": "bk-government-house",
+    "title": "Government House",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-government-house-before.webp",
+    "after": "img/repaints/bk-government-house-after.webp"
+   },
+   {
+    "id": "bk-central-bank-1998",
+    "title": "Central Bank 1998",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-central-bank-1998-before.webp",
+    "after": "img/repaints/bk-central-bank-1998-after.webp"
+   },
+   {
+    "id": "bk-heydar-aliyev-center",
+    "title": "Heydar Aliyev Center",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-heydar-aliyev-center-before.webp",
+    "after": "img/repaints/bk-heydar-aliyev-center-after.webp"
+   },
+   {
+    "id": "bk-sail-tower",
+    "title": "Sail Tower",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-sail-tower-before.webp",
+    "after": "img/repaints/bk-sail-tower-after.webp"
+   },
+   {
+    "id": "bk-nizami-shop-terraces",
+    "title": "Nizami Shop Terraces",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-nizami-shop-terraces-before.webp",
+    "after": "img/repaints/bk-nizami-shop-terraces-after.webp"
+   },
+   {
+    "id": "bk-old-city-stone-lane",
+    "title": "Old City Stone Lane",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-old-city-stone-lane-before.webp",
+    "after": "img/repaints/bk-old-city-stone-lane-after.webp"
+   },
+   {
+    "id": "em-moorish-villa",
+    "title": "Moorish Villa",
+    "date": "2026-10-17",
+    "before": "img/repaints/em-moorish-villa-before.webp",
+    "after": "img/repaints/em-moorish-villa-after.webp"
    }
   ],
   "screenshots": [
@@ -3956,7 +4025,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 41,
+  "repaints": 49,
   "screenshots": 12
  }
 }
