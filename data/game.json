@@ -1,6 +1,15 @@
 {
   "releases": [
     {
+      "version": "0.29.1",
+      "title": "A movable checklist",
+      "changes": [
+        "The objectives checklist can be moved on every screen, including phones and narrow windows: drag it by its title bar. It remembers where you put it.",
+        "The – button minimises the checklist to a small pill that you can also move. Tap the pill to open the checklist again, or use × to close it.",
+        "After you move the checklist with a finger, your next tap on it works straight away. Map menus such as Layers always open above the checklist."
+      ]
+    },
+    {
       "version": "0.29.0",
       "title": "Living cities",
       "changes": [
@@ -286,5 +295,5 @@
     }
   ],
   "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
-  "generatedAt": "2026-10-16T16:47:41.572Z"
+  "generatedAt": "2026-10-16T17:08:48.035Z"
 }

@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T16:47:41.430Z",
+ "generatedAt": "2026-10-16T17:08:47.860Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -489,8 +489,21 @@
   "running": true,
   "current": "Baku landmarks from the owner's photos",
   "section": "Baku landmarks from the owner's photos",
-  "recent": [],
-  "paintedToday": 0,
+  "recent": [
+   "done bk-central-department-store",
+   "tilted bk-governors-garden-fountain (attempt 3)",
+   "done bk-governors-garden-fountain",
+   "tilted bk-philharmonic-hall (attempt 3)",
+   "done bk-philharmonic-hall",
+   "tilted bk-central-department-store (attempt 2)",
+   "done bk-central-department-store",
+   "tilted bk-governors-garden-fountain (attempt 2)",
+   "done bk-governors-garden-fountain",
+   "done bk-philharmonic-hall",
+   "done bk-governors-garden-historic",
+   "done bk-mukhtarov-palace"
+  ],
+  "paintedToday": 33,
   "quotaReached": false,
   "log": "queue-2026-10-16-2046.log"
  },
