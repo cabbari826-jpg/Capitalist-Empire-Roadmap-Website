@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-16T17:29:43.509Z",
+ "generatedAt": "2026-10-16T17:51:08.792Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 23,
-  "total": 41,
-  "progress": 0.6413383364602877
+  "done": 24,
+  "total": 43,
+  "progress": 0.6347644603458558
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -132,7 +132,7 @@
     "id": "street-life",
     "label": "Street Life",
     "state": "in-progress",
-    "progress": 0.9166666666666666,
+    "progress": 0.7857142857142857,
     "items": [
      {
       "id": "traffic",
@@ -187,6 +187,15 @@
       "count": "",
       "date": "",
       "detail": "Moving hands on 4 clock faces (two city halls, belfry, Victorian town hall); re-detect after the roof repaints are packed, and teach the detector the smaller shop and post-office clocks."
+     },
+     {
+      "id": "fire-temple",
+      "title": "Ateshgah fire temple: animated flames and a warm glow on its fire altars (owner, 2026-10-16)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
      }
     ]
    },
@@ -291,7 +300,7 @@
     "id": "wonders",
     "label": "Landmarks & Wonders",
     "state": "in-progress",
-    "progress": 0.2,
+    "progress": 0.3333333333333333,
     "items": [
      {
       "id": "landmark-pipeline",
@@ -305,10 +314,10 @@
      {
       "id": "baku-landmark",
       "title": "Baku landmark: the twin-domed clock building beside Winter Park, from the owner's photos, as Baku's city hall",
-      "state": "todo",
-      "progress": 0,
-      "count": "0/1",
-      "date": "",
+      "state": "done",
+      "progress": 1,
+      "count": "1/1",
+      "date": "2026-10-15",
       "detail": ""
      },
      {
@@ -360,6 +369,15 @@
       "id": "wonders-visitors",
       "title": "Wonders draw visitors: more street life and traffic, and more customers for nearby shops (effect sizes as a proposal for sign-off)",
       "state": "idea",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "old-city-gates",
+      "title": "Baku Old City walls with gates (Double Gates) where streets pass into the new town (owner, 2026-10-16)",
+      "state": "todo",
       "progress": 0,
       "count": "",
       "date": "",
@@ -490,20 +508,20 @@
   "current": "Priority repaints",
   "section": "priority repaints",
   "recent": [
-   "tilted bk-grand-clock-palace (attempt 2)",
-   "done bk-grand-clock-palace",
-   "tilted bk-ateshgah (gave up)",
-   "done bk-ateshgah",
-   "done bk-bibi-heybat-2008",
-   "tilted bk-ateshgah (attempt 3)",
-   "done bk-ateshgah",
-   "tilted bk-marriott-absheron (gave up)",
-   "done bk-marriott-absheron",
-   "tilted bk-bibi-heybat-2008 (attempt 2)",
-   "done bk-bibi-heybat-2008",
-   "tilted bk-ateshgah (attempt 2)"
+   "tilted bank-rear (attempt 3)",
+   "done bank-rear",
+   "done department-store-rear",
+   "done bank-rear",
+   "done department-store-rear",
+   "em-arcade-terrace repaint tilted; restoring the previous painting",
+   "em-promenade-shops repaint tilted; restoring the previous painting",
+   "tilted em-promenade-shops (gave up)",
+   "done em-promenade-shops",
+   "done em-arcade-terrace",
+   "tilted em-promenade-shops (attempt 3)",
+   "done em-promenade-shops"
   ],
-  "paintedToday": 63,
+  "paintedToday": 80,
   "quotaReached": false,
   "log": "queue-2026-10-16-2046.log"
  },
@@ -3801,6 +3819,20 @@
     "date": "2026-10-15",
     "before": "img/repaints/store-emporium-brick-rear-before.webp",
     "after": "img/repaints/store-emporium-brick-rear-after.webp"
+   },
+   {
+    "id": "bk-grand-clock-palace",
+    "title": "Grand Clock Palace",
+    "date": "2026-10-16",
+    "before": "img/repaints/bk-grand-clock-palace-before.webp",
+    "after": "img/repaints/bk-grand-clock-palace-after.webp"
+   },
+   {
+    "id": "bk-shebeke-row",
+    "title": "Shebeke Row",
+    "date": "2026-10-16",
+    "before": "img/repaints/bk-shebeke-row-before.webp",
+    "after": "img/repaints/bk-shebeke-row-after.webp"
    }
   ],
   "screenshots": [
@@ -3895,7 +3927,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 33,
+  "repaints": 35,
   "screenshots": 12
  }
 }
