@@ -2,8 +2,17 @@
   "releases": [
     {
       "version": "0.29.1",
-      "title": "A movable checklist",
+      "title": "A clearer first hour and Baku landmarks",
       "changes": [
+        "Baku gains real landmarks, each in its district and in its real year. The Old City's Double Gates and old houses, the historic Governor's Garden and a Nizami Street block stand from the start. The Hajinski house and Mukhtarov Palace rise in 1912, the central department store in 1961, and Park Bulvar and the Hilton on the seafront in the 2010s, each with a building site first. More landmarks follow as their paintings are finished.",
+        "A new stocking wizard does product, supplier, volume and contract in one window. Suppliers with goods ready now are listed first with their landed cost (price plus freight), the monthly volume is suggested from what your purchasing unit can take in, and one button signs.",
+        "Contract bids now start at the supplier's asking price instead of the market price, and the screen explains when you offer more than the ask.",
+        "Shops say exactly where they stand: no product chosen, no supplier contract, waiting for the supplier's stock, deliveries due or arriving, or selling, each with its next step. A signed supplier with nothing to deliver no longer shows a green \"Operational\".",
+        "The top bar shows last month's profit and your runway: how long cash lasts after loan payments. Press Cash for the month's money story: profit, loan principal and interest, the resulting cash change, debt, equity and your stake. Reports and Banking open with the same summary.",
+        "The checklist's last goal is now \"Next chapter\": review your price, sell more of what works, add a second product, open a second shop or make your own goods. Each shows its cost, the cash you would have left, an estimate and, if it is out of reach, how many months of saving it needs. Any paid step completes the chapter.",
+        "On the map, your buildings have a gold outline, \"My facilities\" lists them, and the town name over the map opens its City Hall.",
+        "On phones, Cash opens debt, equity and runway; a shop's next stocking step stays at the top of its panel; and \"Show map\" folds the panel away.",
+        "The game starts faster: rarely used windows such as reports, charts and contracts load the first time you open them.",
         "The objectives checklist can be moved on every screen, including phones and narrow windows: drag it by its title bar. It remembers where you put it.",
         "The – button minimises the checklist to a small pill that you can also move. Tap the pill to open the checklist again, or use × to close it.",
         "After you move the checklist with a finger, your next tap on it works straight away. Map menus such as Layers always open above the checklist."
@@ -224,7 +233,7 @@
       "title": "Comfortable play on every screen",
       "items": [
         "Continue simplifying crowded windows and improving small-screen controls.",
-        "A clearer first hour: plain readiness states, one purchasing flow, and goals for each chapter of your company.",
+        "A clearer first hour: suggested starter products for each city and price coaching from real sales.",
         "Improve responsiveness and large-company performance while retaining daily figures."
       ]
     },
@@ -295,5 +304,5 @@
     }
   ],
   "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
-  "generatedAt": "2026-10-16T18:38:02.346Z"
+  "generatedAt": "2026-10-16T23:31:18.643Z"
 }

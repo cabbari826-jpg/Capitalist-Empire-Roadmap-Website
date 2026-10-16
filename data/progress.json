@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T18:38:02.266Z",
+ "generatedAt": "2026-10-16T23:31:18.500Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -504,23 +504,13 @@
   ]
  },
  "activity": {
-  "running": false,
-  "current": "Finished",
-  "section": "finished",
-  "recent": [
-   "IMAGE LIMIT REACHED тАФ stopped with 16 job(s) not attempted",
-   "tilted bk-old-city-wall-bastions (gave up)",
-   "done bk-old-city-wall-bastions",
-   "tilted bk-old-city-wall-bastions (attempt 3)",
-   "done bk-old-city-wall-bastions",
-   "done bk-ismailiyya",
-   "done bk-maiden-tower",
-   "tilted bk-old-city-wall-bastions (attempt 2)",
-   "done bk-old-city-wall-bastions"
-  ],
-  "paintedToday": 5,
-  "quotaReached": true,
-  "log": "queue-2026-10-16-2215.log"
+  "running": true,
+  "current": "Baku landmark repaints from the owner's review",
+  "section": "Baku landmark repaints from the owner's review",
+  "recent": [],
+  "paintedToday": 0,
+  "quotaReached": false,
+  "log": "queue-2026-10-17-0330.log"
  },
  "gallery": {
   "buildings": [
