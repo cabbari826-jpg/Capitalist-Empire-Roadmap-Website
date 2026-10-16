@@ -1,6 +1,21 @@
 {
   "releases": [
     {
+      "version": "0.29.0",
+      "title": "Living cities",
+      "changes": [
+        "A new main screen: the map fills the window, the top bar shows cash, 12-month profit, equity, stake, debt and time, and the menu bar opens facilities, supply chains, contracts, reports, banking and news. The objectives checklist floats over the map and can be dragged anywhere.",
+        "Every town is drawn street by street with painted buildings in its own architecture. Your buildings, rival businesses, farms, mines and deposits all stand on the map, and street traffic moves with the game speed.",
+        "Towns grow with their population, and older districts are gradually rebuilt in the styles of each decade. Company buildings never move.",
+        "When you build, choose the building's look, then pick its site on the map or let the game choose. Mines keep their deposit and claim steps.",
+        "Select any building to open its controls. Click a town's City Hall and choose \"Open city economy\" to see local demand. The previous world map is under Layers as \"Economic map & overlays\", with a box to find a city or facility.",
+        "Phones and computers with less memory load lighter map images automatically.",
+        "Shops that sold every unit they received, with an empty counter, suggest trying a 5% higher price, up to 1.5 times the local reference price. This is advice only; prices never change by themselves.",
+        "Fixes: product landed costs use actual costs when the counter is empty; asking a supplier for a discount can never raise the contract price; a supplier whose contract has ended shows \"Linked · no contract\" instead of \"Contract Linked\".",
+        "Existing saves gain their city map when loaded, and buildings that already stand keep a neutral site. Money, goods, prices and contract terms are unchanged."
+      ]
+    },
+    {
       "version": "0.28.57",
       "title": "A friendlier start",
       "changes": [
@@ -200,7 +215,25 @@
       "title": "Comfortable play on every screen",
       "items": [
         "Continue simplifying crowded windows and improving small-screen controls.",
+        "A clearer first hour: plain readiness states, one purchasing flow, and goals for each chapter of your company.",
         "Improve responsiveness and large-company performance while retaining daily figures."
+      ]
+    },
+    {
+      "status": "Current priority",
+      "title": "Where you build matters",
+      "items": [
+        "Building sites will start to count: freight between a site and its suppliers and customers, and busy central streets versus cheaper outskirts.",
+        "Rival companies will follow the same rules. Buildings standing before the change keep a neutral site.",
+        "Sites will be described in words, such as \"central\" or \"edge of town\", rather than numbers."
+      ]
+    },
+    {
+      "status": "Available now",
+      "title": "Living city map",
+      "items": [
+        "Towns drawn street by street in their own architecture, growing and rebuilding over the decades.",
+        "A choice of building designs and sites when you build."
       ]
     },
     {
@@ -232,6 +265,10 @@
   ],
   "highlights": [
     {
+      "title": "Living cities",
+      "text": "Every town is drawn street by street with painted buildings in its own style. Choose how your new buildings look and where they stand, and watch towns grow and change over the decades."
+    },
+    {
       "title": "Phone-friendly business controls",
       "text": "Contracts, finances, suppliers and glossary pages now adapt their contents to smaller screens. Supply alerts and trade-flow panels have clearer, reachable controls."
     },
@@ -249,5 +286,5 @@
     }
   ],
   "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
-  "generatedAt": "2026-10-15T19:18:49.241Z"
+  "generatedAt": "2026-10-16T16:47:41.572Z"
 }

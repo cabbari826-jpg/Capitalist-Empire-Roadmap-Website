@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-15T19:18:48.995Z",
+ "generatedAt": "2026-10-16T16:47:41.430Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 23,
+  "done": 24,
   "total": 41,
-  "progress": 0.6413383364602877
+  "progress": 0.6657285803627268
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -291,7 +291,7 @@
     "id": "wonders",
     "label": "Landmarks & Wonders",
     "state": "in-progress",
-    "progress": 0.2,
+    "progress": 0.4,
     "items": [
      {
       "id": "landmark-pipeline",
@@ -305,10 +305,10 @@
      {
       "id": "baku-landmark",
       "title": "Baku landmark: the twin-domed clock building beside Winter Park, from the owner's photos, as Baku's city hall",
-      "state": "todo",
-      "progress": 0,
-      "count": "0/1",
-      "date": "",
+      "state": "done",
+      "progress": 1,
+      "count": "1/1",
+      "date": "2026-10-15",
       "detail": ""
      },
      {
@@ -486,26 +486,13 @@
   ]
  },
  "activity": {
-  "running": false,
-  "current": "Finished",
-  "section": "finished",
-  "recent": [
-   "IMAGE LIMIT REACHED тАФ stopped with 17 job(s) not attempted",
-   "FAILED tk-kura-house 85s",
-   "FAILED tk-taisho-house 82s",
-   "done tk-samurai-house",
-   "done bk-oil-derricks",
-   "done tk-machiya",
-   "done bk-kerosene-depot",
-   "done bk-gothic-palace",
-   "tilted bk-oil-derricks (attempt 2)",
-   "done bk-oil-derricks",
-   "done bk-refinery",
-   "done bk-passage"
-  ],
-  "paintedToday": 69,
-  "quotaReached": true,
-  "log": "queue-2026-10-15-2150.log"
+  "running": true,
+  "current": "Baku landmarks from the owner's photos",
+  "section": "Baku landmarks from the owner's photos",
+  "recent": [],
+  "paintedToday": 0,
+  "quotaReached": false,
+  "log": "queue-2026-10-16-2046.log"
  },
  "gallery": {
   "buildings": [
