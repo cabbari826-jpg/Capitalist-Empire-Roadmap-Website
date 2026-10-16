@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T17:51:08.792Z",
+ "generatedAt": "2026-10-16T18:12:06.798Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -504,24 +504,24 @@
   ]
  },
  "activity": {
-  "running": true,
-  "current": "Priority repaints",
-  "section": "priority repaints",
+  "running": false,
+  "current": "Taper repaints, worst first",
+  "section": "taper repaints, worst first",
   "recent": [
-   "tilted bank-rear (attempt 3)",
-   "done bank-rear",
-   "done department-store-rear",
-   "done bank-rear",
-   "done department-store-rear",
-   "em-arcade-terrace repaint tilted; restoring the previous painting",
-   "em-promenade-shops repaint tilted; restoring the previous painting",
-   "tilted em-promenade-shops (gave up)",
-   "done em-promenade-shops",
-   "done em-arcade-terrace",
-   "tilted em-promenade-shops (attempt 3)",
-   "done em-promenade-shops"
+   "if-cooperative repaint tilted; restoring the previous painting",
+   "done em-streamline-villa",
+   "done em-green-tile-villa",
+   "done if-locomotive-works",
+   "done ny-brownstone-row",
+   "tilted if-cooperative (gave up)",
+   "done if-cooperative",
+   "tilted ny-brownstone-row (attempt 3)",
+   "done ny-brownstone-row",
+   "done ny-apartment-hotel",
+   "done if-cooperative",
+   "done if-cooperative"
   ],
-  "paintedToday": 80,
+  "paintedToday": 97,
   "quotaReached": false,
   "log": "queue-2026-10-16-2046.log"
  },
@@ -3802,14 +3802,14 @@
    {
     "id": "department-store-rear",
     "title": "Department Store Rear",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "before": "img/repaints/department-store-rear-before.webp",
     "after": "img/repaints/department-store-rear-after.webp"
    },
    {
     "id": "bank-rear",
     "title": "Bank Rear",
-    "date": "2026-10-15",
+    "date": "2026-10-16",
     "before": "img/repaints/bank-rear-before.webp",
     "after": "img/repaints/bank-rear-after.webp"
    },
@@ -3833,6 +3833,48 @@
     "date": "2026-10-16",
     "before": "img/repaints/bk-shebeke-row-before.webp",
     "after": "img/repaints/bk-shebeke-row-after.webp"
+   },
+   {
+    "id": "mine-head",
+    "title": "Mine Head",
+    "date": "2026-10-16",
+    "before": "img/repaints/mine-head-before.webp",
+    "after": "img/repaints/mine-head-after.webp"
+   },
+   {
+    "id": "ny-brownstone-row",
+    "title": "Brownstone Row",
+    "date": "2026-10-16",
+    "before": "img/repaints/ny-brownstone-row-before.webp",
+    "after": "img/repaints/ny-brownstone-row-after.webp"
+   },
+   {
+    "id": "em-streamline-villa",
+    "title": "Streamline Villa",
+    "date": "2026-10-16",
+    "before": "img/repaints/em-streamline-villa-before.webp",
+    "after": "img/repaints/em-streamline-villa-after.webp"
+   },
+   {
+    "id": "if-locomotive-works",
+    "title": "Locomotive Works",
+    "date": "2026-10-16",
+    "before": "img/repaints/if-locomotive-works-before.webp",
+    "after": "img/repaints/if-locomotive-works-after.webp"
+   },
+   {
+    "id": "em-green-tile-villa",
+    "title": "Green Tile Villa",
+    "date": "2026-10-16",
+    "before": "img/repaints/em-green-tile-villa-before.webp",
+    "after": "img/repaints/em-green-tile-villa-after.webp"
+   },
+   {
+    "id": "ny-apartment-hotel",
+    "title": "Apartment Hotel",
+    "date": "2026-10-16",
+    "before": "img/repaints/ny-apartment-hotel-before.webp",
+    "after": "img/repaints/ny-apartment-hotel-after.webp"
    }
   ],
   "screenshots": [
@@ -3927,7 +3969,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 35,
+  "repaints": 41,
   "screenshots": 12
  }
 }
