@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T18:28:59.401Z",
+ "generatedAt": "2026-10-16T18:38:02.266Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -504,9 +504,9 @@
   ]
  },
  "activity": {
-  "running": true,
-  "current": "Lots-v5",
-  "section": "lots-v5",
+  "running": false,
+  "current": "Finished",
+  "section": "finished",
   "recent": [
    "IMAGE LIMIT REACHED тАФ stopped with 16 job(s) not attempted",
    "tilted bk-old-city-wall-bastions (gave up)",
