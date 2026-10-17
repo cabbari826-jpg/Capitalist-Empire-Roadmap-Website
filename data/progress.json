@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-17T10:14:04.659Z",
+ "generatedAt": "2026-10-17T10:15:51.032Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
-  "total": 44,
-  "progress": 0.632964257964258
+  "total": 45,
+  "progress": 0.6176638176638177
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -132,7 +132,7 @@
     "id": "street-life",
     "label": "Street Life",
     "state": "in-progress",
-    "progress": 0.75,
+    "progress": 0.6666666666666666,
     "items": [
      {
       "id": "traffic",
@@ -202,6 +202,15 @@
       "title": "Day and night: a soft dusk line sweeps across the map as the hours pass (like Paradox maps), the city dims at night, and building windows switch their lights on and off; daytime paintings lose their always-on window glow (owner, 2026-10-17)",
       "state": "in-progress",
       "progress": 0.5,
+      "count": "",
+      "date": "",
+      "detail": "Prototype in the game behind a switch. Owner decisions 2026-10-17: on by default with a Settings switch, a 24-minute day at 1x (clock-tower pace), night as shown, script-made window masks next, daytime glow toned down. Ships with the tutorial-overlap fix."
+     },
+     {
+      "id": "farm-windmill",
+      "title": "Farm windmill: the sails turn, following game speed and stopping when paused (owner, 2026-10-17)",
+      "state": "todo",
+      "progress": 0,
       "count": "",
       "date": "",
       "detail": ""
@@ -398,14 +407,14 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.2962962962962963,
+    "progress": 0.2916666666666667,
     "items": [
      {
       "id": "rear-views",
       "title": "Rear views for big stores and banks built on a back site, so the entrance faces its street",
       "state": "in-progress",
-      "progress": 0.5555555555555556,
-      "count": "10/18",
+      "progress": 0.5,
+      "count": "10/20",
       "date": "",
       "detail": ""
      },
