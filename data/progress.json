@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T10:15:51.032Z",
+ "generatedAt": "2026-10-17T10:17:59.488Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -522,9 +522,9 @@
   ]
  },
  "activity": {
-  "running": true,
-  "current": "Image quota reached",
-  "section": "image quota reached",
+  "running": false,
+  "current": "Finished",
+  "section": "finished",
   "recent": [
    "IMAGE LIMIT REACHED тАФ stopped with 32 job(s) not attempted",
    "tilted era-house-austerity (gave up)",
