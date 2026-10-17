@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-16T23:52:19.646Z",
+ "generatedAt": "2026-10-17T00:13:22.826Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -505,23 +505,23 @@
  },
  "activity": {
   "running": true,
-  "current": "Taper repaints, worst first",
-  "section": "taper repaints, worst first",
+  "current": "Taper repaints, the rest",
+  "section": "taper repaints, the rest",
   "recent": [
-   "done apartments-court",
-   "tilted bank-insurance (attempt 2)",
-   "done bank-insurance",
-   "tilted shop-hardware (attempt 2)",
-   "done shop-hardware",
-   "done em-moorish-villa",
-   "bk-governors-garden-fountain repaint tilted; restoring the previous painting",
-   "bk-nizami-oriel-block repaint tilted; restoring the previous painting",
-   "bk-old-city-courtyard-houses repaint tilted; restoring the previous painting",
-   "bk-old-city-wall-bastions repaint tilted; restoring the previous painting",
-   "bk-ateshgah repaint tilted; restoring the previous painting",
-   "bk-crescent-hotel repaint tilted; restoring the previous painting"
+   "done bk-oil-derricks",
+   "done tk-machiya",
+   "done bk-passage",
+   "done bk-oil-derricks",
+   "done bk-courtyard-house",
+   "done bk-passage",
+   "done em-casino",
+   "tilted bk-courtyard-house (attempt 3)",
+   "done bk-courtyard-house",
+   "done bk-bazaar-shops",
+   "tilted bk-courtyard-house (attempt 2)",
+   "done bk-courtyard-house"
   ],
-  "paintedToday": 41,
+  "paintedToday": 79,
   "quotaReached": false,
   "log": "queue-2026-10-17-0330.log"
  },
@@ -3931,6 +3931,41 @@
     "date": "2026-10-17",
     "before": "img/repaints/em-moorish-villa-before.webp",
     "after": "img/repaints/em-moorish-villa-after.webp"
+   },
+   {
+    "id": "apartments-court",
+    "title": "Apartments Court",
+    "date": "2026-10-17",
+    "before": "img/repaints/apartments-court-before.webp",
+    "after": "img/repaints/apartments-court-after.webp"
+   },
+   {
+    "id": "factory-gas",
+    "title": "Factory Gas",
+    "date": "2026-10-17",
+    "before": "img/repaints/factory-gas-before.webp",
+    "after": "img/repaints/factory-gas-after.webp"
+   },
+   {
+    "id": "bank-insurance",
+    "title": "Bank Insurance",
+    "date": "2026-10-17",
+    "before": "img/repaints/bank-insurance-before.webp",
+    "after": "img/repaints/bank-insurance-after.webp"
+   },
+   {
+    "id": "inst-church",
+    "title": "Inst Church",
+    "date": "2026-10-17",
+    "before": "img/repaints/inst-church-before.webp",
+    "after": "img/repaints/inst-church-after.webp"
+   },
+   {
+    "id": "bank-insurance-rear",
+    "title": "Bank Insurance Rear",
+    "date": "2026-10-17",
+    "before": "img/repaints/bank-insurance-rear-before.webp",
+    "after": "img/repaints/bank-insurance-rear-after.webp"
    }
   ],
   "screenshots": [
@@ -4025,7 +4060,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 49,
+  "repaints": 54,
   "screenshots": 12
  }
 }
