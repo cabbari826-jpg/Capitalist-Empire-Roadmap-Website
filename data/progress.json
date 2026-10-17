@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-17T00:27:57.212Z",
+ "generatedAt": "2026-10-17T09:13:34.329Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
-  "total": 43,
-  "progress": 0.6360564500099385
+  "total": 44,
+  "progress": 0.6216006216006217
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -132,7 +132,7 @@
     "id": "street-life",
     "label": "Street Life",
     "state": "in-progress",
-    "progress": 0.7857142857142857,
+    "progress": 0.6875,
     "items": [
      {
       "id": "traffic",
@@ -191,6 +191,15 @@
      {
       "id": "fire-temple",
       "title": "Ateshgah fire temple: animated flames and a warm glow on its fire altars (owner, 2026-10-16)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "day-night",
+      "title": "Day and night: a soft dusk line sweeps across the map as the hours pass (like Paradox maps), the city dims at night, and building windows switch their lights on and off; daytime paintings lose their always-on window glow (owner, 2026-10-17)",
       "state": "todo",
       "progress": 0,
       "count": "",
@@ -505,25 +514,12 @@
  },
  "activity": {
   "running": true,
-  "current": "Baku landmark",
-  "section": "Baku landmark",
-  "recent": [
-   "done res-apartment-small",
-   "shoprow-arcade repaint tilted; restoring the previous painting",
-   "inst-school repaint tilted; restoring the previous painting",
-   "done inst-museum",
-   "done factory-steel",
-   "tilted inst-museum (attempt 2)",
-   "done inst-museum",
-   "tilted shoprow-arcade (gave up)",
-   "done shoprow-arcade",
-   "tilted inst-school (gave up)",
-   "done inst-school",
-   "done inst-fire"
-  ],
-  "paintedToday": 95,
+  "current": "Baku landmark repaints, second way",
+  "section": "Baku landmark repaints, second way",
+  "recent": [],
+  "paintedToday": 0,
   "quotaReached": false,
-  "log": "queue-2026-10-17-0330.log"
+  "log": "queue-2026-10-17-1311.log"
  },
  "gallery": {
   "buildings": [
@@ -3905,11 +3901,32 @@
     "after": "img/repaints/bk-heydar-aliyev-center-after.webp"
    },
    {
+    "id": "bk-marriott-absheron",
+    "title": "Marriott Absheron",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-marriott-absheron-before.webp",
+    "after": "img/repaints/bk-marriott-absheron-after.webp"
+   },
+   {
     "id": "bk-sail-tower",
     "title": "Sail Tower",
     "date": "2026-10-17",
     "before": "img/repaints/bk-sail-tower-before.webp",
     "after": "img/repaints/bk-sail-tower-after.webp"
+   },
+   {
+    "id": "bk-deniz-mall",
+    "title": "Deniz Mall",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-deniz-mall-before.webp",
+    "after": "img/repaints/bk-deniz-mall-after.webp"
+   },
+   {
+    "id": "bk-crescent-hotel",
+    "title": "Crescent Hotel",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-crescent-hotel-before.webp",
+    "after": "img/repaints/bk-crescent-hotel-after.webp"
    },
    {
     "id": "bk-nizami-shop-terraces",
@@ -3924,6 +3941,13 @@
     "date": "2026-10-17",
     "before": "img/repaints/bk-old-city-stone-lane-before.webp",
     "after": "img/repaints/bk-old-city-stone-lane-after.webp"
+   },
+   {
+    "id": "bk-governors-garden-fountain",
+    "title": "Governors Garden Fountain",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-governors-garden-fountain-before.webp",
+    "after": "img/repaints/bk-governors-garden-fountain-after.webp"
    },
    {
     "id": "em-moorish-villa",
@@ -4214,7 +4238,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 76,
+  "repaints": 80,
   "screenshots": 12
  }
 }
