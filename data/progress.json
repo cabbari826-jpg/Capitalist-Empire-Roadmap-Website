@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T10:05:41.916Z",
+ "generatedAt": "2026-10-17T10:14:04.659Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -514,24 +514,24 @@
  },
  "activity": {
   "running": true,
-  "current": "Lots-v4",
-  "section": "lots-v4",
+  "current": "Image quota reached",
+  "section": "image quota reached",
   "recent": [
-   "done tk-canal-kura",
-   "done tk-silk-mill",
-   "tilted tk-silk-mill (attempt 3)",
-   "done tk-silk-mill",
-   "done tk-canal-kura",
-   "done tk-giyofu-school",
-   "tilted tk-silk-mill (attempt 2)",
-   "done tk-silk-mill",
-   "done tk-temple",
-   "tilted tk-giyofu-school (attempt 3)",
-   "done tk-giyofu-school",
-   "tilted tk-gofukuten (gave up)"
+   "IMAGE LIMIT REACHED тАФ stopped with 32 job(s) not attempted",
+   "tilted era-house-austerity (gave up)",
+   "done era-house-austerity",
+   "tilted era-house-international (gave up)",
+   "done era-house-international",
+   "done era-house-stucco-bungalow",
+   "tilted era-house-austerity (attempt 3)",
+   "done era-house-austerity",
+   "done era-house-stucco-bungalow",
+   "tilted era-house-international (attempt 3)",
+   "done era-house-international",
+   "tilted era-house-austerity (attempt 2)"
   ],
-  "paintedToday": 65,
-  "quotaReached": false,
+  "paintedToday": 83,
+  "quotaReached": true,
   "log": "queue-2026-10-17-1311.log"
  },
  "gallery": {
