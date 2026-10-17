@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-17T00:13:22.826Z",
+ "generatedAt": "2026-10-17T00:27:57.212Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
   "total": 43,
-  "progress": 0.6347644603458558
+  "progress": 0.6360564500099385
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -389,14 +389,14 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.2916666666666667,
+    "progress": 0.2962962962962963,
     "items": [
      {
       "id": "rear-views",
       "title": "Rear views for big stores and banks built on a back site, so the entrance faces its street",
       "state": "in-progress",
-      "progress": 0.5,
-      "count": "9/18",
+      "progress": 0.5555555555555556,
+      "count": "10/18",
       "date": "",
       "detail": ""
      },
@@ -505,23 +505,23 @@
  },
  "activity": {
   "running": true,
-  "current": "Taper repaints, the rest",
-  "section": "taper repaints, the rest",
+  "current": "Baku landmark",
+  "section": "Baku landmark",
   "recent": [
-   "done bk-oil-derricks",
-   "done tk-machiya",
-   "done bk-passage",
-   "done bk-oil-derricks",
-   "done bk-courtyard-house",
-   "done bk-passage",
-   "done em-casino",
-   "tilted bk-courtyard-house (attempt 3)",
-   "done bk-courtyard-house",
-   "done bk-bazaar-shops",
-   "tilted bk-courtyard-house (attempt 2)",
-   "done bk-courtyard-house"
+   "done res-apartment-small",
+   "shoprow-arcade repaint tilted; restoring the previous painting",
+   "inst-school repaint tilted; restoring the previous painting",
+   "done inst-museum",
+   "done factory-steel",
+   "tilted inst-museum (attempt 2)",
+   "done inst-museum",
+   "tilted shoprow-arcade (gave up)",
+   "done shoprow-arcade",
+   "tilted inst-school (gave up)",
+   "done inst-school",
+   "done inst-fire"
   ],
-  "paintedToday": 79,
+  "paintedToday": 95,
   "quotaReached": false,
   "log": "queue-2026-10-17-0330.log"
  },
@@ -3788,7 +3788,7 @@
    {
     "id": "ldn-mews-house",
     "title": "Mews House",
-    "date": "2026-10-15",
+    "date": "2026-10-17",
     "before": "img/repaints/ldn-mews-house-before.webp",
     "after": "img/repaints/ldn-mews-house-after.webp"
    },
@@ -3966,6 +3966,160 @@
     "date": "2026-10-17",
     "before": "img/repaints/bank-insurance-rear-before.webp",
     "after": "img/repaints/bank-insurance-rear-after.webp"
+   },
+   {
+    "id": "if-terrace-row",
+    "title": "Terrace Row",
+    "date": "2026-10-17",
+    "before": "img/repaints/if-terrace-row-before.webp",
+    "after": "img/repaints/if-terrace-row-after.webp"
+   },
+   {
+    "id": "bk-passage",
+    "title": "Passage",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-passage-before.webp",
+    "after": "img/repaints/bk-passage-after.webp"
+   },
+   {
+    "id": "em-casino",
+    "title": "Casino",
+    "date": "2026-10-17",
+    "before": "img/repaints/em-casino-before.webp",
+    "after": "img/repaints/em-casino-after.webp"
+   },
+   {
+    "id": "ldn-tube-station",
+    "title": "Tube Station",
+    "date": "2026-10-17",
+    "before": "img/repaints/ldn-tube-station-before.webp",
+    "after": "img/repaints/ldn-tube-station-after.webp"
+   },
+   {
+    "id": "ny-early-skyscraper",
+    "title": "Early Skyscraper",
+    "date": "2026-10-17",
+    "before": "img/repaints/ny-early-skyscraper-before.webp",
+    "after": "img/repaints/ny-early-skyscraper-after.webp"
+   },
+   {
+    "id": "ldn-victorian-terrace",
+    "title": "Victorian Terrace",
+    "date": "2026-10-17",
+    "before": "img/repaints/ldn-victorian-terrace-before.webp",
+    "after": "img/repaints/ldn-victorian-terrace-after.webp"
+   },
+   {
+    "id": "if-foundry",
+    "title": "Foundry",
+    "date": "2026-10-17",
+    "before": "img/repaints/if-foundry-before.webp",
+    "after": "img/repaints/if-foundry-after.webp"
+   },
+   {
+    "id": "if-mechanics-institute",
+    "title": "Mechanics Institute",
+    "date": "2026-10-17",
+    "before": "img/repaints/if-mechanics-institute-before.webp",
+    "after": "img/repaints/if-mechanics-institute-after.webp"
+   },
+   {
+    "id": "ny-loft-row",
+    "title": "Loft Row",
+    "date": "2026-10-17",
+    "before": "img/repaints/ny-loft-row-before.webp",
+    "after": "img/repaints/ny-loft-row-after.webp"
+   },
+   {
+    "id": "ny-public-school",
+    "title": "Public School",
+    "date": "2026-10-17",
+    "before": "img/repaints/ny-public-school-before.webp",
+    "after": "img/repaints/ny-public-school-after.webp"
+   },
+   {
+    "id": "em-harbour-warehouse",
+    "title": "Harbour Warehouse",
+    "date": "2026-10-17",
+    "before": "img/repaints/em-harbour-warehouse-before.webp",
+    "after": "img/repaints/em-harbour-warehouse-after.webp"
+   },
+   {
+    "id": "ny-brownstone",
+    "title": "Brownstone",
+    "date": "2026-10-17",
+    "before": "img/repaints/ny-brownstone-before.webp",
+    "after": "img/repaints/ny-brownstone-after.webp"
+   },
+   {
+    "id": "bk-bazaar-shops",
+    "title": "Bazaar Shops",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-bazaar-shops-before.webp",
+    "after": "img/repaints/bk-bazaar-shops-after.webp"
+   },
+   {
+    "id": "tk-machiya",
+    "title": "Machiya",
+    "date": "2026-10-17",
+    "before": "img/repaints/tk-machiya-before.webp",
+    "after": "img/repaints/tk-machiya-after.webp"
+   },
+   {
+    "id": "bk-oil-derricks",
+    "title": "Oil Derricks",
+    "date": "2026-10-17",
+    "before": "img/repaints/bk-oil-derricks-before.webp",
+    "after": "img/repaints/bk-oil-derricks-after.webp"
+   },
+   {
+    "id": "inst-fire",
+    "title": "Inst Fire",
+    "date": "2026-10-17",
+    "before": "img/repaints/inst-fire-before.webp",
+    "after": "img/repaints/inst-fire-after.webp"
+   },
+   {
+    "id": "terrace-mansard",
+    "title": "Terrace Mansard",
+    "date": "2026-10-17",
+    "before": "img/repaints/terrace-mansard-before.webp",
+    "after": "img/repaints/terrace-mansard-after.webp"
+   },
+   {
+    "id": "inst-museum",
+    "title": "Inst Museum",
+    "date": "2026-10-17",
+    "before": "img/repaints/inst-museum-before.webp",
+    "after": "img/repaints/inst-museum-after.webp"
+   },
+   {
+    "id": "house-manor",
+    "title": "House Manor",
+    "date": "2026-10-17",
+    "before": "img/repaints/house-manor-before.webp",
+    "after": "img/repaints/house-manor-after.webp"
+   },
+   {
+    "id": "terrace-cottages",
+    "title": "Terrace Cottages",
+    "date": "2026-10-17",
+    "before": "img/repaints/terrace-cottages-before.webp",
+    "after": "img/repaints/terrace-cottages-after.webp"
+   },
+   {
+    "id": "factory-steel",
+    "title": "Factory Steel",
+    "date": "2026-10-17",
+    "before": "img/repaints/factory-steel-before.webp",
+    "after": "img/repaints/factory-steel-after.webp"
+   },
+   {
+    "id": "res-apartment-small",
+    "title": "Res Apartment Small",
+    "date": "2026-10-17",
+    "before": "img/repaints/res-apartment-small-before.webp",
+    "after": "img/repaints/res-apartment-small-after.webp"
    }
   ],
   "screenshots": [
@@ -4060,7 +4214,7 @@
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 54,
+  "repaints": 76,
   "screenshots": 12
  }
 }
