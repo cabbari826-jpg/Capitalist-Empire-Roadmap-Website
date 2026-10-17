@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T15:43:11.657Z",
+ "generatedAt": "2026-10-17T15:49:39.510Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -540,9 +540,9 @@
   ]
  },
  "activity": {
-  "running": true,
-  "current": "Lots-v5",
-  "section": "lots-v5",
+  "running": false,
+  "current": "Finished",
+  "section": "finished",
   "recent": [
    "IMAGE LIMIT REACHED тАФ stopped with 3 job(s) not attempted",
    "FAILED bk-wall-72 36s",
