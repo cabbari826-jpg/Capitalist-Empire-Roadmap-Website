@@ -1,6 +1,17 @@
 {
   "releases": [
     {
+      "version": "0.29.2",
+      "title": "Day and night",
+      "changes": [
+        "Day and night now pass over the map with the game clock. Dusk sweeps across the land from east to west, street lamps light up, and the windows of shops, homes and factories come on one by one. Late at night most of them go dark again.",
+        "The sun follows the season: long summer evenings, short winter days. A full day takes about 24 minutes at normal speed, runs faster at higher speeds and stops when the game is paused. Switch it off in Settings for constant daylight.",
+        "By day, the painted windows of the buildings no longer glow as if their lights were on.",
+        "Town names seen from afar float just above each town in a rounder, see-through label, so you can still see the town itself.",
+        "The UI tour and the objectives checklist no longer open on top of each other: the checklist waits until the tour ends."
+      ]
+    },
+    {
       "version": "0.29.1",
       "title": "A clearer first hour and Baku landmarks",
       "changes": [
@@ -304,5 +315,5 @@
     }
   ],
   "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
-  "generatedAt": "2026-10-17T10:17:59.580Z"
+  "generatedAt": "2026-10-17T15:28:25.710Z"
 }

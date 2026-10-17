@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-17T10:17:59.488Z",
+ "generatedAt": "2026-10-17T15:28:25.579Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
-  "total": 45,
-  "progress": 0.6176638176638177
+  "total": 47,
+  "progress": 0.6020185488270595
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -132,7 +132,7 @@
     "id": "street-life",
     "label": "Street Life",
     "state": "in-progress",
-    "progress": 0.6666666666666666,
+    "progress": 0.5454545454545454,
     "items": [
      {
       "id": "traffic",
@@ -209,6 +209,24 @@
      {
       "id": "farm-windmill",
       "title": "Farm windmill: the sails turn, following game speed and stopping when paused (owner, 2026-10-17)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "farm-roads-connect",
+      "title": "Country gravel roads reach the farm and facility they serve: today they stop in front of the lot, so they don't read as a road people use; keep the current road look (owner, 2026-10-17, later)",
+      "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "smoke-variety",
+      "title": "More varied chimney smoke: keep the fluffy puffs but add several plume patterns (thin, puffy, drifting) instead of identical columns rising straight up; consider a gentle shared wind that leans plumes (owner, 2026-10-17, later)",
       "state": "todo",
       "progress": 0,
       "count": "",
@@ -318,7 +336,7 @@
     "id": "wonders",
     "label": "Landmarks & Wonders",
     "state": "in-progress",
-    "progress": 0.3333333333333333,
+    "progress": 0.4166666666666667,
     "items": [
      {
       "id": "landmark-pipeline",
@@ -394,12 +412,12 @@
      },
      {
       "id": "old-city-gates",
-      "title": "Baku Old City walls with gates (Double Gates) where streets pass into the new town (owner, 2026-10-16)",
-      "state": "todo",
-      "progress": 0,
+      "title": "Baku's walled Old City (İçərişəhər): two blocks inside crenellated walls with corner towers, and the Double Gates where the street passes into the new town; its pre-1910 landmarks (Maiden Tower) inside (owner, 2026-10-16/17)",
+      "state": "in-progress",
+      "progress": 0.5,
       "count": "",
       "date": "",
-      "detail": ""
+      "detail": "Built in the game 2026-10-17 with code-drawn stand-in wall pieces; ChatGPT paints the six pieces in the next art run (walls-baku)."
      }
     ]
    },
@@ -522,26 +540,16 @@
   ]
  },
  "activity": {
-  "running": false,
-  "current": "Finished",
-  "section": "finished",
+  "running": true,
+  "current": "Old City wall pieces",
+  "section": "Old City wall pieces",
   "recent": [
-   "IMAGE LIMIT REACHED тАФ stopped with 32 job(s) not attempted",
-   "tilted era-house-austerity (gave up)",
-   "done era-house-austerity",
-   "tilted era-house-international (gave up)",
-   "done era-house-international",
-   "done era-house-stucco-bungalow",
-   "tilted era-house-austerity (attempt 3)",
-   "done era-house-austerity",
-   "done era-house-stucco-bungalow",
-   "tilted era-house-international (attempt 3)",
-   "done era-house-international",
-   "tilted era-house-austerity (attempt 2)"
+   "FAILED bk-wall-76a 27s",
+   "FAILED bk-wall-76b 27s"
   ],
-  "paintedToday": 83,
-  "quotaReached": true,
-  "log": "queue-2026-10-17-1311.log"
+  "paintedToday": 0,
+  "quotaReached": false,
+  "log": "queue-2026-10-17-1926.log"
  },
  "gallery": {
   "buildings": [
