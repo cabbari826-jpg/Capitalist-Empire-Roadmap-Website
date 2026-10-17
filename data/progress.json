@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T09:13:34.329Z",
+ "generatedAt": "2026-10-17T09:34:56.834Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -516,8 +516,21 @@
   "running": true,
   "current": "Baku landmark repaints, second way",
   "section": "Baku landmark repaints, second way",
-  "recent": [],
-  "paintedToday": 0,
+  "recent": [
+   "bk-nizami-oriel-block repaint tilted or tapered; restoring the previous painting (last try kept as bk-nizami-oriel-block.rejected-final.png)",
+   "bk-old-city-courtyard-houses repaint tilted or tapered; restoring the previous painting (last try kept as bk-old-city-courtyard-houses.rejected-final.png)",
+   "bk-old-city-wall-bastions repaint tilted or tapered; restoring the previous painting (last try kept as bk-old-city-wall-bastions.rejected-final.png)",
+   "bk-ateshgah repaint tilted or tapered; restoring the previous painting (last try kept as bk-ateshgah.rejected-final.png)",
+   "bk-flame-towers repaint tilted or tapered; restoring the previous painting (last try kept as bk-flame-towers.rejected-final.png)",
+   "bk-bibi-heybat-2008 repaint tilted or tapered; restoring the previous painting (last try kept as bk-bibi-heybat-2008.rejected-final.png)",
+   "bk-philharmonic-hall repaint tilted or tapered; restoring the previous painting (last try kept as bk-philharmonic-hall.rejected-final.png)",
+   "bk-ismailiyya repaint tilted or tapered; restoring the previous painting (last try kept as bk-ismailiyya.rejected-final.png)",
+   "tilted bk-bibi-heybat-2008 (gave up)",
+   "done bk-bibi-heybat-2008",
+   "tilted bk-bibi-heybat-2008 (attempt 4)",
+   "done bk-bibi-heybat-2008"
+  ],
+  "paintedToday": 32,
   "quotaReached": false,
   "log": "queue-2026-10-17-1311.log"
  },
