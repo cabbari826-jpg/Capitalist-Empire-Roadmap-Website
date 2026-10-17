@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T15:28:25.579Z",
+ "generatedAt": "2026-10-17T15:32:48.040Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -541,14 +541,16 @@
  },
  "activity": {
   "running": true,
-  "current": "Old City wall pieces",
-  "section": "Old City wall pieces",
+  "current": "Baku landmark",
+  "section": "Baku landmark",
   "recent": [
+   "IMAGE LIMIT REACHED тАФ stopped with 3 job(s) not attempted",
+   "FAILED bk-wall-72 36s",
    "FAILED bk-wall-76a 27s",
    "FAILED bk-wall-76b 27s"
   ],
   "paintedToday": 0,
-  "quotaReached": false,
+  "quotaReached": true,
   "log": "queue-2026-10-17-1926.log"
  },
  "gallery": {
