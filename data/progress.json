@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-17T09:56:39.530Z",
+ "generatedAt": "2026-10-17T10:05:41.916Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
   "total": 44,
-  "progress": 0.6216006216006217
+  "progress": 0.632964257964258
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -132,7 +132,7 @@
     "id": "street-life",
     "label": "Street Life",
     "state": "in-progress",
-    "progress": 0.6875,
+    "progress": 0.75,
     "items": [
      {
       "id": "traffic",
@@ -200,8 +200,8 @@
      {
       "id": "day-night",
       "title": "Day and night: a soft dusk line sweeps across the map as the hours pass (like Paradox maps), the city dims at night, and building windows switch their lights on and off; daytime paintings lose their always-on window glow (owner, 2026-10-17)",
-      "state": "todo",
-      "progress": 0,
+      "state": "in-progress",
+      "progress": 0.5,
       "count": "",
       "date": "",
       "detail": ""
@@ -517,20 +517,20 @@
   "current": "Lots-v4",
   "section": "lots-v4",
   "recent": [
-   "tilted tk-modern-depato (attempt 2)",
-   "done tk-modern-depato",
-   "done tk-shotengai",
-   "tilted tk-gofukuten (attempt 2)",
-   "done tk-gofukuten",
-   "done tk-dojunkai",
-   "tilted tk-shotengai (attempt 3)",
-   "done tk-shotengai",
-   "done tk-ginza-bricktown",
-   "tilted tk-dojunkai (attempt 2)",
-   "done tk-dojunkai",
-   "tilted tk-shotengai (attempt 2)"
+   "done tk-canal-kura",
+   "done tk-silk-mill",
+   "tilted tk-silk-mill (attempt 3)",
+   "done tk-silk-mill",
+   "done tk-canal-kura",
+   "done tk-giyofu-school",
+   "tilted tk-silk-mill (attempt 2)",
+   "done tk-silk-mill",
+   "done tk-temple",
+   "tilted tk-giyofu-school (attempt 3)",
+   "done tk-giyofu-school",
+   "tilted tk-gofukuten (gave up)"
   ],
-  "paintedToday": 51,
+  "paintedToday": 65,
   "quotaReached": false,
   "log": "queue-2026-10-17-1311.log"
  },
