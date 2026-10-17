@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-17T15:38:52.633Z",
+ "generatedAt": "2026-10-17T15:40:19.488Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 24,
@@ -541,8 +541,8 @@
  },
  "activity": {
   "running": true,
-  "current": "Glass-box repaints",
-  "section": "glass-box repaints",
+  "current": "Lots-v4",
+  "section": "lots-v4",
   "recent": [
    "IMAGE LIMIT REACHED тАФ stopped with 3 job(s) not attempted",
    "FAILED bk-wall-72 36s",
