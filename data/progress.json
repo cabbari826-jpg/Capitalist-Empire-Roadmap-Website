@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-19T17:13:46.527Z",
+ "generatedAt": "2026-10-19T17:22:09.792Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 25,
   "total": 48,
-  "progress": 0.6160556076714613
+  "progress": 0.6164117330275867
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -310,14 +310,14 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.6426672920575359,
+    "progress": 0.6469407963310403,
     "items": [
      {
       "id": "lots-v4",
       "title": "Each city's own architecture (New York, London, Baku, Tokyo, Emerald Coast, Ironforge)",
       "state": "in-progress",
-      "progress": 0.9487179487179487,
-      "count": "111/117",
+      "progress": 0.9658119658119658,
+      "count": "113/117",
       "date": "",
       "detail": ""
      },
@@ -559,10 +559,16 @@
  },
  "activity": {
   "running": true,
-  "current": "Glass-box repaints",
-  "section": "glass-box repaints",
-  "recent": [],
-  "paintedToday": 0,
+  "current": "Lots-v4",
+  "section": "lots-v4",
+  "recent": [
+   "done tk-giyofu-school",
+   "done tk-modern-depato",
+   "done era-house-stucco-bungalow",
+   "done era-house-moderne",
+   "done era-house-stucco-bungalow"
+  ],
+  "paintedToday": 5,
   "quotaReached": false,
   "log": "queue-2026-10-19-2055.log"
  },
@@ -2912,6 +2918,17 @@
     "full": "img/buildings/tk-dojunkai-large.webp"
    },
    {
+    "id": "tk-modern-depato",
+    "title": "Modern Depato",
+    "role": "Department store",
+    "city": "Tokyo Neo Tech",
+    "era": "1928–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-modern-depato.webp",
+    "full": "img/buildings/tk-modern-depato-large.webp"
+   },
+   {
     "id": "tk-brick-office",
     "title": "Brick Office",
     "role": "Bank & offices",
@@ -2921,6 +2938,17 @@
     "lot": "2×2 lot",
     "thumb": "img/buildings/tk-brick-office.webp",
     "full": "img/buildings/tk-brick-office-large.webp"
+   },
+   {
+    "id": "tk-giyofu-school",
+    "title": "Giyofu School",
+    "role": "Public building",
+    "city": "Tokyo Neo Tech",
+    "era": "1870–1900",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-giyofu-school.webp",
+    "full": "img/buildings/tk-giyofu-school-large.webp"
    },
    {
     "id": "tk-temple",
@@ -4442,6 +4470,34 @@
     "date": "2026-10-17",
     "before": "img/repaints/res-apartment-small-before.webp",
     "after": "img/repaints/res-apartment-small-after.webp"
+   },
+   {
+    "id": "era-house-moderne",
+    "title": "House Moderne",
+    "date": "2026-10-19",
+    "before": "img/repaints/era-house-moderne-before.webp",
+    "after": "img/repaints/era-house-moderne-after.webp"
+   },
+   {
+    "id": "era-house-stucco-bungalow",
+    "title": "House Stucco Bungalow",
+    "date": "2026-10-19",
+    "before": "img/repaints/era-house-stucco-bungalow-before.webp",
+    "after": "img/repaints/era-house-stucco-bungalow-after.webp"
+   },
+   {
+    "id": "tk-modern-depato",
+    "title": "Modern Depato",
+    "date": "2026-10-19",
+    "before": "img/repaints/tk-modern-depato-before.webp",
+    "after": "img/repaints/tk-modern-depato-after.webp"
+   },
+   {
+    "id": "tk-giyofu-school",
+    "title": "Giyofu School",
+    "date": "2026-10-19",
+    "before": "img/repaints/tk-giyofu-school-before.webp",
+    "after": "img/repaints/tk-giyofu-school-after.webp"
    }
   ],
   "screenshots": [
@@ -4532,11 +4588,11 @@
   ]
  },
  "counts": {
-  "buildings": 222,
+  "buildings": 224,
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
-  "repaints": 80,
+  "repaints": 84,
   "screenshots": 12
  }
 }
