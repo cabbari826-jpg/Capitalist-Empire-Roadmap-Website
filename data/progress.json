@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-19T11:52:27.272Z",
+ "generatedAt": "2026-10-19T17:03:52.597Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 25,
   "total": 48,
-  "progress": 0.6103098290598291
+  "progress": 0.6160556076714613
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -310,23 +310,23 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.5737179487179487,
+    "progress": 0.6426672920575359,
     "items": [
      {
       "id": "lots-v4",
       "title": "Each city's own architecture (New York, London, Baku, Tokyo, Emerald Coast, Ironforge)",
       "state": "in-progress",
-      "progress": 0.7948717948717948,
-      "count": "93/117",
+      "progress": 0.9487179487179487,
+      "count": "111/117",
       "date": "",
       "detail": ""
      },
      {
       "id": "lots-v5",
       "title": "Later eras: 1920s Deco to 1950s towers",
-      "state": "todo",
-      "progress": 0,
-      "count": "0/41",
+      "state": "in-progress",
+      "progress": 0.12195121951219512,
+      "count": "5/41",
       "date": "",
       "detail": ""
      },
@@ -559,17 +559,12 @@
  },
  "activity": {
   "running": true,
-  "current": "Image quota reached",
-  "section": "image quota reached",
-  "recent": [
-   "IMAGE LIMIT REACHED тАФ stopped with 29 job(s) not attempted",
-   "FAILED era-house-prefab 4s",
-   "FAILED era-shop-milk-bar 4s",
-   "FAILED era-shop-vitrolite 4s"
-  ],
+  "current": "Baku landmark",
+  "section": "Baku landmark",
+  "recent": [],
   "paintedToday": 0,
-  "quotaReached": true,
-  "log": "queue-2026-10-19-1457.log"
+  "quotaReached": false,
+  "log": "queue-2026-10-19-2055.log"
  },
  "gallery": {
   "buildings": [
@@ -1850,6 +1845,17 @@
     "full": "img/buildings/ny-brownstone-row-large.webp"
    },
    {
+    "id": "ny-loft-row",
+    "title": "Loft Row",
+    "role": "Shopping parade",
+    "city": "Metropolis Prime (New York)",
+    "era": "1860–1905",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/ny-loft-row.webp",
+    "full": "img/buildings/ny-loft-row-large.webp"
+   },
+   {
     "id": "ny-tenement-block",
     "title": "Tenement Block",
     "role": "Apartments",
@@ -2642,6 +2648,17 @@
     "full": "img/buildings/bk-bazaar-shops-large.webp"
    },
    {
+    "id": "bk-shebeke-row",
+    "title": "Shebeke Row",
+    "role": "Terrace",
+    "city": "Baku Petroleum Hub",
+    "era": "1870–1925",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/bk-shebeke-row.webp",
+    "full": "img/buildings/bk-shebeke-row-large.webp"
+   },
+   {
     "id": "bk-torgovaya-row",
     "title": "Torgovaya Row",
     "role": "Shopping parade",
@@ -2761,6 +2778,237 @@
     "lot": "1×1 lot",
     "thumb": "img/buildings/tk-samurai-house.webp",
     "full": "img/buildings/tk-samurai-house-large.webp"
+   },
+   {
+    "id": "tk-kura-house",
+    "title": "Kura House",
+    "role": "House",
+    "city": "Tokyo Neo Tech",
+    "era": "1800–1925",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-kura-house.webp",
+    "full": "img/buildings/tk-kura-house-large.webp"
+   },
+   {
+    "id": "tk-taisho-house",
+    "title": "Taisho House",
+    "role": "House",
+    "city": "Tokyo Neo Tech",
+    "era": "1915–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-taisho-house.webp",
+    "full": "img/buildings/tk-taisho-house-large.webp"
+   },
+   {
+    "id": "tk-garden-house",
+    "title": "House",
+    "role": "House",
+    "city": "Tokyo Neo Tech",
+    "era": "1800–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-garden-house.webp",
+    "full": "img/buildings/tk-garden-house-large.webp"
+   },
+   {
+    "id": "tk-shitamachi-house",
+    "title": "Shitamachi House",
+    "role": "House",
+    "city": "Tokyo Neo Tech",
+    "era": "1800–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-shitamachi-house.webp",
+    "full": "img/buildings/tk-shitamachi-house-large.webp"
+   },
+   {
+    "id": "tk-craftsman-house",
+    "title": "Craftsman House",
+    "role": "House",
+    "city": "Tokyo Neo Tech",
+    "era": "1750–1945",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-craftsman-house.webp",
+    "full": "img/buildings/tk-craftsman-house-large.webp"
+   },
+   {
+    "id": "tk-shop-machiya",
+    "title": "Machiya",
+    "role": "Shop",
+    "city": "Tokyo Neo Tech",
+    "era": "1700–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-shop-machiya.webp",
+    "full": "img/buildings/tk-shop-machiya-large.webp"
+   },
+   {
+    "id": "tk-kanban-shop",
+    "title": "Kanban Shop",
+    "role": "Shop",
+    "city": "Tokyo Neo Tech",
+    "era": "1923–1940",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-kanban-shop.webp",
+    "full": "img/buildings/tk-kanban-shop-large.webp"
+   },
+   {
+    "id": "tk-tea-merchant",
+    "title": "Tea Merchant",
+    "role": "Shop",
+    "city": "Tokyo Neo Tech",
+    "era": "1800–1935",
+    "wave": "lots-v4",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/tk-tea-merchant.webp",
+    "full": "img/buildings/tk-tea-merchant-large.webp"
+   },
+   {
+    "id": "tk-nagaya",
+    "title": "Nagaya",
+    "role": "Terrace",
+    "city": "Tokyo Neo Tech",
+    "era": "1700–1945",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/tk-nagaya.webp",
+    "full": "img/buildings/tk-nagaya-large.webp"
+   },
+   {
+    "id": "tk-shotengai",
+    "title": "Shotengai",
+    "role": "Shopping parade",
+    "city": "Tokyo Neo Tech",
+    "era": "1750–1940",
+    "wave": "lots-v4",
+    "lot": "2×1 lot",
+    "thumb": "img/buildings/tk-shotengai.webp",
+    "full": "img/buildings/tk-shotengai-large.webp"
+   },
+   {
+    "id": "tk-ginza-bricktown",
+    "title": "Ginza Bricktown",
+    "role": "Apartments",
+    "city": "Tokyo Neo Tech",
+    "era": "1872–1910",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-ginza-bricktown.webp",
+    "full": "img/buildings/tk-ginza-bricktown-large.webp"
+   },
+   {
+    "id": "tk-dojunkai",
+    "title": "Dojunkai",
+    "role": "Apartments",
+    "city": "Tokyo Neo Tech",
+    "era": "1926–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-dojunkai.webp",
+    "full": "img/buildings/tk-dojunkai-large.webp"
+   },
+   {
+    "id": "tk-brick-office",
+    "title": "Brick Office",
+    "role": "Bank & offices",
+    "city": "Tokyo Neo Tech",
+    "era": "1890–1920",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-brick-office.webp",
+    "full": "img/buildings/tk-brick-office-large.webp"
+   },
+   {
+    "id": "tk-temple",
+    "title": "Temple",
+    "role": "Public building",
+    "city": "Tokyo Neo Tech",
+    "era": "1600–1945",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-temple.webp",
+    "full": "img/buildings/tk-temple-large.webp"
+   },
+   {
+    "id": "tk-silk-mill",
+    "title": "Silk Mill",
+    "role": "Factory",
+    "city": "Tokyo Neo Tech",
+    "era": "1870–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-silk-mill.webp",
+    "full": "img/buildings/tk-silk-mill-large.webp"
+   },
+   {
+    "id": "tk-canal-kura",
+    "title": "Canal Kura",
+    "role": "Warehouse",
+    "city": "Tokyo Neo Tech",
+    "era": "1700–1930",
+    "wave": "lots-v4",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/tk-canal-kura.webp",
+    "full": "img/buildings/tk-canal-kura-large.webp"
+   },
+   {
+    "id": "era-house-interwar",
+    "title": "Interwar",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1920–1945",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-interwar.webp",
+    "full": "img/buildings/era-house-interwar-large.webp"
+   },
+   {
+    "id": "era-house-sunray-semi",
+    "title": "Sunray Semi",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1928–1945",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-sunray-semi.webp",
+    "full": "img/buildings/era-house-sunray-semi-large.webp"
+   },
+   {
+    "id": "era-house-postwar",
+    "title": "Postwar",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1946–1960",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-postwar.webp",
+    "full": "img/buildings/era-house-postwar-large.webp"
+   },
+   {
+    "id": "era-house-fifties",
+    "title": "Fifties",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1950–1965",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-fifties.webp",
+    "full": "img/buildings/era-house-fifties-large.webp"
+   },
+   {
+    "id": "era-house-flats",
+    "title": "Flats",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1948–1965",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-flats.webp",
+    "full": "img/buildings/era-house-flats-large.webp"
    }
   ],
   "deposits": [
@@ -4284,7 +4532,7 @@
   ]
  },
  "counts": {
-  "buildings": 199,
+  "buildings": 222,
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
