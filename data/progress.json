@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-17T15:49:39.510Z",
+ "generatedAt": "2026-10-19T11:05:52.043Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 24,
-  "total": 47,
-  "progress": 0.6020185488270595
+  "done": 25,
+  "total": 48,
+  "progress": 0.6103098290598291
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -132,7 +132,7 @@
     "id": "street-life",
     "label": "Street Life",
     "state": "in-progress",
-    "progress": 0.5454545454545454,
+    "progress": 0.5833333333333334,
     "items": [
      {
       "id": "traffic",
@@ -200,10 +200,10 @@
      {
       "id": "day-night",
       "title": "Day and night: a soft dusk line sweeps across the map as the hours pass (like Paradox maps), the city dims at night, and building windows switch their lights on and off; daytime paintings lose their always-on window glow (owner, 2026-10-17)",
-      "state": "in-progress",
-      "progress": 0.5,
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
+      "date": "2026-10-17",
       "detail": "Prototype in the game behind a switch. Owner decisions 2026-10-17: on by default with a Settings switch, a 24-minute day at 1x (clock-tower pace), night as shown, script-made window masks next, daytime glow toned down. Ships with the tutorial-overlap fix."
      },
      {
@@ -228,6 +228,24 @@
       "id": "smoke-variety",
       "title": "More varied chimney smoke: keep the fluffy puffs but add several plume patterns (thin, puffy, drifting) instead of identical columns rising straight up; consider a gentle shared wind that leans plumes (owner, 2026-10-17, later)",
       "state": "todo",
+      "progress": 0,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "curved-roads",
+      "title": "Curved country roads, rounded kerbs and a roundabout in each town centre; traffic follows them (owner idea 2026-10-18)",
+      "state": "in-progress",
+      "progress": 0.5,
+      "count": "",
+      "date": "",
+      "detail": ""
+     },
+     {
+      "id": "vehicle-8-views",
+      "title": "Vehicles face along curves and round roundabouts: diagonal vehicle paintings (8 directions)",
+      "state": "idea",
       "progress": 0,
       "count": "",
       "date": "",
@@ -540,18 +558,13 @@
   ]
  },
  "activity": {
-  "running": false,
-  "current": "Finished",
-  "section": "finished",
-  "recent": [
-   "IMAGE LIMIT REACHED тАФ stopped with 3 job(s) not attempted",
-   "FAILED bk-wall-72 36s",
-   "FAILED bk-wall-76a 27s",
-   "FAILED bk-wall-76b 27s"
-  ],
+  "running": true,
+  "current": "Baku landmark",
+  "section": "Baku landmark",
+  "recent": [],
   "paintedToday": 0,
-  "quotaReached": true,
-  "log": "queue-2026-10-17-1926.log"
+  "quotaReached": false,
+  "log": "queue-2026-10-19-1457.log"
  },
  "gallery": {
   "buildings": [
@@ -3907,7 +3920,7 @@
    {
     "id": "bk-maiden-tower",
     "title": "Maiden Tower",
-    "date": "2026-10-17",
+    "date": "2026-10-18",
     "before": "img/repaints/bk-maiden-tower-before.webp",
     "after": "img/repaints/bk-maiden-tower-after.webp"
    },
