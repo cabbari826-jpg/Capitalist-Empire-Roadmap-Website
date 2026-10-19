@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-19T17:22:09.792Z",
+ "generatedAt": "2026-10-19T17:27:09.542Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 25,
   "total": 48,
-  "progress": 0.6164117330275867
+  "progress": 0.6194605135153916
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -310,7 +310,7 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.6469407963310403,
+    "progress": 0.6835261621846987,
     "items": [
      {
       "id": "lots-v4",
@@ -325,8 +325,8 @@
       "id": "lots-v5",
       "title": "Later eras: 1920s Deco to 1950s towers",
       "state": "in-progress",
-      "progress": 0.12195121951219512,
-      "count": "5/41",
+      "progress": 0.2682926829268293,
+      "count": "11/41",
       "date": "",
       "detail": ""
      },
@@ -559,17 +559,24 @@
  },
  "activity": {
   "running": true,
-  "current": "Lots-v4",
-  "section": "lots-v4",
+  "current": "Image quota reached",
+  "section": "image quota reached",
   "recent": [
-   "done tk-giyofu-school",
-   "done tk-modern-depato",
-   "done era-house-stucco-bungalow",
-   "done era-house-moderne",
-   "done era-house-stucco-bungalow"
+   "IMAGE LIMIT REACHED тАФ stopped with 26 job(s) not attempted",
+   "tilted era-shop-fifties (gave up)",
+   "done era-shop-fifties",
+   "tilted era-shop-fifties (attempt 3)",
+   "done era-shop-fifties",
+   "tilted era-shop-fifties (attempt 2)",
+   "done era-shop-fifties",
+   "done era-shop-faience-corner",
+   "FAILED era-terrace-neo-georgian 22s",
+   "done era-house-prefab",
+   "done era-shop-milk-bar",
+   "done era-shop-vitrolite"
   ],
-  "paintedToday": 5,
-  "quotaReached": false,
+  "paintedToday": 12,
+  "quotaReached": true,
   "log": "queue-2026-10-19-2055.log"
  },
  "gallery": {
@@ -2995,6 +3002,17 @@
     "full": "img/buildings/era-house-interwar-large.webp"
    },
    {
+    "id": "era-house-moderne",
+    "title": "Moderne",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1931–1948",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-moderne.webp",
+    "full": "img/buildings/era-house-moderne-large.webp"
+   },
+   {
     "id": "era-house-sunray-semi",
     "title": "Sunray Semi",
     "role": "House",
@@ -3037,6 +3055,61 @@
     "lot": "1×1 lot",
     "thumb": "img/buildings/era-house-flats.webp",
     "full": "img/buildings/era-house-flats-large.webp"
+   },
+   {
+    "id": "era-house-stucco-bungalow",
+    "title": "Stucco Bungalow",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1926–1945",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-stucco-bungalow.webp",
+    "full": "img/buildings/era-house-stucco-bungalow-large.webp"
+   },
+   {
+    "id": "era-house-prefab",
+    "title": "Prefab",
+    "role": "House",
+    "city": "Shared European stock",
+    "era": "1944–1955",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-house-prefab.webp",
+    "full": "img/buildings/era-house-prefab-large.webp"
+   },
+   {
+    "id": "era-shop-vitrolite",
+    "title": "Vitrolite",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1925–1940",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-shop-vitrolite.webp",
+    "full": "img/buildings/era-shop-vitrolite-large.webp"
+   },
+   {
+    "id": "era-shop-milk-bar",
+    "title": "Milk Bar",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1932–1950",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-shop-milk-bar.webp",
+    "full": "img/buildings/era-shop-milk-bar-large.webp"
+   },
+   {
+    "id": "era-shop-faience-corner",
+    "title": "Faience Corner",
+    "role": "Shop",
+    "city": "Shared European stock",
+    "era": "1926–1945",
+    "wave": "lots-v5",
+    "lot": "1×1 lot",
+    "thumb": "img/buildings/era-shop-faience-corner.webp",
+    "full": "img/buildings/era-shop-faience-corner-large.webp"
    }
   ],
   "deposits": [
@@ -4588,7 +4661,7 @@
   ]
  },
  "counts": {
-  "buildings": 224,
+  "buildings": 230,
   "deposits": 10,
   "vehicles": 20,
   "products": 135,
