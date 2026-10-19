@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-19T11:48:48.661Z",
+ "generatedAt": "2026-10-19T11:50:13.971Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
   "done": 25,
@@ -559,11 +559,16 @@
  },
  "activity": {
   "running": true,
-  "current": "Lots-v4",
-  "section": "lots-v4",
-  "recent": [],
+  "current": "Image quota reached",
+  "section": "image quota reached",
+  "recent": [
+   "IMAGE LIMIT REACHED тАФ stopped with 29 job(s) not attempted",
+   "FAILED era-house-prefab 4s",
+   "FAILED era-shop-milk-bar 4s",
+   "FAILED era-shop-vitrolite 4s"
+  ],
   "paintedToday": 0,
-  "quotaReached": false,
+  "quotaReached": true,
   "log": "queue-2026-10-19-1457.log"
  },
  "gallery": {
