@@ -6,3 +6,4 @@
 .game-main .section-heading h2{white-space:normal;min-width:0}.game-main .section-heading:after{min-width:0}
 
 .building-card img,.poster-preview img{height:auto}
+.development-note{max-width:1440px;margin:1.25rem auto;padding:0 24px;color:#b8b6aa;font-size:.9rem;line-height:1.6}.development-note a{color:#d6b15d}@media(max-width:500px){.development-note{padding:0 16px}}

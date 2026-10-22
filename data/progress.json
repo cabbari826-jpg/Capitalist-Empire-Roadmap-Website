@@ -1,10 +1,10 @@
 {
- "generatedAt": "2026-10-19T17:27:09.542Z",
+ "generatedAt": "2026-10-22T15:11:42.369Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "summary": {
-  "done": 25,
-  "total": 48,
-  "progress": 0.6194605135153916
+  "done": 35,
+  "total": 55,
+  "progress": 0.7250730570242766
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -132,7 +132,7 @@
     "id": "street-life",
     "label": "Street Life",
     "state": "in-progress",
-    "progress": 0.5833333333333334,
+    "progress": 0.7083333333333334,
     "items": [
      {
       "id": "traffic",
@@ -199,12 +199,12 @@
      },
      {
       "id": "day-night",
-      "title": "Day and night: a soft dusk line sweeps across the map as the hours pass (like Paradox maps), the city dims at night, and building windows switch their lights on and off; daytime paintings lose their always-on window glow (owner, 2026-10-17)",
+      "title": "Seasonal daylight, dusk and night-time city lighting",
       "state": "done",
       "progress": 1,
       "count": "",
       "date": "2026-10-17",
-      "detail": "Prototype in the game behind a switch. Owner decisions 2026-10-17: on by default with a Settings switch, a 24-minute day at 1x (clock-tower pace), night as shown, script-made window masks next, daytime glow toned down. Ships with the tutorial-overlap fix."
+      "detail": "Released in v0.29.2. A full day takes about 24 minutes at normal speed; Settings can keep constant daylight."
      },
      {
       "id": "farm-windmill",
@@ -226,21 +226,21 @@
      },
      {
       "id": "smoke-variety",
-      "title": "More varied chimney smoke: keep the fluffy puffs but add several plume patterns (thin, puffy, drifting) instead of identical columns rising straight up; consider a gentle shared wind that leans plumes (owner, 2026-10-17, later)",
-      "state": "todo",
-      "progress": 0,
+      "title": "Varied factory smoke with a gentle shared breeze",
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": ""
+      "date": "2026-10-22",
+      "detail": "Completed for the next local update: four plume patterns create variety without a physics simulation."
      },
      {
       "id": "curved-roads",
-      "title": "Curved country roads, rounded kerbs and a roundabout in each town centre; traffic follows them (owner idea 2026-10-18)",
-      "state": "in-progress",
-      "progress": 0.5,
+      "title": "Curved country roads, rounded kerbs and town roundabouts",
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": ""
+      "date": "2026-10-22",
+      "detail": "Completed locally. Traffic follows the curves, while roads keep clear of buildings and water."
      },
      {
       "id": "vehicle-8-views",
@@ -310,25 +310,25 @@
     "id": "identity",
     "label": "City Identity",
     "state": "in-progress",
-    "progress": 0.6835261621846987,
+    "progress": 0.7322545340838024,
     "items": [
      {
       "id": "lots-v4",
       "title": "Each city's own architecture (New York, London, Baku, Tokyo, Emerald Coast, Ironforge)",
       "state": "in-progress",
-      "progress": 0.9658119658119658,
-      "count": "113/117",
+      "progress": 0.7948717948717948,
+      "count": "93/117",
       "date": "",
-      "detail": ""
+      "detail": "93 designs are in the local build. Three further city paintings have passed fit and lighting review and await integration."
      },
      {
       "id": "lots-v5",
       "title": "Later eras: 1920s Deco to 1950s towers",
       "state": "in-progress",
-      "progress": 0.2682926829268293,
-      "count": "11/41",
+      "progress": 0.6341463414634146,
+      "count": "26/41",
       "date": "",
-      "detail": ""
+      "detail": "26 later-era paintings have passed source and fit review. Final lighting checks, perspective redraws and integration continue; these are development progress, not a released set."
      },
      {
       "id": "redevelop",
@@ -354,7 +354,7 @@
     "id": "wonders",
     "label": "Landmarks & Wonders",
     "state": "in-progress",
-    "progress": 0.4166666666666667,
+    "progress": 0.5,
     "items": [
      {
       "id": "landmark-pipeline",
@@ -430,12 +430,12 @@
      },
      {
       "id": "old-city-gates",
-      "title": "Baku's walled Old City (İçərişəhər): two blocks inside crenellated walls with corner towers, and the Double Gates where the street passes into the new town; its pre-1910 landmarks (Maiden Tower) inside (owner, 2026-10-16/17)",
-      "state": "in-progress",
-      "progress": 0.5,
+      "title": "Baku’s dense Old City, painted walls and gate traffic",
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": "Built in the game 2026-10-17 with code-drawn stand-in wall pieces; ChatGPT paints the six pieces in the next art run (walls-baku)."
+      "date": "2026-10-22",
+      "detail": "Completed locally: more than thirty small houses, distinct artwork, a taller Maiden Tower and traffic through the gates."
      }
     ]
    },
@@ -443,7 +443,7 @@
     "id": "next",
     "label": "Next Up",
     "state": "in-progress",
-    "progress": 0.2916666666666667,
+    "progress": 0.5,
     "items": [
      {
       "id": "rear-views",
@@ -474,21 +474,21 @@
      },
      {
       "id": "greenery",
-      "title": "Leafier towns: trees in yards and between buildings",
-      "state": "todo",
-      "progress": 0,
+      "title": "Detailed static grass, with the original Low-quality option",
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": ""
+      "date": "2026-10-22",
+      "detail": "Completed locally: dimensional grass and clover patches add ground detail. Vegetation stays still, and Low keeps the lighter appearance."
      },
      {
       "id": "dense-core",
       "title": "Denser, taller city cores",
-      "state": "todo",
-      "progress": 0,
+      "state": "in-progress",
+      "progress": 0.5,
       "count": "",
       "date": "",
-      "detail": ""
+      "detail": "The dense Baku Old City is complete locally. Further town-centre variety remains in progress."
      },
      {
       "id": "factory-match",
@@ -528,21 +528,21 @@
      },
      {
       "id": "ship",
-      "title": "Bring the new map into the main game (owner sign-off)",
+      "title": "Bring the completed work together for the next release",
       "state": "in-progress",
       "progress": 0.5,
       "count": "",
       "date": "",
-      "detail": "Owner approved the merge plan (docs/MERGE_PLAN.md) on 2026-10-15. Lab prep done: art as WebP (123 MB to 27 MB), light detail for phones (16 MB download, about 110 MB of graphics memory), tour and objectives checklist fixed for the new screen, economic map window repaired, and each facility's site saved for v0.30 location economics. All 18 map tests pass. Next: review tonight's art run, then copy into the main game step by step."
+      "detail": "The combined local update is being finished. New artwork and founder balance work remain before the game release."
      },
      {
       "id": "location-economy",
-      "title": "Location matters: where a building stands changes its freight, land price and walk-in customers (rivals follow the same rules)",
-      "state": "todo",
-      "progress": 0,
+      "title": "Location choices affect land cost and business",
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": ""
+      "date": "2026-10-22",
+      "detail": "Completed for the local update: recorded building sites, local freight and the selected $15,000 centre-land premium."
      },
      {
       "id": "baku-oil-edge",
@@ -554,30 +554,83 @@
       "detail": ""
      }
     ]
+   },
+   {
+    "id": "next-update-website",
+    "label": "Next Update & Website",
+    "items": [
+     {
+      "id": "graphics-quality",
+      "title": "High, Low and Custom graphics settings",
+      "state": "done",
+      "progress": 1,
+      "date": "2026-10-22",
+      "detail": "Completed locally. Change quality without reloading the game or moving the camera."
+     },
+     {
+      "id": "vehicle-headlights",
+      "title": "Vehicle headlights after dark",
+      "state": "done",
+      "progress": 1,
+      "date": "2026-10-22",
+      "detail": "Completed for the next local update, alongside the night-light controls."
+     },
+     {
+      "id": "smoother-month-close",
+      "title": "Smoother month-end processing",
+      "state": "done",
+      "progress": 1,
+      "date": "2026-10-22",
+      "detail": "The background month-end work is integrated locally and preserves the economic results."
+     },
+     {
+      "id": "one-floating-tour",
+      "title": "Keep one floating tutorial window",
+      "state": "done",
+      "progress": 1,
+      "date": "2026-10-22",
+      "detail": "Completed locally: the original movable tour stays; the additional checklist window is removed."
+     },
+     {
+      "id": "our-story",
+      "title": "Our story, by J.R.",
+      "state": "done",
+      "progress": 1,
+      "date": "2026-10-22",
+      "detail": "The creator’s approved account of how Capitalist Empire began is now on this website."
+     },
+     {
+      "id": "founder-balance",
+      "title": "Founder strengths and real trade-offs",
+      "state": "in-progress",
+      "progress": 0.35,
+      "date": "",
+      "detail": "Shared-opening comparisons are complete. Founder-specific openings and individual perks are being evaluated before balance decisions."
+     },
+     {
+      "id": "balance-testing-agents",
+      "title": "Automated business playtesting",
+      "state": "in-progress",
+      "progress": 0.1,
+      "date": "",
+      "detail": "Paid-business test policies are being developed to exercise real construction, suppliers, stock and financing."
+     }
+    ],
+    "progress": 0.7785714285714285,
+    "state": "in-progress"
    }
   ]
  },
  "activity": {
-  "running": true,
-  "current": "Image quota reached",
-  "section": "image quota reached",
+  "running": false,
+  "current": "Reviewing the new paintings",
   "recent": [
-   "IMAGE LIMIT REACHED тАФ stopped with 26 job(s) not attempted",
-   "tilted era-shop-fifties (gave up)",
-   "done era-shop-fifties",
-   "tilted era-shop-fifties (attempt 3)",
-   "done era-shop-fifties",
-   "tilted era-shop-fifties (attempt 2)",
-   "done era-shop-fifties",
-   "done era-shop-faience-corner",
-   "FAILED era-terrace-neo-georgian 22s",
-   "done era-house-prefab",
-   "done era-shop-milk-bar",
-   "done era-shop-vitrolite"
+   "The latest painting pass is complete.",
+   "Checking building fit, windows, lamps and clock faces.",
+   "Some perspective redraws and final integration remain."
   ],
-  "paintedToday": 12,
-  "quotaReached": true,
-  "log": "queue-2026-10-19-2055.log"
+  "paintedToday": 36,
+  "quotaReached": false
  },
  "gallery": {
   "buildings": [
@@ -4575,6 +4628,27 @@
   ],
   "screenshots": [
    {
+    "title": "City development preview at night",
+    "caption": "The same local development view after dark, with reviewed building windows and lamps.",
+    "date": "2026-10-22",
+    "thumb": "img/screens/city-preview-night-2026-10-22.webp",
+    "full": "img/screens/city-preview-night-2026-10-22-large.webp"
+   },
+   {
+    "title": "City development preview",
+    "caption": "The current local city preview with new apartment artwork. The next game release is still being finished.",
+    "date": "2026-10-22",
+    "thumb": "img/screens/city-preview-day-2026-10-22.webp",
+    "full": "img/screens/city-preview-day-2026-10-22-large.webp"
+   },
+   {
+    "title": "New later-era paintings",
+    "caption": "Four new building paintings in review for future city redevelopment.",
+    "date": "2026-10-22",
+    "thumb": "img/screens/later-era-buildings-2026-10-22.webp",
+    "full": "img/screens/later-era-buildings-2026-10-22-large.webp"
+   },
+   {
     "title": "Country road, 1910",
     "caption": "Gravel country road with earth verges; farm track of trodden earth; no markings yet.",
     "date": "2026-10-15",
@@ -4666,6 +4740,6 @@
   "vehicles": 20,
   "products": 135,
   "repaints": 84,
-  "screenshots": 12
+  "screenshots": 15
  }
 }
