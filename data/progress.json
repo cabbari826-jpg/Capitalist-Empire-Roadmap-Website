@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-25T12:24:54.912Z",
+ "generatedAt": "2026-10-25T19:54:44.648Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "releasedVersion": "0.29.2",
  "developmentNotice": "Released game: v0.29.2. New artwork and features listed as local development are installed locally and remain unpublished.",
  "summary": {
-  "done": 52,
-  "total": 62,
-  "progress": 0.9064516129032258
+  "done": 53,
+  "total": 63,
+  "progress": 0.9079365079365079
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -356,7 +356,7 @@
     "id": "wonders",
     "label": "Landmarks & Wonders",
     "state": "in-progress",
-    "progress": 0.8846153846153846,
+    "progress": 0.8928571428571429,
     "items": [
      {
       "id": "landmark-pipeline",
@@ -402,6 +402,15 @@
       "count": "1/1",
       "date": "2026-10-25",
       "detail": "Local development: each installed landmark uses its city, district, plot and opening year. New additions remain unpublished."
+     },
+     {
+      "id": "signature-hq",
+      "title": "Signature company headquarters (appearance only)",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-10-25",
+      "detail": "Local development: when building the Corporate HQ, players can pick one of twelve shipped office paintings that fit the city and era, on a standard 2×2 town plot. Cost, departments and HQ effects are unchanged. Unpublished."
      },
      {
       "id": "wonders-build",
@@ -4107,6 +4116,39 @@
     "full": "img/buildings/bk-nizami-oriel-block-large.webp"
    },
    {
+    "id": "bk-old-city-courtyard-houses",
+    "title": "Old City Courtyard Houses",
+    "role": "House",
+    "city": "Baku Petroleum Hub",
+    "era": "Local development · 1900+",
+    "wave": "landmarks-baku-v1",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/bk-old-city-courtyard-houses.webp",
+    "full": "img/buildings/bk-old-city-courtyard-houses-large.webp"
+   },
+   {
+    "id": "bk-bibi-heybat-2008",
+    "title": "Bibi Heybat 2008",
+    "role": "Public building",
+    "city": "Baku Petroleum Hub",
+    "era": "Local development · 2008+",
+    "wave": "landmarks-baku-v1",
+    "lot": "3×2 lot",
+    "thumb": "img/buildings/bk-bibi-heybat-2008.webp",
+    "full": "img/buildings/bk-bibi-heybat-2008-large.webp"
+   },
+   {
+    "id": "bk-philharmonic-hall",
+    "title": "Philharmonic Hall",
+    "role": "Public building",
+    "city": "Baku Petroleum Hub",
+    "era": "Local development · 1912+",
+    "wave": "landmarks-baku-v1",
+    "lot": "3×2 lot",
+    "thumb": "img/buildings/bk-philharmonic-hall.webp",
+    "full": "img/buildings/bk-philharmonic-hall-large.webp"
+   },
+   {
     "id": "ny-city-hall",
     "title": "City Hall",
     "role": "Public building",
@@ -4281,6 +4323,17 @@
     "lot": "2×2 lot",
     "thumb": "img/buildings/construction-l-a-frame.webp",
     "full": "img/buildings/construction-l-a-frame-large.webp"
+   },
+   {
+    "id": "construction-l-b-groundworks",
+    "title": "Construction L B Groundworks",
+    "role": "construction",
+    "city": "Shared city stock",
+    "era": "Local development",
+    "wave": "construction-v1",
+    "lot": "2×2 lot",
+    "thumb": "img/buildings/construction-l-b-groundworks.webp",
+    "full": "img/buildings/construction-l-b-groundworks-large.webp"
    },
    {
     "id": "bk-oc-lattice-balcony",
@@ -6085,7 +6138,7 @@
   ]
  },
  "counts": {
-  "buildings": 341,
+  "buildings": 345,
   "deposits": 10,
   "vehicles": 28,
   "products": 135,
