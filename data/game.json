@@ -1,319 +1,320 @@
 {
-  "releases": [
-    {
-      "version": "0.29.2",
-      "title": "Day and night",
-      "changes": [
-        "Day and night now pass over the map with the game clock. Dusk sweeps across the land from east to west, street lamps light up, and the windows of shops, homes and factories come on one by one. Late at night most of them go dark again.",
-        "The sun follows the season: long summer evenings, short winter days. A full day takes about 24 minutes at normal speed, runs faster at higher speeds and stops when the game is paused. Switch it off in Settings for constant daylight.",
-        "By day, the painted windows of the buildings no longer glow as if their lights were on.",
-        "Town names seen from afar float just above each town in a rounder, see-through label, so you can still see the town itself.",
-        "The UI tour and the objectives checklist no longer open on top of each other: the checklist waits until the tour ends."
-      ]
-    },
-    {
-      "version": "0.29.1",
-      "title": "A clearer first hour and Baku landmarks",
-      "changes": [
-        "Baku gains real landmarks, each in its district and in its real year. The Old City's Double Gates and old houses, the historic Governor's Garden and a Nizami Street block stand from the start. The Hajinski house and Mukhtarov Palace rise in 1912, the central department store in 1961, and Park Bulvar and the Hilton on the seafront in the 2010s, each with a building site first. More landmarks follow as their paintings are finished.",
-        "A new stocking wizard does product, supplier, volume and contract in one window. Suppliers with goods ready now are listed first with their landed cost (price plus freight), the monthly volume is suggested from what your purchasing unit can take in, and one button signs.",
-        "Contract bids now start at the supplier's asking price instead of the market price, and the screen explains when you offer more than the ask.",
-        "Shops say exactly where they stand: no product chosen, no supplier contract, waiting for the supplier's stock, deliveries due or arriving, or selling, each with its next step. A signed supplier with nothing to deliver no longer shows a green \"Operational\".",
-        "The top bar shows last month's profit and your runway: how long cash lasts after loan payments. Press Cash for the month's money story: profit, loan principal and interest, the resulting cash change, debt, equity and your stake. Reports and Banking open with the same summary.",
-        "The checklist's last goal is now \"Next chapter\": review your price, sell more of what works, add a second product, open a second shop or make your own goods. Each shows its cost, the cash you would have left, an estimate and, if it is out of reach, how many months of saving it needs. Any paid step completes the chapter.",
-        "On the map, your buildings have a gold outline, \"My facilities\" lists them, and the town name over the map opens its City Hall.",
-        "On phones, Cash opens debt, equity and runway; a shop's next stocking step stays at the top of its panel; and \"Show map\" folds the panel away.",
-        "The game starts faster: rarely used windows such as reports, charts and contracts load the first time you open them.",
-        "The objectives checklist can be moved on every screen, including phones and narrow windows: drag it by its title bar. It remembers where you put it.",
-        "The – button minimises the checklist to a small pill that you can also move. Tap the pill to open the checklist again, or use × to close it.",
-        "After you move the checklist with a finger, your next tap on it works straight away. Map menus such as Layers always open above the checklist."
-      ]
-    },
-    {
-      "version": "0.29.0",
-      "title": "Living cities",
-      "changes": [
-        "A new main screen: the map fills the window, the top bar shows cash, 12-month profit, equity, stake, debt and time, and the menu bar opens facilities, supply chains, contracts, reports, banking and news. The objectives checklist floats over the map and can be dragged anywhere.",
-        "Every town is drawn street by street with painted buildings in its own architecture. Your buildings, rival businesses, farms, mines and deposits all stand on the map, and street traffic moves with the game speed.",
-        "Towns grow with their population, and older districts are gradually rebuilt in the styles of each decade. Company buildings never move.",
-        "When you build, choose the building's look, then pick its site on the map or let the game choose. Mines keep their deposit and claim steps.",
-        "Select any building to open its controls. Click a town's City Hall and choose \"Open city economy\" to see local demand. The previous world map is under Layers as \"Economic map & overlays\", with a box to find a city or facility.",
-        "Phones and computers with less memory load lighter map images automatically.",
-        "Shops that sold every unit they received, with an empty counter, suggest trying a 5% higher price, up to 1.5 times the local reference price. This is advice only; prices never change by themselves.",
-        "Fixes: product landed costs use actual costs when the counter is empty; asking a supplier for a discount can never raise the contract price; a supplier whose contract has ended shows \"Linked · no contract\" instead of \"Contract Linked\".",
-        "Existing saves gain their city map when loaded, and buildings that already stand keep a neutral site. Money, goods, prices and contract terms are unchanged."
-      ]
-    },
-    {
-      "version": "0.28.57",
-      "title": "A friendlier start",
-      "changes": [
-        "The guide now starts with an affordable shop stocked from a supplier. Building your own farm, mine or factory comes after your first profit.",
-        "Survey City opens City Hall on its demand view, and clicking a city on the map also completes that step. New games start paused while the tour explains the screen.",
-        "Stores and factories that have no supplier yet show \"Waiting for supply\" with a hint, instead of \"Operational\".",
-        "Time pauses with a clear notice when company cash first drops below zero, and again if the bank's one-time emergency loan is drawn, showing its cost and what happens next.",
-        "New games: every starting farm and mine now has a buyer. Fresh produce and meat have their own shops, and rival companies make beer, chocolate, coffee, soap, cookware, linen shirts, wool sweaters, leather shoes and silver jewelry. Copper, tobacco and tea are left for you or rivals to develop.",
-        "Existing saves keep their world. Prices, production rates and contract terms are unchanged."
-      ]
-    },
-    {
-      "version": "0.28.56",
-      "title": "Smoother goods flow",
-      "changes": [
-        "Goods passed through two connected storage units keep moving toward the unit that uses or sells them, instead of being shuffled back and forth.",
-        "A general purchasing unit that feeds a recipe with several ingredients shares its daily intake between them in the recipe proportions, so production can start right away.",
-        "Customers with signed supply agreements keep their reserved deliveries every day. Your own linked factories no longer take that output on alternate days.",
-        "Stores sharing a scarce supplier from your own company record the cost and quality of the goods they actually receive.",
-        "Rival companies compare supplier prices with normal market prices as well as with temporary price slumps, so a glut no longer makes them refuse every fair offer.",
-        "Existing goods, prices, production rates and contract terms are unchanged."
-      ]
-    },
-    {
-      "version": "0.28.55",
-      "title": "More accurate harvest planning",
-      "changes": [
-        "Farm harvest monitors use the same climate and rainfall rules as production. New expandable guidance explains batch harvests, storage and factory intake.",
-        "Crop supply estimates share storage more accurately between growing units instead of treating partly used storage as completely occupied.",
-        "Forecasts include the existing Agrarian harvest bonus for your farms only. Actual harvest quantities, growth cycles, storage limits and saved goods are unchanged."
-      ]
-    },
-    {
-      "version": "0.28.54",
-      "title": "More accurate supplier capacity",
-      "changes": [
-        "Supplier estimates no longer reserve some linked internal purchases twice when valid supply agreements already cover them.",
-        "Remaining internal needs, per-unit supplier choices and stock promised elsewhere stay protected. Estimates are not guarantees of delivery.",
-        "Existing goods, prices, manufacturing rates and contract terms are unchanged."
-      ]
-    },
-    {
-      "version": "0.28.53",
-      "title": "Mobile windows and clearer update notes",
-      "changes": [
-        "Contracts, supplier selection and financial reports adapt their contents to smaller screens. Glossary concepts and explanations stack on phones.",
-        "Supply-interruption alerts have clearer text and larger buttons. Trade-flow controls fit narrow maps, and deposit and logistics views have more readable terrain.",
-        "Phone map animation does less drawing; maps stop animating behind open popups and hidden panels. Reduced-motion preferences also stop map animation.",
-        "What's New, the changelog and the roadmap now show consistent player-focused information, with future plans clearly separated from available features."
-      ]
-    },
-    {
-      "version": "0.28.52",
-      "title": "A clearer interface",
-      "changes": [
-        "product comparisons use readable desktop rows and labelled phone cards. Long company names wrap and scores use concise precision.",
-        "Sales and receipt charts display observed unit totals. Pricing has a full-width section, with extra quality, brand and history details expandable.",
-        "Facility switching fits narrow panels. Phone financial summaries take less space, and the tools row scrolls sideways to keep every button reachable."
-      ]
-    },
-    {
-      "version": "0.28.51",
-      "title": "More reliable mining offers",
-      "changes": [
-        "Mine supply estimates reflect deposit quality, equipment upgrades and remaining reserves. Empty exhausted mines no longer advertise future production; ready stock can still sell."
-      ]
-    },
-    {
-      "version": "0.28.50",
-      "title": "Everyday personal-care Perfume",
-      "changes": [
-        "Perfume follows everyday personal-care purchasing rates, alongside Soap, Detergent, Shampoo and Toothpaste, rather than slow luxury handling.",
-        "Your existing goods and chosen selling prices remain unchanged. Staff training, supplier stock and customer demand still limit sales."
-      ]
-    },
-    {
-      "version": "0.28.49",
-      "title": "Clearer supply problems",
-      "changes": [
-        "Purchasing summaries identify each unit's actual supplier and explain contract deliveries or shortages more accurately.",
-        "A supplier with separate stock for its own factories can make more of its public stock available. Goods belonging to warehouse tenants remain protected."
-      ]
-    },
-    {
-      "version": "0.28.48",
-      "title": "Independent suppliers and better price controls",
-      "changes": [
-        "Choose a supplier for each purchasing unit. Several units can share a supplier or use different suppliers; each contributes its own receiving throughput.",
-        "Selling-price limits consider current local and national references, so you can match market prices without an outdated ceiling.",
-        "Level 1 factory purchasing has a 300-unit monthly base intake, separate from its storage buffer. Training and paid upgrades affect receiving.",
-        "Staff and technology quality work consistently through multi-stage manufacturing. Previously produced goods keep their quality."
-      ]
-    },
-    {
-      "version": "0.28.44–0.28.47",
-      "title": "Everyday goods and connected production",
-      "changes": [
-        "Casual Clothing, Work Clothing, Soap, Detergent, Shampoo and Toothpaste have faster trained retail purchasing; luxury apparel and jewelry remain slower.",
-        "Manufactured reference prices better reflect usable output. Supply estimates recognise connected intermediate production and shared ingredients.",
-        "Internal invoice quotes more accurately identify the transferred product. Profitable livestock suppliers can expand when customers can receive and afford more."
-      ]
-    },
-    {
-      "version": "0.28.40–0.28.43",
-      "title": "Rivals respond to shortages",
-      "changes": [
-        "Rivals can supplement partial supply orders, favour stocked suppliers and adjust wholesale prices in response to finished-goods availability.",
-        "Sustained shortages can encourage funded production or livestock expansion when inputs are available.",
-        "New business offers consider receiving capacity, existing stock, freight and available funds. An offer does not guarantee delivery."
-      ]
-    },
-    {
-      "version": "0.28.35–0.28.39",
-      "title": "Smoother factory flow",
-      "changes": [
-        "Shared ingredient storage better balances materials. Intermediate goods can pass through storage to downstream manufacturing instead of becoming stranded.",
-        "Finished output is less likely to flow backward into ingredient storage. Controls explain receiving throughput separately from storage capacity."
-      ]
-    },
-    {
-      "version": "0.28.33–0.28.34",
-      "title": "Supply quantities and city spending",
-      "changes": [
-        "Propose custom monthly contract quantities with receiving and supply warnings. Editing terms requires fresh agreement.",
-        "Warehouse deliveries respect receiving limits and tenant ownership. Existing factory energy payments contribute to the city budget."
-      ]
-    },
-    {
-      "version": "0.28.25–0.28.32",
-      "title": "Competition, warehouses and private labels",
-      "changes": [
-        "Funded rivals can enter profitable city markets and respond to competitors' prices, subject to real supplies and costs.",
-        "Supply interruptions pause with an affected-facility warning. Sales contracts can dispatch your ready warehouse stock without changing agreed terms.",
-        "Private-label units process connected stock for a fee, preserving quantity, quality and producer information through storage and resale.",
-        "The five time speeds progress more evenly. product selection remains stable as daily figures refresh."
-      ]
-    },
-    {
-      "version": "0.28.23–0.28.24",
-      "title": "Store service and everyday shopping",
-      "changes": [
-        "Groceries have faster trained purchasing. Sales staff training improves service, not the quality of the goods themselves.",
-        "Customer experience contributes to brand loyalty; staple sales do not require high brand awareness.",
-        "Company setup and construction explain unit costs, working capital and starting debt more clearly."
-      ]
-    },
-    {
-      "version": "0.28.14–0.28.22",
-      "title": "Safer finances, saves and bug reports",
-      "changes": [
-        "Improved loan, bond, acquisition and warehouse accounting, including protection for goods held for other companies.",
-        "Bug reports and attached saves are private to authorised reviewers. Report submissions do not require a reviewer account.",
-        "Save/load errors are shown rather than silently replacing your campaign."
-      ]
-    },
-    {
-      "version": "0.28.10–0.28.13",
-      "title": "A daily economy",
-      "changes": [
-        "Purchasing, production, deliveries, sales, stock and quotes update daily. Facility Controls separates current-month figures from completed monthly reports.",
-        "Warehouse and farm storage readouts account for upgraded units. Multiple purchasing units share scarce supply according to their receiving limits.",
-        "Efficient pipeline layouts earn saved badges, with milestones for 10, 20 and further groups of ten distinct facilities.",
-        "Construction-payback advice supports a chosen recovery period when investment costs are known."
-      ]
-    },
-    {
-      "version": "0.28.8–0.28.9",
-      "title": "Economy modes and price advice",
-      "changes": [
-        "New companies default to Balanced. Deep Simulation is available in Settings; older campaigns retain their mode until you switch.",
-        "Price hints estimate operating break-even from recorded sales and expenses. They do not set your price or guarantee customers."
-      ]
-    },
-    {
-      "version": "0.28.1–0.28.7",
-      "title": "Supply chains that start with your purchases",
-      "changes": [
-        "Assign purchasing products before choosing recipes. Connected ingredients determine what each manufacturing unit can make.",
-        "Only goods routed to sales or outbound units are offered to other companies; intermediate goods can stay in your own production chain.",
-        "Stores sell actual sales-floor stock, with price controls and stranded-stock warnings. Transfers between your own facilities appear in their books.",
-        "Stores compete for shared city demand. The Operations Desk places pipelines and facility controls side by side; popups close with Escape."
-      ]
-    }
-  ],
-  "roadmap": [
-    {
-      "status": "Current priority",
-      "title": "Business balance and reliable supply",
-      "items": [
-        "Improve everyday, mid-range and luxury business viability without guaranteeing profit.",
-        "Keep long supply chains, rival sourcing and late-game competition responsive to stock, costs and customer demand.",
-        "Make shortages, receiving limits and operating costs easier to understand."
-      ]
-    },
-    {
-      "status": "Current priority",
-      "title": "Comfortable play on every screen",
-      "items": [
-        "Continue simplifying crowded windows and improving small-screen controls.",
-        "A clearer first hour: suggested starter products for each city and price coaching from real sales.",
-        "Improve responsiveness and large-company performance while retaining daily figures."
-      ]
-    },
-    {
-      "status": "Current priority",
-      "title": "Where you build matters",
-      "items": [
-        "Building sites will start to count: freight between a site and its suppliers and customers, and busy central streets versus cheaper outskirts.",
-        "Rival companies will follow the same rules. Buildings standing before the change keep a neutral site.",
-        "Sites will be described in words, such as \"central\" or \"edge of town\", rather than numbers."
-      ]
-    },
-    {
-      "status": "Available now",
-      "title": "Living city map",
-      "items": [
-        "Towns drawn street by street in their own architecture, growing and rebuilding over the decades.",
-        "A choice of building designs and sites when you build."
-      ]
-    },
-    {
-      "status": "Available now",
-      "title": "Connected businesses",
-      "items": [
-        "Factories using your chosen ingredients, multi-product stores, per-unit suppliers, warehouses and negotiated supply contracts.",
-        "Daily operating figures, monthly reports, price advice and staff training.",
-        "Balanced and Deep Simulation modes, rival market entry and private-label production."
-      ]
-    },
-    {
-      "status": "Future plans",
-      "title": "A changing economic world",
-      "items": [
-        "Limited port imports and exports that complement domestic suppliers. Ports are not currently active in the core game.",
-        "Government supply tenders and more detailed electricity, gas and water providers with commercial bills.",
-        "Deeper links between population, household income, inflation and banking."
-      ]
-    },
-    {
-      "status": "Future plans",
-      "title": "More long-term choices",
-      "items": [
-        "Revisit research, media and advertising options after core business balance is stronger.",
-        "Optional historical or random crises, trade policies and scenarios that challenge businesses in different ways."
-      ]
-    }
-  ],
-  "highlights": [
-    {
-      "title": "Living cities",
-      "text": "Every town is drawn street by street with painted buildings in its own style. Choose how your new buildings look and where they stand, and watch towns grow and change over the decades."
-    },
-    {
-      "title": "Phone-friendly business controls",
-      "text": "Contracts, finances, suppliers and glossary pages now adapt their contents to smaller screens. Supply alerts and trade-flow panels have clearer, reachable controls."
-    },
-    {
-      "title": "Less clutter, useful information",
-      "text": "Compare product offers in desktop rows or phone cards, use full-width pricing, and expand extra details only when you need them."
-    },
-    {
-      "title": "Your purchasing units, your suppliers",
-      "text": "Choose a product and supplier for each purchasing unit. Share one supplier across several units or diversify; training, upgrades and available stock affect receiving."
-    },
-    {
-      "title": "Know why a chain stops",
-      "text": "Daily figures and clearer delivery messages help identify missing inputs. Ready warehouse stock can supply your sales contracts."
-    }
-  ],
-  "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
-  "generatedAt": "2026-10-22T15:11:42.437Z"
+ "releases": [
+  {
+   "version": "0.29.2",
+   "title": "Day and night",
+   "changes": [
+    "Day and night now pass over the map with the game clock. Dusk sweeps across the land from east to west, street lamps light up, and the windows of shops, homes and factories come on one by one. Late at night most of them go dark again.",
+    "The sun follows the season: long summer evenings, short winter days. A full day takes about 24 minutes at normal speed, runs faster at higher speeds and stops when the game is paused. Switch it off in Settings for constant daylight.",
+    "By day, the painted windows of the buildings no longer glow as if their lights were on.",
+    "Town names seen from afar float just above each town in a rounder, see-through label, so you can still see the town itself.",
+    "The UI tour and the objectives checklist no longer open on top of each other: the checklist waits until the tour ends."
+   ]
+  },
+  {
+   "version": "0.29.1",
+   "title": "A clearer first hour and Baku landmarks",
+   "changes": [
+    "Baku gains real landmarks, each in its district and in its real year. The Old City's Double Gates and old houses, the historic Governor's Garden and a Nizami Street block stand from the start. The Hajinski house and Mukhtarov Palace rise in 1912, the central department store in 1961, and Park Bulvar and the Hilton on the seafront in the 2010s, each with a building site first. More landmarks follow as their paintings are finished.",
+    "A new stocking wizard does product, supplier, volume and contract in one window. Suppliers with goods ready now are listed first with their landed cost (price plus freight), the monthly volume is suggested from what your purchasing unit can take in, and one button signs.",
+    "Contract bids now start at the supplier's asking price instead of the market price, and the screen explains when you offer more than the ask.",
+    "Shops say exactly where they stand: no product chosen, no supplier contract, waiting for the supplier's stock, deliveries due or arriving, or selling, each with its next step. A signed supplier with nothing to deliver no longer shows a green \"Operational\".",
+    "The top bar shows last month's profit and your runway: how long cash lasts after loan payments. Press Cash for the month's money story: profit, loan principal and interest, the resulting cash change, debt, equity and your stake. Reports and Banking open with the same summary.",
+    "The checklist's last goal is now \"Next chapter\": review your price, sell more of what works, add a second product, open a second shop or make your own goods. Each shows its cost, the cash you would have left, an estimate and, if it is out of reach, how many months of saving it needs. Any paid step completes the chapter.",
+    "On the map, your buildings have a gold outline, \"My facilities\" lists them, and the town name over the map opens its City Hall.",
+    "On phones, Cash opens debt, equity and runway; a shop's next stocking step stays at the top of its panel; and \"Show map\" folds the panel away.",
+    "The game starts faster: rarely used windows such as reports, charts and contracts load the first time you open them.",
+    "The objectives checklist can be moved on every screen, including phones and narrow windows: drag it by its title bar. It remembers where you put it.",
+    "The – button minimises the checklist to a small pill that you can also move. Tap the pill to open the checklist again, or use × to close it.",
+    "After you move the checklist with a finger, your next tap on it works straight away. Map menus such as Layers always open above the checklist."
+   ]
+  },
+  {
+   "version": "0.29.0",
+   "title": "Living cities",
+   "changes": [
+    "A new main screen: the map fills the window, the top bar shows cash, 12-month profit, equity, stake, debt and time, and the menu bar opens facilities, supply chains, contracts, reports, banking and news. The objectives checklist floats over the map and can be dragged anywhere.",
+    "Every town is drawn street by street with painted buildings in its own architecture. Your buildings, rival businesses, farms, mines and deposits all stand on the map, and street traffic moves with the game speed.",
+    "Towns grow with their population, and older districts are gradually rebuilt in the styles of each decade. Company buildings never move.",
+    "When you build, choose the building's look, then pick its site on the map or let the game choose. Mines keep their deposit and claim steps.",
+    "Select any building to open its controls. Click a town's City Hall and choose \"Open city economy\" to see local demand. The previous world map is under Layers as \"Economic map & overlays\", with a box to find a city or facility.",
+    "Phones and computers with less memory load lighter map images automatically.",
+    "Shops that sold every unit they received, with an empty counter, suggest trying a 5% higher price, up to 1.5 times the local reference price. This is advice only; prices never change by themselves.",
+    "Fixes: product landed costs use actual costs when the counter is empty; asking a supplier for a discount can never raise the contract price; a supplier whose contract has ended shows \"Linked · no contract\" instead of \"Contract Linked\".",
+    "Existing saves gain their city map when loaded, and buildings that already stand keep a neutral site. Money, goods, prices and contract terms are unchanged."
+   ]
+  },
+  {
+   "version": "0.28.57",
+   "title": "A friendlier start",
+   "changes": [
+    "The guide now starts with an affordable shop stocked from a supplier. Building your own farm, mine or factory comes after your first profit.",
+    "Survey City opens City Hall on its demand view, and clicking a city on the map also completes that step. New games start paused while the tour explains the screen.",
+    "Stores and factories that have no supplier yet show \"Waiting for supply\" with a hint, instead of \"Operational\".",
+    "Time pauses with a clear notice when company cash first drops below zero, and again if the bank's one-time emergency loan is drawn, showing its cost and what happens next.",
+    "New games: every starting farm and mine now has a buyer. Fresh produce and meat have their own shops, and rival companies make beer, chocolate, coffee, soap, cookware, linen shirts, wool sweaters, leather shoes and silver jewelry. Copper, tobacco and tea are left for you or rivals to develop.",
+    "Existing saves keep their world. Prices, production rates and contract terms are unchanged."
+   ]
+  },
+  {
+   "version": "0.28.56",
+   "title": "Smoother goods flow",
+   "changes": [
+    "Goods passed through two connected storage units keep moving toward the unit that uses or sells them, instead of being shuffled back and forth.",
+    "A general purchasing unit that feeds a recipe with several ingredients shares its daily intake between them in the recipe proportions, so production can start right away.",
+    "Customers with signed supply agreements keep their reserved deliveries every day. Your own linked factories no longer take that output on alternate days.",
+    "Stores sharing a scarce supplier from your own company record the cost and quality of the goods they actually receive.",
+    "Rival companies compare supplier prices with normal market prices as well as with temporary price slumps, so a glut no longer makes them refuse every fair offer.",
+    "Existing goods, prices, production rates and contract terms are unchanged."
+   ]
+  },
+  {
+   "version": "0.28.55",
+   "title": "More accurate harvest planning",
+   "changes": [
+    "Farm harvest monitors use the same climate and rainfall rules as production. New expandable guidance explains batch harvests, storage and factory intake.",
+    "Crop supply estimates share storage more accurately between growing units instead of treating partly used storage as completely occupied.",
+    "Forecasts include the existing Agrarian harvest bonus for your farms only. Actual harvest quantities, growth cycles, storage limits and saved goods are unchanged."
+   ]
+  },
+  {
+   "version": "0.28.54",
+   "title": "More accurate supplier capacity",
+   "changes": [
+    "Supplier estimates no longer reserve some linked internal purchases twice when valid supply agreements already cover them.",
+    "Remaining internal needs, per-unit supplier choices and stock promised elsewhere stay protected. Estimates are not guarantees of delivery.",
+    "Existing goods, prices, manufacturing rates and contract terms are unchanged."
+   ]
+  },
+  {
+   "version": "0.28.53",
+   "title": "Mobile windows and clearer update notes",
+   "changes": [
+    "Contracts, supplier selection and financial reports adapt their contents to smaller screens. Glossary concepts and explanations stack on phones.",
+    "Supply-interruption alerts have clearer text and larger buttons. Trade-flow controls fit narrow maps, and deposit and logistics views have more readable terrain.",
+    "Phone map animation does less drawing; maps stop animating behind open popups and hidden panels. Reduced-motion preferences also stop map animation.",
+    "What's New, the changelog and the roadmap now show consistent player-focused information, with future plans clearly separated from available features."
+   ]
+  },
+  {
+   "version": "0.28.52",
+   "title": "A clearer interface",
+   "changes": [
+    "product comparisons use readable desktop rows and labelled phone cards. Long company names wrap and scores use concise precision.",
+    "Sales and receipt charts display observed unit totals. Pricing has a full-width section, with extra quality, brand and history details expandable.",
+    "Facility switching fits narrow panels. Phone financial summaries take less space, and the tools row scrolls sideways to keep every button reachable."
+   ]
+  },
+  {
+   "version": "0.28.51",
+   "title": "More reliable mining offers",
+   "changes": [
+    "Mine supply estimates reflect deposit quality, equipment upgrades and remaining reserves. Empty exhausted mines no longer advertise future production; ready stock can still sell."
+   ]
+  },
+  {
+   "version": "0.28.50",
+   "title": "Everyday personal-care Perfume",
+   "changes": [
+    "Perfume follows everyday personal-care purchasing rates, alongside Soap, Detergent, Shampoo and Toothpaste, rather than slow luxury handling.",
+    "Your existing goods and chosen selling prices remain unchanged. Staff training, supplier stock and customer demand still limit sales."
+   ]
+  },
+  {
+   "version": "0.28.49",
+   "title": "Clearer supply problems",
+   "changes": [
+    "Purchasing summaries identify each unit's actual supplier and explain contract deliveries or shortages more accurately.",
+    "A supplier with separate stock for its own factories can make more of its public stock available. Goods belonging to warehouse tenants remain protected."
+   ]
+  },
+  {
+   "version": "0.28.48",
+   "title": "Independent suppliers and better price controls",
+   "changes": [
+    "Choose a supplier for each purchasing unit. Several units can share a supplier or use different suppliers; each contributes its own receiving throughput.",
+    "Selling-price limits consider current local and national references, so you can match market prices without an outdated ceiling.",
+    "Level 1 factory purchasing has a 300-unit monthly base intake, separate from its storage buffer. Training and paid upgrades affect receiving.",
+    "Staff and technology quality work consistently through multi-stage manufacturing. Previously produced goods keep their quality."
+   ]
+  },
+  {
+   "version": "0.28.44–0.28.47",
+   "title": "Everyday goods and connected production",
+   "changes": [
+    "Casual Clothing, Work Clothing, Soap, Detergent, Shampoo and Toothpaste have faster trained retail purchasing; luxury apparel and jewelry remain slower.",
+    "Manufactured reference prices better reflect usable output. Supply estimates recognise connected intermediate production and shared ingredients.",
+    "Internal invoice quotes more accurately identify the transferred product. Profitable livestock suppliers can expand when customers can receive and afford more."
+   ]
+  },
+  {
+   "version": "0.28.40–0.28.43",
+   "title": "Rivals respond to shortages",
+   "changes": [
+    "Rivals can supplement partial supply orders, favour stocked suppliers and adjust wholesale prices in response to finished-goods availability.",
+    "Sustained shortages can encourage funded production or livestock expansion when inputs are available.",
+    "New business offers consider receiving capacity, existing stock, freight and available funds. An offer does not guarantee delivery."
+   ]
+  },
+  {
+   "version": "0.28.35–0.28.39",
+   "title": "Smoother factory flow",
+   "changes": [
+    "Shared ingredient storage better balances materials. Intermediate goods can pass through storage to downstream manufacturing instead of becoming stranded.",
+    "Finished output is less likely to flow backward into ingredient storage. Controls explain receiving throughput separately from storage capacity."
+   ]
+  },
+  {
+   "version": "0.28.33–0.28.34",
+   "title": "Supply quantities and city spending",
+   "changes": [
+    "Propose custom monthly contract quantities with receiving and supply warnings. Editing terms requires fresh agreement.",
+    "Warehouse deliveries respect receiving limits and tenant ownership. Existing factory energy payments contribute to the city budget."
+   ]
+  },
+  {
+   "version": "0.28.25–0.28.32",
+   "title": "Competition, warehouses and private labels",
+   "changes": [
+    "Funded rivals can enter profitable city markets and respond to competitors' prices, subject to real supplies and costs.",
+    "Supply interruptions pause with an affected-facility warning. Sales contracts can dispatch your ready warehouse stock without changing agreed terms.",
+    "Private-label units process connected stock for a fee, preserving quantity, quality and producer information through storage and resale.",
+    "The five time speeds progress more evenly. product selection remains stable as daily figures refresh."
+   ]
+  },
+  {
+   "version": "0.28.23–0.28.24",
+   "title": "Store service and everyday shopping",
+   "changes": [
+    "Groceries have faster trained purchasing. Sales staff training improves service, not the quality of the goods themselves.",
+    "Customer experience contributes to brand loyalty; staple sales do not require high brand awareness.",
+    "Company setup and construction explain unit costs, working capital and starting debt more clearly."
+   ]
+  },
+  {
+   "version": "0.28.14–0.28.22",
+   "title": "Safer finances, saves and bug reports",
+   "changes": [
+    "Improved loan, bond, acquisition and warehouse accounting, including protection for goods held for other companies.",
+    "Bug reports and attached saves are private to authorised reviewers. Report submissions do not require a reviewer account.",
+    "Save/load errors are shown rather than silently replacing your campaign."
+   ]
+  },
+  {
+   "version": "0.28.10–0.28.13",
+   "title": "A daily economy",
+   "changes": [
+    "Purchasing, production, deliveries, sales, stock and quotes update daily. Facility Controls separates current-month figures from completed monthly reports.",
+    "Warehouse and farm storage readouts account for upgraded units. Multiple purchasing units share scarce supply according to their receiving limits.",
+    "Efficient pipeline layouts earn saved badges, with milestones for 10, 20 and further groups of ten distinct facilities.",
+    "Construction-payback advice supports a chosen recovery period when investment costs are known."
+   ]
+  },
+  {
+   "version": "0.28.8–0.28.9",
+   "title": "Economy modes and price advice",
+   "changes": [
+    "New companies default to Balanced. Deep Simulation is available in Settings; older campaigns retain their mode until you switch.",
+    "Price hints estimate operating break-even from recorded sales and expenses. They do not set your price or guarantee customers."
+   ]
+  },
+  {
+   "version": "0.28.1–0.28.7",
+   "title": "Supply chains that start with your purchases",
+   "changes": [
+    "Assign purchasing products before choosing recipes. Connected ingredients determine what each manufacturing unit can make.",
+    "Only goods routed to sales or outbound units are offered to other companies; intermediate goods can stay in your own production chain.",
+    "Stores sell actual sales-floor stock, with price controls and stranded-stock warnings. Transfers between your own facilities appear in their books.",
+    "Stores compete for shared city demand. The Operations Desk places pipelines and facility controls side by side; popups close with Escape."
+   ]
+  }
+ ],
+ "roadmap": [
+  {
+   "status": "Current priority",
+   "title": "Business balance and reliable supply",
+   "items": [
+    "Improve everyday, mid-range and luxury business viability without guaranteeing profit.",
+    "Keep long supply chains, rival sourcing and late-game competition responsive to stock, costs and customer demand.",
+    "Make shortages, receiving limits and operating costs easier to understand."
+   ]
+  },
+  {
+   "status": "Current priority",
+   "title": "Comfortable play on every screen",
+   "items": [
+    "Continue simplifying crowded windows and improving small-screen controls.",
+    "A clearer first hour: suggested starter products for each city and price coaching from real sales.",
+    "Improve responsiveness and large-company performance while retaining daily figures."
+   ]
+  },
+  {
+   "status": "Current priority",
+   "title": "Where you build matters",
+   "items": [
+    "Building sites will start to count: freight between a site and its suppliers and customers, and busy central streets versus cheaper outskirts.",
+    "Rival companies will follow the same rules. Buildings standing before the change keep a neutral site.",
+    "Sites will be described in words, such as \"central\" or \"edge of town\", rather than numbers."
+   ]
+  },
+  {
+   "status": "Available now",
+   "title": "Living city map",
+   "items": [
+    "Towns drawn street by street in their own architecture, growing and rebuilding over the decades.",
+    "A choice of building designs and sites when you build."
+   ]
+  },
+  {
+   "status": "Available now",
+   "title": "Connected businesses",
+   "items": [
+    "Factories using your chosen ingredients, multi-product stores, per-unit suppliers, warehouses and negotiated supply contracts.",
+    "Daily operating figures, monthly reports, price advice and staff training.",
+    "Balanced and Deep Simulation modes, rival market entry and private-label production."
+   ]
+  },
+  {
+   "status": "Future plans",
+   "title": "A changing economic world",
+   "items": [
+    "Limited port imports and exports that complement domestic suppliers. Ports are not currently active in the core game.",
+    "Government supply tenders and more detailed electricity, gas and water providers with commercial bills.",
+    "Deeper links between population, household income, inflation and banking."
+   ]
+  },
+  {
+   "status": "Future plans",
+   "title": "More long-term choices",
+   "items": [
+    "Revisit research, media and advertising options after core business balance is stronger.",
+    "Optional historical or random crises, trade policies and scenarios that challenge businesses in different ways."
+   ]
+  }
+ ],
+ "highlights": [
+  {
+   "title": "Living cities",
+   "text": "Every town is drawn street by street with painted buildings in its own style. Choose how your new buildings look and where they stand, and watch towns grow and change over the decades."
+  },
+  {
+   "title": "Phone-friendly business controls",
+   "text": "Contracts, finances, suppliers and glossary pages now adapt their contents to smaller screens. Supply alerts and trade-flow panels have clearer, reachable controls."
+  },
+  {
+   "title": "Less clutter, useful information",
+   "text": "Compare product offers in desktop rows or phone cards, use full-width pricing, and expand extra details only when you need them."
+  },
+  {
+   "title": "Your purchasing units, your suppliers",
+   "text": "Choose a product and supplier for each purchasing unit. Share one supplier across several units or diversify; training, upgrades and available stock affect receiving."
+  },
+  {
+   "title": "Know why a chain stops",
+   "text": "Daily figures and clearer delivery messages help identify missing inputs. Ready warehouse stock can supply your sales contracts."
+  }
+ ],
+ "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
+ "releasedVersion": "0.29.2",
+ "generatedAt": "2026-10-25T12:24:54.912Z"
 }
