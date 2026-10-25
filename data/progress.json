@@ -1,8 +1,8 @@
 {
- "generatedAt": "2026-10-25T19:54:44.648Z",
+ "generatedAt": "2026-10-25T22:42:36.929Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
- "releasedVersion": "0.29.2",
- "developmentNotice": "Released game: v0.29.2. New artwork and features listed as local development are installed locally and remain unpublished.",
+ "releasedVersion": "0.30.0",
+ "developmentNotice": "Released game: v0.30.0. New artwork and features listed as local development are installed locally and remain unpublished.",
  "summary": {
   "done": 53,
   "total": 63,
@@ -197,7 +197,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: the photo-based temple has one bounded central flame, with game-speed, pause and reduced-motion support. Unpublished."
+      "detail": "Released in v0.30.0: the photo-based temple has one bounded central flame, with game-speed, pause and reduced-motion support."
      },
      {
       "id": "day-night",
@@ -215,7 +215,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: the reviewed windmill and separate rotating sails are installed and connected to the main renderers. Unpublished."
+      "detail": "Released in v0.30.0: the reviewed windmill and separate rotating sails are installed and connected to the main renderers."
      },
      {
       "id": "farm-roads-connect",
@@ -224,7 +224,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: short approaches connect rural roads to farm and facility boundaries while avoiding other buildings. Unpublished."
+      "detail": "Released in v0.30.0: short approaches connect rural roads to farm and facility boundaries while avoiding other buildings."
      },
      {
       "id": "smoke-variety",
@@ -321,7 +321,7 @@
       "progress": 1,
       "count": "117/117",
       "date": "2026-10-25",
-      "detail": "Local development: all 117 era and city designs are installed. This completed set is not yet released."
+      "detail": "Released in v0.30.0: all 117 era and city designs are installed."
      },
      {
       "id": "lots-v5",
@@ -330,7 +330,7 @@
       "progress": 1,
       "count": "41/41",
       "date": "2026-10-25",
-      "detail": "Local development: all 41 later-era designs are installed, from Deco streets to post-war towers. Unpublished."
+      "detail": "Released in v0.30.0: all 41 later-era designs are installed, from Deco streets to post-war towers."
      },
      {
       "id": "redevelop",
@@ -383,7 +383,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: opening years and protected sites control founding landmarks and later construction. New additions remain unpublished."
+      "detail": "Released in v0.30.0: opening years and protected sites control founding landmarks and later construction."
      },
      {
       "id": "landmarks-per-city",
@@ -392,7 +392,7 @@
       "progress": 1,
       "count": "5/5",
       "date": "2026-10-25",
-      "detail": "Local development: New York City Hall, Elizabeth Tower, Birmingham Town Hall, Hôtel Negresco and Tokyo Station are installed. Unpublished."
+      "detail": "Released in v0.30.0: New York City Hall, Elizabeth Tower, Birmingham Town Hall, Hôtel Negresco and Tokyo Station are installed."
      },
      {
       "id": "landmarks-centre",
@@ -401,7 +401,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: each installed landmark uses its city, district, plot and opening year. New additions remain unpublished."
+      "detail": "Released in v0.30.0: each installed landmark uses its city, district, plot and opening year."
      },
      {
       "id": "signature-hq",
@@ -410,7 +410,7 @@
       "progress": 1,
       "count": "",
       "date": "2026-10-25",
-      "detail": "Local development: when building the Corporate HQ, players can pick one of twelve shipped office paintings that fit the city and era, on a standard 2×2 town plot. Cost, departments and HQ effects are unchanged. Unpublished."
+      "detail": "Released in v0.30.0: when building the Corporate HQ, players can pick one of twelve shipped office paintings that fit the city and era, on a standard 2×2 town plot. Cost, departments and HQ effects are unchanged."
      },
      {
       "id": "wonders-build",
@@ -455,7 +455,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: the selected symmetric palace painting is installed. Unpublished."
+      "detail": "Released in v0.30.0: the selected symmetric palace painting is installed."
      },
      {
       "id": "flame-towers",
@@ -464,7 +464,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: the repaired three-tower artwork is installed. Unpublished."
+      "detail": "Released in v0.30.0: the repaired three-tower artwork is installed."
      },
      {
       "id": "ateshgah-photo",
@@ -473,7 +473,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development, installed 25 October: five-sided cell ring, gate with upper guest chamber and open central altar. Unpublished."
+      "detail": "Released in v0.30.0: five-sided cell ring, gate with upper guest chamber and open central altar."
      },
      {
       "id": "nizami-carved",
@@ -482,7 +482,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development, installed 25 October: carved oil-boom facade with crowned windows and domed oriels. Unpublished."
+      "detail": "Released in v0.30.0: carved oil-boom facade with crowned windows and domed oriels."
      },
      {
       "id": "philharmonic",
@@ -526,7 +526,7 @@
       "progress": 1,
       "count": "20/20",
       "date": "2026-10-25",
-      "detail": "Local development: all 20 reviewed rear views are installed, including the final Tokyo and Baku designs. Unpublished."
+      "detail": "Released in v0.30.0: all 20 reviewed rear views are installed, including the final Tokyo and Baku designs."
      },
      {
       "id": "construction-paint",
@@ -535,7 +535,7 @@
       "progress": 1,
       "count": "6/6",
       "date": "2026-10-25",
-      "detail": "Local development: groundworks and frame paintings cover small, rectangular and large lots. Eleven paintings provide complete stage pairs for all three sizes; alternate variants are used only when their pair is complete."
+      "detail": "Released in v0.30.0: groundworks and frame paintings cover small, rectangular and large lots. Eleven paintings provide complete stage pairs for all three sizes; alternate variants are used only when their pair is complete."
      },
      {
       "id": "construction-wire",
@@ -544,7 +544,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: the main renderers select groundworks, frame and reveal stages as construction advances. Unpublished."
+      "detail": "Released in v0.30.0: the main renderers select groundworks, frame and reveal stages as construction advances."
      },
      {
       "id": "greenery",
@@ -571,7 +571,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: related factory silhouettes follow the selected product. This changes appearance only and remains unpublished."
+      "detail": "Released in v0.30.0: related factory silhouettes follow the selected product. This changes appearance only."
      },
      {
       "id": "vacant-lots",
@@ -589,7 +589,7 @@
       "progress": 1,
       "count": "1/1",
       "date": "2026-10-25",
-      "detail": "Local development: period lorries stand beside the reviewed loft and later-era factory loading doors. Decorative only; unpublished."
+      "detail": "Released in v0.30.0: period lorries stand beside the reviewed loft and later-era factory loading doors. Decorative only."
      },
      {
       "id": "city-plan-test",
@@ -709,7 +709,7 @@
    "The complete city-era sets and twenty rear views are installed locally.",
    "Photo-based Ateshgah and the carved Nizami Street block were installed locally on 25 October.",
    "Philharmonic Hall, Bibi-Heybat and courtyard houses remain in progress for owner review.",
-   "Released game remains v0.29.2."
+   "Released game remains v0.30.0."
   ],
   "paintedToday": 0,
   "quotaReached": false

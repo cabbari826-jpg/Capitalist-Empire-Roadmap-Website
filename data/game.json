@@ -1,6 +1,30 @@
 {
  "releases": [
   {
+   "version": "0.30.0",
+   "title": "Where you build matters",
+   "changes": [
+    "Where you build now matters. New shops in the town centre can receive more goods and draw more shoppers, with higher land and upkeep costs: a central shop costs $15,000 more in land than one on the edge of town. Inner districts are the middle choice, and shops on the edge keep standard costs.",
+    "Deliveries to newly built businesses use the distance between the supplier's site and the buyer's site, including trips within the same town. Site and supplier screens describe the location and show the freight you will pay. Rival companies choose sites and pay under the same rules.",
+    "Buildings already standing when you first load this update keep their previous location rules and stay on their existing sites.",
+    "Signature headquarters: when you build your Corporate Headquarters you can pick a landmark office of your city and era, such as New York's early tower or London's stone headquarters, on a standard town plot you choose on the map. It changes only the look. The $10M cost, departments, upgrades, overhead and HQ effects stay the same, and you still have one HQ.",
+    "Baku gains a walled Old City with painted stone walls and towers, the Double Gates and Salyan Gates, stone streets and a dense quarter of small houses and shops. The taller Maiden Tower stands beside the sea-facing wall, traffic passes through the gate arches and buses stay outside the quarter.",
+    "Two-storey courtyard houses with enclosed timber balconies gather around a tree, and Nizami Street gains shop terraces and a carved stone block with projecting window bays and wall lanterns.",
+    "Ateshgah fire temple stands with its five-sided enclosure, stone cells, raised entrance and one small flame flickering at the central altar. Philharmonic Hall rises in 1912 with its gold roof, Ismailiyya Palace in 1913, Bibi-Heybat Mosque in 2008 and the three curved Flame Towers in 2012.",
+    "Later Baku gains Government House, the Central Bank building, JW Marriott Absheron, Heydar Aliyev Center, Sail tower, Deniz Mall and Crescent Hotel, and Governor's Garden gains its fountain in 2009. Other cities gain New York City Hall, Elizabeth Tower, Birmingham Town Hall, Hôtel Negresco and Tokyo Station, each from its opening year.",
+    "Each landmark appears in its own year, with a building site first when it is built during your game. In a saved game, landmarks older than your town appear already finished. Landmarks are protected when you or a rival choose a building site.",
+    "More city architecture fills the streets, from Japanese houses, London's high street and New York's loft rows to Art Deco and Streamline buildings, cinemas, schools, hospitals, postwar homes and glass-fronted offices in later decades. Eleven more large designs have rear paintings, so buildings face the streets behind them.",
+    "Building sites show painted groundworks and frames before the finished building appears, with two designs for each size. Windmill sails turn, factory loading bays have parked lorries, rural buildings gain short approaches and factories favour paintings suited to what they make.",
+    "Country roads and farm tracks take curved bends, town corners are rounded and suitable City Hall crossroads gain roundabouts. Traffic follows the curves, and late-1930s and 1950s cars, lorries and buses join the streets in their eras.",
+    "At night, building windows light as whole panes, painted lamps and open furnaces glow, and vehicles have small headlights and red tail lights. Lights follow dusk, dawn and the game clock.",
+    "Settings → Map offers High and Low presets, or a Custom mix of Day and night, Night lights, Additional animations and Detailed grass & meadow. Changing them keeps your map view in place. On computers without WebGL, the ground no longer shows thin lines between its tiles.",
+    "Map search finds cities and facilities as you type. Layers, My facilities and search share one toolbar, the map controls sit together and Build Facility stays on the map. Pause and the five speed buttons form one group; choosing a speed starts time if the game is paused.",
+    "To build, pick a facility type and tap a highlighted lot in any town; you choose the building's design after the site. Tapping empty ground or another building closes the selected facility, and demolishing a facility reports the salvage you recovered.",
+    "Facility Controls use folding sections that remember what you opened, with one selling-price editor. On phones, facility panels fill the screen, the money strip scrolls sideways and More holds the extra tools.",
+    "The original movable Interactive UI Tour is the only tutorial window; reopen it through More → Tutorial or Menu → Interactive UI Tour. Daily calculations and month-end work run in the background, so the map and controls respond more smoothly."
+   ]
+  },
+  {
    "version": "0.29.2",
    "title": "Day and night",
    "changes": [
@@ -249,12 +273,12 @@
    ]
   },
   {
-   "status": "Current priority",
+   "status": "Available now",
    "title": "Where you build matters",
    "items": [
-    "Building sites will start to count: freight between a site and its suppliers and customers, and busy central streets versus cheaper outskirts.",
-    "Rival companies will follow the same rules. Buildings standing before the change keep a neutral site.",
-    "Sites will be described in words, such as \"central\" or \"edge of town\", rather than numbers."
+    "Busy central streets versus cheaper outskirts: land, upkeep, shoppers and freight depend on where a new building stands.",
+    "Rival companies follow the same rules. Buildings standing before the update keep a neutral site.",
+    "Sites are described in words, such as \"central\" or \"edge of town\", rather than numbers."
    ]
   },
   {
@@ -294,6 +318,10 @@
  ],
  "highlights": [
   {
+   "title": "Where you build matters",
+   "text": "Central streets bring more shoppers and room for more goods at higher land and upkeep costs, and freight follows the distance between sites. Your headquarters can take a signature design from your city and era."
+  },
+  {
    "title": "Living cities",
    "text": "Every town is drawn street by street with painted buildings in its own style. Choose how your new buildings look and where they stand, and watch towns grow and change over the decades."
   },
@@ -315,6 +343,6 @@
   }
  ],
  "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
- "releasedVersion": "0.29.2",
- "generatedAt": "2026-10-25T19:54:44.648Z"
+ "releasedVersion": "0.30.0",
+ "generatedAt": "2026-10-25T22:42:36.929Z"
 }
