@@ -1,5 +1,5 @@
 {
- "generatedAt": "2026-10-28T22:44:34.606Z",
+ "generatedAt": "2026-10-28T22:47:19.243Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
  "releasedVersion": "0.30.2",
  "developmentNotice": "Released game: v0.30.2. New artwork and features listed as local development are installed locally and remain unpublished.",
@@ -706,10 +706,10 @@
   "running": false,
   "current": "Local development and artwork review",
   "recent": [
-   "The complete city-era sets and twenty rear views are installed locally.",
-   "Photo-based Ateshgah and the carved Nizami Street block were installed locally on 25 October.",
-   "Philharmonic Hall, Bibi-Heybat and courtyard houses remain in progress for owner review.",
-   "Released game remains v0.30.2."
+   "The complete city-era sets, twenty rear views and the new Baku landmarks (Ateshgah, Nizami Street, Philharmonic Hall, Bibi-Heybat Mosque and the Old City courtyard houses) are in the released game.",
+   "Oil works now stand on their oil fields in new games.",
+   "Next for the map: animated clock hands, roads of their time, denser town centres and intentional vacant lots.",
+   "Released game: v0.30.2."
   ],
   "paintedToday": 0,
   "quotaReached": false
