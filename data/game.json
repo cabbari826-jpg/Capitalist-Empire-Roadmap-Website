@@ -1,6 +1,37 @@
 {
  "releases": [
   {
+   "version": "0.30.2",
+   "title": "Tidier screens and fuller markets",
+   "changes": [
+    "Every screen now follows the facility panel: one typeface, clearer text sizes and no repeated messages, from the top bar and side menu to Supply Chains, Contracts, Reports, Banking, the Build window and dialogs. Settings → Interface size now also scales dialogs.",
+    "One speed button replaces the five: click it to go faster, right-click to slow down, or press 1–5. Clicking it while paused starts time again. On phones the money bar now fits the screen in five short columns.",
+    "Food is easier to source in new companies: every shop staple starts with independent farms and factories in several towns that sell to anyone, and new food factories come with their own farms instead of buying up the milk, eggs and fruit that shops need. Beef, cheese and egg shops now find suppliers.",
+    "The Stocking wizard can stop buying for a purchasing unit: it takes no more deliveries until you choose a supplier again. product Intelligence is now called Markets.",
+    "Shops supplied by your own farm or factory now get the \"sold out: try a higher price\" hint, and factory shortage and training advice count deliveries from your own buildings once instead of twice.",
+    "Bank loans are repaid over 60 months instead of 24, including loans you already hold, so monthly repayments are smaller.",
+    "Founders: a new Agrarian Baron starts with $2,900,000, enough for a farm and a shop it supplies. The Tech Disruptor's Market Intelligence now works (suppliers quote it 10% below their asking price) and its new Motor Freight halves freight on deliveries to its buildings; its digital-quality line, which did nothing, is gone. The Venture Aristocrat's card no longer mentions a dividend mandate, which did not exist.",
+    "Mountains sit more naturally in the land: the ground at their foot takes on their colour, and the simpler map used without graphics acceleration no longer shows diagonal bands.",
+    "A deposit's card on the map now says who holds it and which mine is extracting it, so a rival's working oil field no longer looks unclaimed. In new games, oil works stand on their oil field instead of beside it.",
+    "The Build Facility button steps aside: once you own a building it rests half-visible until you point at it, and it hides while a building panel is open or while you drag the map."
+   ]
+  },
+  {
+   "version": "0.30.1",
+   "title": "Clearer controls and fairer starts",
+   "changes": [
+    "The facility panel is simpler: one status at the top of Overview and Controls says what is wrong and offers the one button that fixes it. Overview holds the key numbers, a one-line layout summary and the monthly report; Controls holds the settings. Long explanations open from \"Why?\".",
+    "The Stocking wizard is now the place to choose what each purchasing unit buys and from whom. Outbound distribution and export routing open from \"Shipping & exports\".",
+    "Settings → Text & interface lets you choose a text size and an interface size, saved in this browser. The facility panel uses one font and clearer sizes; other screens follow in coming updates.",
+    "Staff & training shows what your budget buys: skill gained next month, the running cost each skill point adds and what skill changes in that building. It warns when more training will not help because supply or storage is the limit. Staff skill raises the quality of what mines, farms and factories make; units and levels set how much they make.",
+    "A factory held back by a scarce input names it, with the numbers, instead of showing \"Active\", and \"Find more\" opens the Stocking wizard on the unit that buys it. Warehouses show how full they are, what moved through them last month and what they cost; factories compare what they made with what they sold.",
+    "Rival buyers compare suppliers when their yearly contracts renew and may move to a clearly cheaper supplier with stock, so your mines and factories can win customers.",
+    "When a product stays in short supply its price still rises, but buyers fall away as it climbs, so prices settle instead of rising without end.",
+    "Founders for new companies: the Retail King's town-centre shops draw 15% more shoppers. The Agrarian Baron starts with $2,000,000, pays 20% less on deposit tenders and 15% less for farms. The Master Industrialist starts with $3,200,000 and its shops cost 10% more to run. The Tech Disruptor starts with $1,600,000. The Venture Aristocrat's outside syndicate now holds its 40% from the start. Founder card lines that had no effect were removed.",
+    "The map recovers by itself if your graphics driver resets during play."
+   ]
+  },
+  {
    "version": "0.30.0",
    "title": "Where you build matters",
    "changes": [
@@ -318,6 +349,14 @@
  ],
  "highlights": [
   {
+   "title": "Tidier screens and fuller markets",
+   "text": "Every screen uses one clear typeface and one speed button. New companies find independent food suppliers in every town, bank loans are repaid over 60 months, and the Agrarian Baron and Tech Disruptor get stronger starts."
+  },
+  {
+   "title": "Clearer facility controls",
+   "text": "Each building shows one status with the button that fixes it, numbers on Overview and settings on Controls. Choose your own text and interface size in Settings."
+  },
+  {
    "title": "Where you build matters",
    "text": "Central streets bring more shoppers and room for more goods at higher land and upkeep costs, and freight follows the distance between sites. Your headquarters can take a signature design from your city and era."
   },
@@ -343,6 +382,6 @@
   }
  ],
  "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
- "releasedVersion": "0.30.0",
- "generatedAt": "2026-10-25T22:42:36.929Z"
+ "releasedVersion": "0.30.2",
+ "generatedAt": "2026-10-28T22:41:16.737Z"
 }
