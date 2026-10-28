@@ -7,7 +7,7 @@
     "Every screen now follows the facility panel: one typeface, clearer text sizes and no repeated messages, from the top bar and side menu to Supply Chains, Contracts, Reports, Banking, the Build window and dialogs. Settings → Interface size now also scales dialogs.",
     "One speed button replaces the five: click it to go faster, right-click to slow down, or press 1–5. Clicking it while paused starts time again. On phones the money bar now fits the screen in five short columns.",
     "Food is easier to source in new companies: every shop staple starts with independent farms and factories in several towns that sell to anyone, and new food factories come with their own farms instead of buying up the milk, eggs and fruit that shops need. Beef, cheese and egg shops now find suppliers.",
-    "The Stocking wizard can stop buying for a purchasing unit: it takes no more deliveries until you choose a supplier again. product Intelligence is now called Markets.",
+    "The Stocking wizard can stop buying for a purchasing unit: it takes no more deliveries until you choose a supplier again. SKU Intelligence is now called Markets.",
     "Shops supplied by your own farm or factory now get the \"sold out: try a higher price\" hint, and factory shortage and training advice count deliveries from your own buildings once instead of twice.",
     "Bank loans are repaid over 60 months instead of 24, including loans you already hold, so monthly repayments are smaller.",
     "Founders: a new Agrarian Baron starts with $2,900,000, enough for a farm and a shop it supplies. The Tech Disruptor's Market Intelligence now works (suppliers quote it 10% below their asking price) and its new Motor Freight halves freight on deliveries to its buildings; its digital-quality line, which did nothing, is gone. The Venture Aristocrat's card no longer mentions a dividend mandate, which did not exist.",
@@ -383,5 +383,5 @@
  ],
  "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
  "releasedVersion": "0.30.2",
- "generatedAt": "2026-10-28T22:41:16.737Z"
+ "generatedAt": "2026-10-28T22:44:34.606Z"
 }
