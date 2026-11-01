@@ -1,12 +1,12 @@
 {
- "generatedAt": "2026-10-28T22:47:19.243Z",
+ "generatedAt": "2026-11-01T20:28:54.692Z",
  "title": "Capitalist Empire — Map & Graphics Progress",
- "releasedVersion": "0.30.2",
- "developmentNotice": "Released game: v0.30.2. New artwork and features listed as local development are installed locally and remain unpublished.",
+ "releasedVersion": "0.30.3",
+ "developmentNotice": "Released game: v0.30.3. New artwork and features listed as local development are installed locally and remain unpublished.",
  "summary": {
-  "done": 58,
-  "total": 63,
-  "progress": 0.9500000000000001
+  "done": 64,
+  "total": 65,
+  "progress": 0.9899999999999999
  },
  "roadmap": {
   "picture": "img/roadmap/current.webp",
@@ -133,8 +133,8 @@
    {
     "id": "street-life",
     "label": "Street Life",
-    "state": "in-progress",
-    "progress": 0.9583333333333334,
+    "state": "done",
+    "progress": 1,
     "items": [
      {
       "id": "traffic",
@@ -184,11 +184,11 @@
      {
       "id": "clocks",
       "title": "Animated clock hands on clock towers",
-      "state": "in-progress",
-      "progress": 0.5,
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": "Moving hands on 4 clock faces (two city halls, belfry, Victorian town hall); re-detect after the roof repaints are packed, and teach the detector the smaller shop and post-office clocks."
+      "date": "2026-11-01",
+      "detail": "Moving hands on 15 painted clock faces in 10 designs: two city halls, belfry, Victorian town hall, Elizabeth Tower, New York City Hall, Tokyo Station, a steel works, a deco store and a showroom shop clock. Re-detected after the roof repaints and the 24-25 Oct installs (1 Nov: 19 new candidates on the changed atlases, none a clock); small shop clocks included."
      },
      {
       "id": "fire-temple",
@@ -311,8 +311,8 @@
    {
     "id": "identity",
     "label": "City Identity",
-    "state": "in-progress",
-    "progress": 0.875,
+    "state": "done",
+    "progress": 1,
     "items": [
      {
       "id": "lots-v4",
@@ -344,11 +344,11 @@
      {
       "id": "roads-era",
       "title": "Roads of their time: setts in towns, gravel country roads, tarmac in the 1920s, asphalt in the 1930s; farm tracks stay dirt",
-      "state": "in-progress",
-      "progress": 0.5,
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": ""
+      "date": "2026-11-01",
+      "detail": "Each road takes its surface of the year in both the WebGL map and the Canvas2D fallback: setts in towns (Tokyo gravel), gravel country roads, tarmac through the 1920s, asphalt through the 1930s, earth farm tracks; a stretch only improves. Painted gravel/tarmac/asphalt/dirt textures on WebGL; roundabout rings and curves follow their street."
      }
     ]
    },
@@ -516,8 +516,8 @@
    {
     "id": "next",
     "label": "Next Up",
-    "state": "in-progress",
-    "progress": 0.875,
+    "state": "done",
+    "progress": 1,
     "items": [
      {
       "id": "rear-views",
@@ -558,11 +558,11 @@
      {
       "id": "dense-core",
       "title": "Denser, taller city cores",
-      "state": "in-progress",
-      "progress": 0.5,
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": "The dense Baku Old City is complete locally. Further town-centre variety remains in progress."
+      "date": "2026-11-01",
+      "detail": "New games: central blocks have full street fronts (a large front building, mostly apartment blocks, a shopping parade, shops; no detached houses); the housing ring round each centre has apartment and terrace fronts with gardens behind; central lots rebuild twice as often from the 1920s. Building sites unchanged; saved towns untouched. Existing art only (owner choice); new mansard paintings can follow. Dense Baku Old City done earlier."
      },
      {
       "id": "factory-match",
@@ -576,11 +576,29 @@
      {
       "id": "vacant-lots",
       "title": "Vacant lots look intentional, not bare lawn squares",
-      "state": "todo",
-      "progress": 0,
+      "state": "done",
+      "progress": 1,
       "count": "",
-      "date": "",
-      "detail": ""
+      "date": "2026-11-01",
+      "detail": "Closed by owner decision (1 Nov 2026): vacant lots stay plain grass. Instead players may build on any free land; away from roads the game charges a road fee and builds a public road (separate feature)."
+     },
+     {
+      "id": "paid-roads",
+      "title": "Build on open land, with a paid public road where no road reaches",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-11-01",
+      "detail": "Owner 1 Nov 2026: build wherever there is room; away from the roads the game plans a public road and charges $15,000 per town block, for rivals too. Anyone may build beside the new road."
+     },
+     {
+      "id": "no-lot-zones",
+      "title": "Place buildings without lot zones: a see-through outline snaps to free lots or stands on open land",
+      "state": "done",
+      "progress": 1,
+      "count": "",
+      "date": "2026-11-01",
+      "detail": "Owner 1 Nov 2026: no green zones while placing. The outline follows the pointer, snaps to the free town lot under it or goes right where it points outside the towns; green or red, shops in their district colour."
      },
      {
       "id": "loading-bays",
@@ -706,10 +724,10 @@
   "running": false,
   "current": "Local development and artwork review",
   "recent": [
-   "The complete city-era sets, twenty rear views and the new Baku landmarks (Ateshgah, Nizami Street, Philharmonic Hall, Bibi-Heybat Mosque and the Old City courtyard houses) are in the released game.",
-   "Oil works now stand on their oil fields in new games.",
-   "Next for the map: animated clock hands, roads of their time, denser town centres and intentional vacant lots.",
-   "Released game: v0.30.2."
+   "Build wherever there is room: a see-through outline snaps to free town lots or stands on open land, and a public road is built to sites away from the roads for $15,000 a town block.",
+   "Roads of their time on every computer, denser and taller town centres in new games, and Contracts as one tidy list are in the released game.",
+   "Next: wider automated business playtesting on the current economy.",
+   "Released game: v0.30.3."
   ],
   "paintedToday": 0,
   "quotaReached": false

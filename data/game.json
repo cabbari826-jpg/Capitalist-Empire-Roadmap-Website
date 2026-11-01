@@ -1,6 +1,18 @@
 {
  "releases": [
   {
+   "version": "0.30.3",
+   "title": "Build wherever there is room",
+   "changes": [
+    "Build wherever there is room: after you choose a building type, a see-through outline follows your pointer, or appears where you tap. In a town it snaps to the free lot under it; outside the towns it goes right where you point. Green means it fits and red means it does not. A shop's outline takes its district colour: amber for the town centre, blue for the inner district and pale for the edge of town.",
+    "Open land beside a road gets a free driveway. Further out, the game plans a public road to your site, draws its route and adds $15,000 for each town block of new road to the price; if you cannot afford it, choose a nearer site. The new road is an ordinary public road: anyone may build beside it, and rival companies follow the same rules and pay the same fee.",
+    "Contracts is one list instead of four tabs: offers waiting for your answer come first, then what you buy, what you sell and your storage leases, with ended agreements and how agreements work folded away. Tap a row for its actions. Changing a supplier, and every new purchase, opens the Stocking wizard, which now also serves warehouses with a receiving bay.",
+    "Answer a contract offer in its popup: accept, counter, decline or leave it for later at the top of Contracts. The Stocking wizard warns when you order more than the unit can take in each month or more than the supplier expects to make.",
+    "Town centres in new games are denser: a large building, most often an apartment block, holds the front corner of every central block, shopping parades line the back streets, and the housing around the centre has apartment and terrace fronts. From the 1920s the centres rebuild twice as often into taller later designs. Saved games keep their towns.",
+    "On computers without graphics acceleration, roads now show their era too: stone setts in town, gravel country roads, tarmac and asphalt spreading through the 1920s and 1930s, and earth farm tracks."
+   ]
+  },
+  {
    "version": "0.30.2",
    "title": "Tidier screens and fuller markets",
    "changes": [
@@ -317,7 +329,8 @@
    "title": "Living city map",
    "items": [
     "Towns drawn street by street in their own architecture, growing and rebuilding over the decades.",
-    "A choice of building designs and sites when you build."
+    "A choice of building designs and sites when you build.",
+    "Build on any free town lot or on open land, with a paid public road where no road reaches."
    ]
   },
   {
@@ -348,6 +361,10 @@
   }
  ],
  "highlights": [
+  {
+   "title": "Build wherever there is room",
+   "text": "Point anywhere on the map: a building snaps to a free town lot or stands on open land, with a public road built to it for a fee. Contracts is one tidy list, and town centres in new games are denser and taller."
+  },
   {
    "title": "Tidier screens and fuller markets",
    "text": "Every screen uses one clear typeface and one speed button. New companies find independent food suppliers in every town, bank loans are repaid over 60 months, and the Agrarian Baron and Tech Disruptor get stronger starts."
@@ -382,6 +399,6 @@
   }
  ],
  "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
- "releasedVersion": "0.30.2",
- "generatedAt": "2026-10-28T22:47:19.243Z"
+ "releasedVersion": "0.30.3",
+ "generatedAt": "2026-11-01T20:28:54.692Z"
 }
