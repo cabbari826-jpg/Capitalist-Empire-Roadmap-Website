@@ -1,6 +1,23 @@
 {
  "releases": [
   {
+   "version": "0.30.4",
+   "title": "Marketing and steadier markets",
+   "changes": [
+    "New Marketing screen on the side menu (under More on phones): run advertising campaigns city by city for each of your brands. Choose a budget and an agency, and see the monthly cost, where awareness will be in 12 months and what last month brought.",
+    "A known brand now earns more: awareness lets a shop charge more before buyers walk away and raises its price cap by the same share, from 5% for food up to 30% for jewelry at full awareness. The sell-out price hint follows it.",
+    "Brand awareness now belongs to each city and fades about 5% a month without a campaign, while sales keep a little of it alive. Rivals start from zero like you and can advertise when it pays them.",
+    "Shops no longer have an Advertising unit. In saved games it is sold back for half its price and its budget carries on as a campaign in that city.",
+    "Shops cost about a third of what they did: the building is $340,000 and its units 30% of the standard price. Rivals keep the old prices, and shops you already own keep their value.",
+    "When a rival's supply agreement renews and your delivered price is lower, it sends you an offer. A mine or factory with unsold goods lists the rivals that buy them, when they renew and the price that would win them.",
+    "Rival suppliers now promise only what they can deliver: ask for more and they offer what they can, or decline if everything is already promised. Older agreements keep their terms.",
+    "Take under half the agreed volume two months running while the goods are ready and the supplier cuts the agreement to what you took. End a new agreement in its first three months and that supplier will not sign a smaller one with you for three months.",
+    "The Stocking wizard names the input that limits a factory and the most it allows. New games keep two free shop lots in or beside every town centre, and unit names now fit their squares in the 3×3 layout.",
+    "Loading a save no longer changes what happens next: rival prices, supply links and product quality come back exactly as they were.",
+    "The economy runs about 75% faster, and speed 5 now holds a true five days a second all game, with no time lost at month ends."
+   ]
+  },
+  {
    "version": "0.30.3",
    "title": "Build wherever there is room",
    "changes": [
@@ -317,6 +334,15 @@
   },
   {
    "status": "Available now",
+   "title": "Marketing and brands",
+   "items": [
+    "Advertising campaigns bought city by city from the Marketing screen, with a forecast of what each budget buys.",
+    "A known brand lets shops charge more, and awareness fades without upkeep.",
+    "Rival suppliers promise only what they can deliver, and rivals send offers when their supply agreements renew."
+   ]
+  },
+  {
+   "status": "Available now",
    "title": "Where you build matters",
    "items": [
     "Busy central streets versus cheaper outskirts: land, upkeep, shoppers and freight depend on where a new building stands.",
@@ -355,12 +381,16 @@
    "status": "Future plans",
    "title": "More long-term choices",
    "items": [
-    "Revisit research, media and advertising options after core business balance is stronger.",
+    "Revisit research options after core business balance is stronger.",
     "Optional historical or random crises, trade policies and scenarios that challenge businesses in different ways."
    ]
   }
  ],
  "highlights": [
+  {
+   "title": "Marketing and steadier markets",
+   "text": "Run advertising city by city from the new Marketing screen: a known brand lets your shops charge more. Shops cost a third as much, rivals send offers when their deals renew, saves reload exactly and top speed holds all game."
+  },
   {
    "title": "Build wherever there is room",
    "text": "Point anywhere on the map: a building snaps to a free town lot or stands on open land, with a public road built to it for a fee. Contracts is one tidy list, and town centres in new games are denser and taller."
@@ -399,6 +429,6 @@
   }
  ],
  "notice": "Priorities may change. Future plans are not release-date promises and are not available unless marked Available now.",
- "releasedVersion": "0.30.3",
- "generatedAt": "2026-11-01T21:37:56.860Z"
+ "releasedVersion": "0.30.4",
+ "generatedAt": "2026-11-03T23:54:49.818Z"
 }

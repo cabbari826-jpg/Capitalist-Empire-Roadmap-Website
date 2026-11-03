@@ -1,0 +1,273 @@
+{
+ "updated": "2026-11-04",
+ "releasedVersion": "0.30.4",
+ "done": 14,
+ "total": 23,
+ "progress": 0.7830434782608695,
+ "groups": [
+  {
+   "id": "engine",
+   "label": "Engine polish",
+   "items": [
+    {
+     "id": "engine-audit",
+     "title": "Full audit of speed, reliability and code health",
+     "state": "done",
+     "detail": "Twelve simulated years across three test worlds: every dollar accounted for on every day, with no crashes or broken numbers.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "exact-saves",
+     "title": "Saves reload exactly",
+     "state": "done",
+     "detail": "Released in v0.30.4. Loading a save no longer changes what happens next; it used to shift prices, deliveries and rivals' money.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "top-speed",
+     "title": "Top speed holds five game days a second",
+     "state": "done",
+     "detail": "Released in v0.30.4. Late in a game it used to slip to about 4.5, losing time at every month end.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "faster-days",
+     "title": "Game days run about twice as fast",
+     "state": "in-progress",
+     "detail": "1.76 times faster in v0.30.4. Top speed already holds, so the rest waits until it is needed.",
+     "date": "",
+     "progress": 0.76
+    },
+    {
+     "id": "month-ends",
+     "title": "Month ends as quick as an ordinary day",
+     "state": "todo",
+     "detail": "A month end still takes several times as long as an ordinary day. The game now catches up straight after it.",
+     "date": "",
+     "progress": 0
+    },
+    {
+     "id": "faster-loading",
+     "title": "Faster loading",
+     "state": "todo",
+     "detail": "A game takes about nine seconds to open today.",
+     "date": "",
+     "progress": 0
+    },
+    {
+     "id": "split-day",
+     "title": "Split the daily simulation into smaller named steps",
+     "state": "idea",
+     "detail": "Makes future changes safer. Nothing a player would notice.",
+     "date": "",
+     "progress": 0
+    }
+   ],
+   "progress": 0.6266666666666666,
+   "state": "in-progress"
+  },
+  {
+   "id": "marketing",
+   "label": "Marketing & brands",
+   "items": [
+    {
+     "id": "marketing-screen",
+     "title": "Marketing screen: campaigns city by city",
+     "state": "done",
+     "detail": "Released in v0.30.4. Choose a budget and an agency for each brand in each city, with a 12-month forecast.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "price-lift",
+     "title": "A known brand lets shops charge more",
+     "state": "done",
+     "detail": "Released in v0.30.4. From 5% for food up to 30% for jewelry at full awareness; the price cap rises with it.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "city-awareness",
+     "title": "Awareness belongs to each city and fades without upkeep",
+     "state": "done",
+     "detail": "Released in v0.30.4. About 5% a month, with sales keeping a little of it alive.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "rival-ads",
+     "title": "Rivals advertise by the same rules",
+     "state": "done",
+     "detail": "Released in v0.30.4. They start from zero and buy campaigns only when it pays. In three test years none has yet, as rivals mostly sell food.",
+     "date": "2026-11-04",
+     "progress": 1
+    }
+   ],
+   "progress": 1,
+   "state": "done"
+  },
+  {
+   "id": "balance",
+   "label": "Business balance",
+   "items": [
+    {
+     "id": "balance-testing",
+     "title": "Automated business playtesting",
+     "state": "done",
+     "detail": "Test companies play 36-month campaigns across shops, factories, mines and supply chains, and balance changes are measured with them.",
+     "date": "2026-11-02",
+     "progress": 1
+    },
+    {
+     "id": "rival-offers",
+     "title": "Rivals send offers when their supply deals renew",
+     "state": "done",
+     "detail": "Released in v0.30.4. A mine or factory also shows who buys its goods and the price that would win them.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "supply-rules",
+     "title": "Suppliers promise only what they can deliver",
+     "state": "done",
+     "detail": "Released in v0.30.4, with fair limits on agreements that go unused or end early.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "factory-ceiling",
+     "title": "Factories show which input limits them",
+     "state": "done",
+     "detail": "Released in v0.30.4, in the Stocking wizard.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "start-lots",
+     "title": "Two free shop lots in every town centre",
+     "state": "done",
+     "detail": "Released in v0.30.4, for new games.",
+     "date": "2026-11-04",
+     "progress": 1
+    },
+    {
+     "id": "shop-payback",
+     "title": "A well-run shop repays in 8 to 12 years",
+     "state": "in-progress",
+     "detail": "Shops cost a third as much in v0.30.4. In testing a staple shop repays in about 13 years, or about 8 if it signs supply after opening prices fall. It was 35.",
+     "date": "",
+     "progress": 0.85
+    },
+    {
+     "id": "chain-payback",
+     "title": "Longer supply chains pay their way",
+     "state": "in-progress",
+     "detail": "In testing, chains repay in about 40 to 50 years, down from over 100.",
+     "date": "",
+     "progress": 0.4
+    },
+    {
+     "id": "producer-buyers",
+     "title": "Mines and factories win steady buyers",
+     "state": "in-progress",
+     "detail": "Rival offers and winning prices are in v0.30.4. Test companies still get few offers, so this stays open.",
+     "date": "",
+     "progress": 0.5
+    },
+    {
+     "id": "founder-rebalance",
+     "title": "Every founder has a real trade-off, sized from test runs",
+     "state": "in-progress",
+     "detail": "A first pass shipped in v0.30.2. The full pass comes later.",
+     "date": "",
+     "progress": 0.5
+    },
+    {
+     "id": "opening-prices",
+     "title": "Opening prices closer to where they settle",
+     "state": "idea",
+     "detail": "Prices start about 30% above where they settle, so a first-month agreement locks in a high price.",
+     "date": "",
+     "progress": 0
+    }
+   ],
+   "progress": 0.8055555555555556,
+   "state": "in-progress"
+  },
+  {
+   "id": "comfort",
+   "label": "Comfortable play",
+   "items": [
+    {
+     "id": "tidy-screens",
+     "title": "One clear typeface and one speed button on every screen",
+     "state": "done",
+     "detail": "Released in v0.30.2.",
+     "date": "2026-10-29",
+     "progress": 1
+    },
+    {
+     "id": "contracts-list",
+     "title": "Contracts as one tidy list",
+     "state": "done",
+     "detail": "Released in v0.30.3.",
+     "date": "2026-11-02",
+     "progress": 1
+    },
+    {
+     "id": "first-hour",
+     "title": "A clearer first hour",
+     "state": "in-progress",
+     "detail": "Price hints and a movable checklist are in. Suggested starter products for each city are still to come.",
+     "date": "",
+     "progress": 0.5
+    },
+    {
+     "id": "small-screens",
+     "title": "Better controls on small screens",
+     "state": "in-progress",
+     "detail": "Phones got a fitted money bar and tidier panels in v0.30.2. Crowded windows are still being simplified.",
+     "date": "",
+     "progress": 0.5
+    }
+   ],
+   "progress": 0.75,
+   "state": "in-progress"
+  },
+  {
+   "id": "ideas",
+   "label": "Ideas on the shelf",
+   "items": [
+    {
+     "id": "wonders-build",
+     "title": "Build landmarks as wonders",
+     "state": "idea",
+     "detail": "Very expensive, unlocked late, and closed to rivals that start rich.",
+     "date": "",
+     "progress": 0
+    },
+    {
+     "id": "wonders-visitors",
+     "title": "Wonders draw visitors",
+     "state": "idea",
+     "detail": "More street life, traffic and customers around them.",
+     "date": "",
+     "progress": 0
+    },
+    {
+     "id": "vehicle-8-views",
+     "title": "Vehicles that turn along curves and roundabouts",
+     "state": "idea",
+     "detail": "Needs diagonal vehicle paintings.",
+     "date": "",
+     "progress": 0
+    }
+   ],
+   "progress": 0,
+   "state": "idea"
+  }
+ ]
+}

@@ -25,7 +25,6 @@
   let role = '';
   let query = '';
   let fetching = false;
-  const phaseOpen = new Map();
   const comparisons = new Map();
   const lightbox = $('lightbox');
   const assets = new Map();
@@ -46,37 +45,13 @@
     return `data-image="${escape(key)}"`;
   }
 
-  function updateAge() {
-    if (!data) return;
-    const timestamp = new Date(data.generatedAt).getTime();
-    const minutes = Math.max(0, Math.floor((Date.now() - timestamp) / 60000));
-    $('updated').textContent = Number.isNaN(timestamp) ? 'Update time unavailable' : `Updated ${minutes} ${minutes === 1 ? 'minute' : 'minutes'} ago`;
-    if (!Number.isNaN(timestamp)) $('updated').title = new Date(timestamp).toLocaleString();
-  }
-
   function renderSummary() {
     const summary = data.summary || {};
-    setHTML('summary-text', `<strong>${escape(summary.done ?? 0)}</strong> of ${escape(summary.total ?? 0)} goals done`);
+    setHTML('summary-text', `All <strong>${escape(summary.done ?? 0)}</strong> graphics goals finished`);
     const value = percent(summary.progress);
     $('overall-progress').setAttribute('aria-valuenow', value);
     $('overall-progress').setAttribute('aria-valuetext', `${value}% complete`);
     $('overall-progress').firstElementChild.style.width = `${value}%`;
-    updateAge();
-  }
-
-  function renderActivity() {
-    const activity = data.activity || {};
-    const mode = activity.quotaReached ? 'paused' : activity.running ? 'running' : 'idle';
-    const label = activity.quotaReached ? "Paused until ChatGPT's image quota resets" : activity.running ? 'ChatGPT is painting' : 'Idle';
-    const names = new Map(list(data.gallery?.buildings).map(item => [item.id, item.title]));
-    const humanize = value => names.get(value) || value.replace(/[-_]/g, ' ').replace(/^\w/, c => c.toUpperCase());
-    const events = list(activity.recent).map(value => {
-      const event = String(value);
-      const match = event.match(/^(done|tilted)\s+(.+)$/i);
-      return match ? `<span class="event ${match[1].toLowerCase() === 'tilted' ? 'retry' : ''}"><span class="event-icon">${match[1].toLowerCase() === 'done' ? '✓' : '↻ retry'}</span>${escape(humanize(match[2]))}</span>` : `<span class="event">${escape(event)}</span>`;
-    }).join('');
-    $('activity').className = `activity panel ${mode}`;
-    setHTML('activity', `<div><p class="activity-label"><span class="activity-dot" aria-hidden="true"></span>${escape(label)}</p><h2>${escape(activity.current || 'Now painting')}</h2><p class="activity-sub"><strong>${escape(activity.paintedToday ?? 0)}</strong> paintings so far in this run</p></div><div class="events">${events || '<span class="muted">No recent painting events.</span>'}</div>`);
   }
 
   function renderPoster() {
@@ -87,18 +62,22 @@
   }
 
   function renderPhases() {
-    const phases = list(data.roadmap?.phases);
-    const markup = phases.map((phase,index) => {
-      const key = String(phase.id ?? index);
-      const open = phaseOpen.has(key) ? phaseOpen.get(key) : !(matchMedia('(max-width: 640px)').matches && state(phase.state) === 'done');
-      return `<details class="phase ${state(phase.state)}" data-phase="${escape(key)}"${open ? ' open' : ''}><summary><div class="phase-head"><span class="phase-number">${index+1}</span><h3>${escape(phase.label)}</h3><span class="state-chip ${state(phase.state)}">${stateLabel(phase.state)}</span><span class="phase-chevron" aria-hidden="true">⌄</span></div><div class="phase-progress"><div class="progress" role="progressbar" aria-label="${escape(phase.label)}" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent(phase.progress)}"><span style="width:${percent(phase.progress)}%"></span></div><span>${percent(phase.progress)}%</span></div></summary><ul class="phase-items">${list(phase.items).map(item => `<li class="phase-item"><span class="status-icon ${state(item.state)}" role="img" aria-label="${stateLabel(item.state)}">${icon(item.state)}</span><div><p class="item-title">${escape(item.title)}</p>${item.detail ? `<p class="item-detail">${escape(item.detail)}</p>` : ''}${item.count || item.date && state(item.state) === 'done' ? `<div class="item-meta">${item.count ? `<span>${escape(item.count)}</span><div class="progress count-progress" role="progressbar" aria-label="${escape(item.title)} count progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${percent(item.progress)}"><span style="width:${percent(item.progress)}%"></span></div>` : ''}${item.date && state(item.state) === 'done' ? `<time datetime="${escape(item.date)}">${escape(dateLabel(item.date))}</time>` : ''}</div>` : ''}</div></li>`).join('') || '<li class="empty">No goals in this phase yet.</li>'}</ul></details>`;
-    }).join('') || empty('Roadmap phases will appear here.');
-    setHTML('phases', markup);
-    $('phases').querySelectorAll('details').forEach(element => {
-      element.ontoggle = () => phaseOpen.set(element.dataset.phase,element.open);
-    });
-    const recent = phases.flatMap(phase => list(phase.items).filter(item => item.date).map(item => ({...item,phase:phase.label}))).sort((a,b) => String(b.date).localeCompare(String(a.date))).slice(0,8);
-    setHTML('completed', recent.map(item => `<article class="completion"><span class="check" aria-hidden="true">✓</span><div><p>${escape(item.title)}</p><small>${escape(item.phase)} · <time datetime="${escape(item.date)}">${escape(dateLabel(item.date))}</time></small></div></article>`).join('') || empty('Completed goals will appear here.'));
+    const done = list(data.roadmap?.phases).flatMap(phase => list(phase.items).filter(item => item.state === 'done' && item.date).map(item => ({...item,phase:phase.label})))
+      .sort((a,b) => String(b.date).localeCompare(String(a.date)) || String(a.title).localeCompare(String(b.title)));
+    const months = new Map();
+    for (const item of done) {
+      const month = String(item.date).slice(0,7);
+      if (!months.has(month)) months.set(month,new Map());
+      const days = months.get(month);
+      if (!days.has(item.date)) days.set(item.date,[]);
+      days.get(item.date).push(item);
+    }
+    const monthLabel = key => new Date(`${key}-01T00:00:00Z`).toLocaleDateString('en-GB',{month:'long',year:'numeric',timeZone:'UTC'});
+    const entry = item => `<li class="archive-entry"><span class="archive-check" aria-hidden="true">✓</span><div><p class="item-title">${escape(item.title)}</p>${item.detail ? `<p class="item-detail">${escape(item.detail)}</p>` : ''}<small>${escape(item.phase)}${item.count ? ` · ${escape(item.count)}` : ''}</small></div></li>`;
+    setHTML('phases',[...months].map(([month,days]) => {
+      const count = [...days.values()].reduce((sum,items) => sum + items.length,0);
+      return `<article class="release"><div class="release-meta"><span class="version">${escape(monthLabel(month))}</span><span class="latest-label">${count} ${count === 1 ? 'goal' : 'goals'} finished</span></div><div>${[...days].map(([day,items]) => `<h3 class="archive-date"><time datetime="${escape(day)}">${escape(dateLabel(day))}</time></h3><ul class="archive-list">${items.map(entry).join('')}</ul>`).join('')}</div></article>`;
+    }).join('') || empty('The archive will appear here.'));
   }
 
   function renderFilters() {
@@ -147,13 +126,13 @@
         const scroll = {x:window.scrollX,y:window.scrollY};
         const focused = document.activeElement;
         const focusState = focused?.dataset ? {tab:focused.dataset.tab,filter:focused.dataset.filter,value:focused.dataset.value,comparison:focused.dataset.comparison,phase:focused.closest('[data-phase]')?.dataset.phase} : {};
-        renderSummary();renderActivity();renderPoster();renderPhases();renderGallery();
+        renderSummary();renderPoster();renderPhases();renderGallery();
         if (focused && !focused.isConnected) {
           const target = [...document.querySelectorAll('[data-tab],[data-filter],[data-comparison],[data-phase]')].find(el => focusState.tab ? el.dataset.tab === focusState.tab : focusState.filter ? el.dataset.filter === focusState.filter && el.dataset.value === focusState.value : focusState.comparison ? el.dataset.comparison === focusState.comparison : focusState.phase ? el.dataset.phase === focusState.phase : false);
           (target?.matches('details') ? target.querySelector('summary') : target)?.focus({preventScroll:true});
         }
         window.scrollTo(scroll.x,scroll.y);
-      } else updateAge();
+      }
     } catch (error) {
       $('load-status').textContent = data ? 'The latest update could not be reached. Showing the last received progress; retrying automatically.' : 'Progress could not be loaded. Please check that data/progress.json is available. Retrying automatically.';
       $('load-status').hidden = false;
@@ -217,5 +196,4 @@
   },true);
   refresh();
   setInterval(refresh,60000);
-  setInterval(updateAge,15000);
 })();
