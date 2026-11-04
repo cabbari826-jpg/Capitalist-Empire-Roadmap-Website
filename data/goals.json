@@ -236,38 +236,128 @@
    ],
    "progress": 0.75,
    "state": "in-progress"
+  }
+ ],
+ "plans": [
+  {
+   "id": "economy",
+   "label": "A changing economic world",
+   "items": [
+    {
+     "id": "port-trade",
+     "title": "Port imports and exports",
+     "state": "planned",
+     "detail": "Limited trade through ports that adds to local suppliers rather than replacing them. Ports are not active in the game today."
+    },
+    {
+     "id": "tenders",
+     "title": "Government supply tenders",
+     "state": "planned",
+     "detail": "Public supply contracts that companies compete to win."
+    },
+    {
+     "id": "utilities",
+     "title": "Electricity, gas and water providers",
+     "state": "planned",
+     "detail": "More detailed utility providers, with commercial bills for the companies that use them."
+    },
+    {
+     "id": "people-income",
+     "title": "Population and household income",
+     "state": "planned",
+     "detail": "Closer links between how many people live in a city and what households can spend."
+    },
+    {
+     "id": "inflation-banking",
+     "title": "Inflation and banking",
+     "state": "planned",
+     "detail": "Prices and lending tied more closely to the wider economy."
+    }
+   ]
   },
   {
-   "id": "ideas",
-   "label": "Ideas on the shelf",
+   "id": "choices",
+   "label": "More long-term choices",
    "items": [
+    {
+     "id": "research",
+     "title": "Research returns",
+     "state": "planned",
+     "detail": "Research is switched off for now, and products arrive by year. It comes back once the core business balance is stronger."
+    },
+    {
+     "id": "crises",
+     "title": "Historical and random crises",
+     "state": "planned",
+     "detail": "Optional shocks, real or invented, that test a business in different ways."
+    },
+    {
+     "id": "trade-policy",
+     "title": "Trade policies",
+     "state": "planned",
+     "detail": "Optional rules on trade that change what pays."
+    },
+    {
+     "id": "scenarios",
+     "title": "Scenarios",
+     "state": "planned",
+     "detail": "Optional set challenges that start a business in a particular situation."
+    }
+   ]
+  },
+  {
+   "id": "landmarks",
+   "label": "Landmarks and wonders",
+   "items": [
+    {
+     "id": "more-baku",
+     "title": "More of real Baku",
+     "state": "planned",
+     "detail": "More of the city's real buildings, painted from photographs."
+    },
     {
      "id": "wonders-build",
      "title": "Build landmarks as wonders",
      "state": "idea",
-     "detail": "Very expensive, unlocked late, and closed to rivals that start rich.",
-     "date": "",
-     "progress": 0
+     "detail": "Very expensive and unlocked late, paid in cash or saved up for over time."
+    },
+    {
+     "id": "wonders-ai",
+     "title": "Rivals cannot rush a wonder",
+     "state": "idea",
+     "detail": "Rivals start rich, so they follow the same unlock rules and hold no wonders at the start of a game."
     },
     {
      "id": "wonders-visitors",
      "title": "Wonders draw visitors",
      "state": "idea",
-     "detail": "More street life, traffic and customers around them.",
-     "date": "",
-     "progress": 0
-    },
+     "detail": "More street life and traffic around them, and more customers for nearby shops."
+    }
+   ]
+  },
+  {
+   "id": "map",
+   "label": "A richer map",
+   "items": [
     {
      "id": "vehicle-8-views",
      "title": "Vehicles that turn along curves and roundabouts",
      "state": "idea",
-     "detail": "Needs diagonal vehicle paintings.",
-     "date": "",
-     "progress": 0
+     "detail": "Needs diagonal vehicle paintings."
+    },
+    {
+     "id": "mansard-blocks",
+     "title": "Mansard apartment blocks",
+     "state": "idea",
+     "detail": "New paintings for denser, taller city centres."
+    },
+    {
+     "id": "desert-colour",
+     "title": "A second look at desert colours",
+     "state": "idea",
+     "detail": "Deserts were left for later when the foothills were repainted."
     }
-   ],
-   "progress": 0,
-   "state": "idea"
+   ]
   }
  ]
 }
